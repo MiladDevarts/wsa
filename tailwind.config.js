@@ -15,7 +15,11 @@ module.exports = {
         xl: '5rem',
         '2xl': '6rem',
       },
+      fontFamily: {
+        'yapari': ['var(--font-yapari)']
+      }
     },
+    
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
