@@ -16,7 +16,8 @@ module.exports = {
         '2xl': '6rem',
       },
       fontFamily: {
-        'yapari': ['var(--font-yapari)']
+        'yapari': ['var(--font-yapari)'],
+        'industry': ['var(--font-industry)']
       }
     },
     

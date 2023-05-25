@@ -4,6 +4,24 @@ import localFont from '@next/font/local'
 
 import { Footer, NavBar } from '@/components/layout'
 
+const industry = localFont({
+  src: [
+    {
+      path: '../public/fonts/IndustryTest-Book.otf',
+      weight:'800'
+    },
+    {
+      path: '../public/fonts/IndustryTest-Demi.otf',
+      weight:'700'
+    },
+    {
+      path: '../public/fonts/IndustryTest-Medium.otf',
+      weight:'500'
+    },
+  ],
+  variable: '--font-industry'
+})
+
 const yapari = localFont({
   src: [
     {
@@ -21,11 +39,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`font-sans`}>
+    <html lang="en" className={`font-sans overflow-x-hidden`}>
       <body className={yapari.className}>
-        <NavBar />
-        {children}
-        <Footer />
+          <NavBar />
+          {children}
+          <Footer />
       </body>
     </html>
   )
