@@ -20,7 +20,6 @@ module.exports = {
         'industry': ['var(--font-industry)']
       }
     },
-    
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

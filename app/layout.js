@@ -39,7 +39,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`font-sans overflow-x-hidden`}>
+    <html lang="en" className={industry.className}>
       <body className={yapari.className}>
           <NavBar />
           {children}
