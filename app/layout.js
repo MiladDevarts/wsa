@@ -39,7 +39,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={yapari.className + " " + industry.variable}>
+      <body className={yapari.className + " " + industry.variable + "relative"}>
           <NavBar />
           {children}
           <Footer />
