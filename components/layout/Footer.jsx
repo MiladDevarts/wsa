@@ -2,7 +2,6 @@
 function Footer() {
   return (
     <footer className="mt-20 py-10 bg-contain bg-bottom bg-no-repeat" style={{ backgroundImage: `url('/images/footer/footer-bg.png')` }}>
-
       <section className="container flex flex-col items-center gap-y-6 my-20">
         <h2 className="flex flex-col gap-y-3 items-center text-2xl lg:text-5xl text-white font-extrabold lg:font-semibold">
           <div className="flex gap-x-2 items-center">
@@ -23,7 +22,6 @@ function Footer() {
           <img src="/images/logos/vertical-white-logo.png" className="w-32 animate-pulse" alt="" />
         </div>
       </section>
-
       <section className="container">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-y-5 lg:gap-x-5 my-4">
           <div className="flex gap-x-3 items-center">
@@ -85,7 +83,7 @@ function Footer() {
         </div>
         <div className="flex flex-col lg:flex-row lg:justify-between mt-10 font-sans text-zinc-400">
           <ul className="grid grid-cols-2 gap-y-3 lg:flex lg:gap-x-8 mb-4 lg:mb-0">
-            <li className="w-full lg:w-auto">Services</li>
+            <li className="w-full lg:w-auto font-industry">Services</li>
             <li className="w-full lg:w-auto">Projects</li>
             <li className="w-full lg:w-auto">About</li>
             <li className="w-full lg:w-auto">Contact us</li>
@@ -96,7 +94,6 @@ function Footer() {
           <span className="w-full lg:w-auto text-right">© 2020, All Rights Reserved</span>
         </div>
       </section>
-
     </footer>
   )
 }

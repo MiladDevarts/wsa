@@ -28,9 +28,8 @@ const yapari = localFont({
       path: '../public/fonts/Yapari-VF.ttf',
     },
   ],
-  variable: '--font-yapari'
+  variable: '--font-yapari',
 })
-
 
 export const metadata = {
   title: 'WSA',
@@ -39,8 +38,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={industry.className}>
-      <body className={yapari.className}>
+    <html lang="en">
+      <body className={yapari.className + " " + industry.variable}>
           <NavBar />
           {children}
           <Footer />
