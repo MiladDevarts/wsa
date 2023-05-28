@@ -1,9 +1,7 @@
+"use client"
 
-import { useState } from "react"
 
 function NavBar() {
-   
-    const [menuVisibility, sectionVisibility] = useState(fasle)
 
     return (
         <>
