@@ -1,5 +1,5 @@
 
-import { NavBar } from "."
+import NavBar from "./NavBar"
 import Button from "../Button"
 
 function Overlay() {
@@ -52,7 +52,7 @@ function Overlay() {
                             <span className="font-sans">
                                 Any question left ?  we are ready to help
                             </span>
-                            <Button content={"About us"} outline={true}/>
+                            <Button content={"About us"} outline={true} />
                         </div>
                     </div>
                 </div>

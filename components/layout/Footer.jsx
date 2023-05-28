@@ -26,8 +26,8 @@ function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-y-5 lg:gap-x-5 my-4">
           <div className="flex gap-x-3 items-center">
             <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M25.5 30.75H10.5C6 30.75 3 28.5 3 23.25V12.75C3 7.5 6 5.25 10.5 5.25H25.5C30 5.25 33 7.5 33 12.75V23.25C33 28.5 30 30.75 25.5 30.75Z" stroke="#8C8C8C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
-              <path d="M25.5 13.5L20.805 17.25C19.26 18.48 16.725 18.48 15.18 17.25L10.5 13.5" stroke="#8C8C8C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M25.5 30.75H10.5C6 30.75 3 28.5 3 23.25V12.75C3 7.5 6 5.25 10.5 5.25H25.5C30 5.25 33 7.5 33 12.75V23.25C33 28.5 30 30.75 25.5 30.75Z" stroke="#8C8C8C" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+              <path d="M25.5 13.5L20.805 17.25C19.26 18.48 16.725 18.48 15.18 17.25L10.5 13.5" stroke="#8C8C8C" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
             <div className="flex flex-col gap-y-1 font-sans">
               <span className="text-xs text-zinc-400 font-bold">
@@ -40,8 +40,8 @@ function Footer() {
           </div>
           <div className="flex gap-x-3 items-center">
             <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M25.5 30.75H10.5C6 30.75 3 28.5 3 23.25V12.75C3 7.5 6 5.25 10.5 5.25H25.5C30 5.25 33 7.5 33 12.75V23.25C33 28.5 30 30.75 25.5 30.75Z" stroke="#8C8C8C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
-              <path d="M25.5 13.5L20.805 17.25C19.26 18.48 16.725 18.48 15.18 17.25L10.5 13.5" stroke="#8C8C8C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M25.5 30.75H10.5C6 30.75 3 28.5 3 23.25V12.75C3 7.5 6 5.25 10.5 5.25H25.5C30 5.25 33 7.5 33 12.75V23.25C33 28.5 30 30.75 25.5 30.75Z" stroke="#8C8C8C" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+              <path d="M25.5 13.5L20.805 17.25C19.26 18.48 16.725 18.48 15.18 17.25L10.5 13.5" stroke="#8C8C8C" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
             <div className="flex flex-col gap-y-1  font-sans">
               <span className="text-xs text-zinc-400 font-bold">
@@ -54,8 +54,8 @@ function Footer() {
           </div>
           <div className="flex gap-x-3 items-center">
             <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M25.5 30.75H10.5C6 30.75 3 28.5 3 23.25V12.75C3 7.5 6 5.25 10.5 5.25H25.5C30 5.25 33 7.5 33 12.75V23.25C33 28.5 30 30.75 25.5 30.75Z" stroke="#8C8C8C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
-              <path d="M25.5 13.5L20.805 17.25C19.26 18.48 16.725 18.48 15.18 17.25L10.5 13.5" stroke="#8C8C8C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M25.5 30.75H10.5C6 30.75 3 28.5 3 23.25V12.75C3 7.5 6 5.25 10.5 5.25H25.5C30 5.25 33 7.5 33 12.75V23.25C33 28.5 30 30.75 25.5 30.75Z" stroke="#8C8C8C" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+              <path d="M25.5 13.5L20.805 17.25C19.26 18.48 16.725 18.48 15.18 17.25L10.5 13.5" stroke="#8C8C8C" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
             <div className="flex flex-col gap-y-1 font-sans">
               <span className="text-xs text-zinc-400 font-bold">
@@ -68,8 +68,8 @@ function Footer() {
           </div>
           <div className="flex gap-x-3 items-center">
             <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M25.5 30.75H10.5C6 30.75 3 28.5 3 23.25V12.75C3 7.5 6 5.25 10.5 5.25H25.5C30 5.25 33 7.5 33 12.75V23.25C33 28.5 30 30.75 25.5 30.75Z" stroke="#8C8C8C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
-              <path d="M25.5 13.5L20.805 17.25C19.26 18.48 16.725 18.48 15.18 17.25L10.5 13.5" stroke="#8C8C8C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M25.5 30.75H10.5C6 30.75 3 28.5 3 23.25V12.75C3 7.5 6 5.25 10.5 5.25H25.5C30 5.25 33 7.5 33 12.75V23.25C33 28.5 30 30.75 25.5 30.75Z" stroke="#8C8C8C" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+              <path d="M25.5 13.5L20.805 17.25C19.26 18.48 16.725 18.48 15.18 17.25L10.5 13.5" stroke="#8C8C8C" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
             <div className="flex flex-col gap-y-1 font-sans">
               <span className="text-xs text-zinc-400 font-bold">

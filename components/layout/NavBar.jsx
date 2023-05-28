@@ -1,6 +1,15 @@
 "use client"
 
+import Overlay from "./Overlay"
+
 function NavBar() {
+
+    // const [overlayVisibility, setOverlayVisibility] = useState(false)
+
+    // const handleClick = () => {
+    //     setOverlayVisibility(!overlayVisibility)
+    //     console.log(overlayVisibility)
+    // }
 
     return (
         <>
@@ -15,6 +24,7 @@ function NavBar() {
                     </svg>
                 </div>
             </nav>
+            <Overlay />
         </>
 
     )
