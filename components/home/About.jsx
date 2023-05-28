@@ -6,7 +6,7 @@ function About() {
     <section className="w-full py-28 lg:py-48 bg-right-top bg-contain bg-no-repeat" style={{ backgroundImage: `url('/images/header/header-bg.png')` }} >
       <div className="container flex flex-col lg:flex-row gap-y-5">
         <div className="lg:w-2/5 w-full flex flex-col gap-y-3 lg:-mt-20">
-          <h3 className="text-2xl lg:text-5xl font-bold flex gap-x-2">
+          <h3 className="text-white text-2xl lg:text-5xl font-bold flex gap-x-2">
             <svg width="31" height="25" viewBox="0 0 31 25" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect x="25" width="6" height="24" transform="rotate(24.8486 25 0)" fill="white" />
               <rect x="11" width="6" height="24" transform="rotate(24.8486 11 0)" fill="#5F5F5F" />

@@ -2,7 +2,9 @@
 import './globals.css'
 import localFont from '@next/font/local'
 
-import { Footer, NavBar } from '@/components/layout'
+import NavBar from '@/components/layout/NavBar'
+import Footer from '@/components/layout/Footer'
+
 
 const industry = localFont({
   src: [
