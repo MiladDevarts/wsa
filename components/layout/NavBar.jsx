@@ -1,6 +1,5 @@
 "use client"
 
-
 function NavBar() {
 
     return (

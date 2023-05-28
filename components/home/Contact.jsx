@@ -1,6 +1,4 @@
 
-import React from 'react'
-
 function Contact() {
     return (
         <section className="flex flex-col items-center py-32 lg:py-48 bg-no-repeat bg-center bg-contain" style={{ backgroundImage: `url('/images/header/introduce-bg.png')` }}>

@@ -1,3 +1,6 @@
+
+/* --- TW Directives --- */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -16,14 +19,23 @@
   }
 }
 
+
+/* --- Body overflow --- */
+
 html {
   overflow-x: hidden !important;
 }
+
+
+/* --- Global Color --- */
 
 body {
   color: rgb(var(--foreground-rgb));
   background-color: #010101;
 }
+
+
+/* --- Definbe Shadow Class for Big Typography --- */
 
 .text-shadow {
   color: rgb(16, 16, 16);

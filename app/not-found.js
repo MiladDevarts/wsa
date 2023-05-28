@@ -1,5 +1,6 @@
-import Button from '@/components/Button'
+
 import Head from 'next/head'
+import Button from '@/components/Button'
 
 function notFound() {
   return (
@@ -10,10 +11,10 @@ function notFound() {
         <img src="./images/errors/not-found.png" className="w-full lg:max-w-2xl" alt="" />
         <div className="flex flex-col items-center">
           <h2 className='text-white text-3xl font-bold mb-3'>
-             we have lost this page
+            we have lost this page
           </h2>
           <p className='text-zinc-400 font-sans mb-8'>
-          Sorry the page you're looking for doesn't exist or has been removed
+            Sorry the page you're looking for doesn't exist or has been removed
           </p>
           <Button content={"Back to home"} outline={false} link={"/"} />
         </div>

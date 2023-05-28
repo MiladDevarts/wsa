@@ -6,6 +6,8 @@ import NavBar from '@/components/layout/NavBar'
 import Footer from '@/components/layout/Footer'
 
 
+/* --- Normal Typography, Main Body, Paragraph Font Face --- */
+
 const industry = localFont({
   src: [
     {
@@ -23,6 +25,8 @@ const industry = localFont({
   ],
   variable: '--font-industry'
 })
+
+/* --- Big Typography, Main Titles Font Face --- */
 
 const yapari = localFont({
   src: [

@@ -13,7 +13,7 @@ export default function Home() {
       <About />
       <IntroduceOne />
       <Services />
-      <Blog/>
+      <Blog />
       <Contact />
     </>
   )

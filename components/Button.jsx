@@ -1,4 +1,3 @@
-import React from 'react'
 
 function Button({ content, classes, outline, link }) {
   if (outline) {
