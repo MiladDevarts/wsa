@@ -1,4 +1,3 @@
-"use client"
 
 import TitleSection from "../layout/TitleSection"
 import ServiceCard from "./ServiceCard"

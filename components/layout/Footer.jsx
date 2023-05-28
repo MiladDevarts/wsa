@@ -7,7 +7,6 @@ function Footer() {
           <div className="flex gap-x-2 items-center">
             Have any
             <span className="inline-block bg-white lg:w-44 w-20 h-14 rounded-full px-4 bg-cover bg-center" style={{ backgroundImage: `url('/images/footer/footer-badge.png')` }}>
-
             </span>
           </div>
           <div>
