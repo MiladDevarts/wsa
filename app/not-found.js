@@ -1,12 +1,9 @@
 
-import Head from 'next/head'
 import Button from '@/components/Button'
 
 function notFound() {
   return (
     <>
-      <Head>
-      </Head>
       <section className="container flex flex-col items-center my-10 overflow-x-hidden">
         <img src="./images/errors/not-found.png" className="w-full lg:max-w-2xl" alt="" />
         <div className="flex flex-col items-center">
