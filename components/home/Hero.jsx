@@ -18,7 +18,7 @@ function Hero() {
                         </div>
                         <div className="flex flex-row gap-x-3 items-center" >
                             but
-                            <svg className="animate-spin" width="50" height="50" viewBox="0 0 104 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg className="animate-spin hover:animate-none" width="50" height="50" viewBox="0 0 104 104" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="52" cy="52" r="51.632" stroke="white" strokeWidth="0.735905" />
                                 <circle cx="51" cy="52" r="18.632" stroke="white" strokeWidth="0.735905" />
                                 <path d="M55.4375 54.503C55.3533 54.4194 55.3001 54.3049 55.3001 54.1728L55.3001 49.2934L50.3861 49.2934C50.1288 49.2934 49.916 49.082 49.916 48.8266C49.916 48.5712 50.1288 48.3598 50.3861 48.3598L55.7702 48.3598C56.0274 48.3598 56.2403 48.5712 56.2403 48.8266L56.2403 54.1728C56.2403 54.4282 56.0274 54.6396 55.7702 54.6396C55.6416 54.644 55.5218 54.5867 55.4375 54.503Z" fill="white" />
