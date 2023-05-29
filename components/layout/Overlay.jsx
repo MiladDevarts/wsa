@@ -3,6 +3,7 @@ import NavBar from "./NavBar"
 import Button from "../Button"
 
 function Overlay() {
+
     return (
         <>
             <section className="fixed top-0 left-0 w-full h-screen bg-black/90 backdrop-blur-lg z-50">

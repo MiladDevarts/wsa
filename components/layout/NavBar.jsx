@@ -1,7 +1,9 @@
 
 import Link from "next/link"
+import Overlay from "./Overlay"
 
 function NavBar() {
+
 
     return (
         <>
