@@ -5,7 +5,7 @@ import BlogCard from "./BlogCard"
 function Blog() {
   return (
     <>
-      <TitleSection title="Blog" link="#" />
+      <TitleSection title="Blog" link="/blog" />
       <section className="container flex lg:grid lg:grid-cols-2 lg:gap-x-10 lg:gap-y-8 flex-col gap-y-4 mt-10 mb-16">
 
         <BlogCard

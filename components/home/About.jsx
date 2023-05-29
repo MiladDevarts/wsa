@@ -35,7 +35,7 @@ function About() {
               <span className="text-white inline-block mx-1">an idea</span>
               created group that manage several ideas with the help of various experts. We always support ideas that care about the nature and biological balance of this world.
             </p>
-            <Button content={"About us"} />
+            <Button content={"About us"} link={"/about"} />
           </div>
         </div>
       </div>

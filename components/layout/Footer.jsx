@@ -1,3 +1,4 @@
+import Link from "next/link"
 
 function Footer() {
   return (
@@ -82,13 +83,39 @@ function Footer() {
         </div>
         <div className="flex flex-col lg:flex-row lg:justify-between mt-10 font-sans text-zinc-400">
           <ul className="text-white grid grid-cols-2 gap-y-3 lg:flex lg:gap-x-8 mb-4 lg:mb-0">
-            <li className="w-full lg:w-auto font-industry">Services</li>
-            <li className="w-full lg:w-auto">Projects</li>
-            <li className="w-full lg:w-auto">About</li>
-            <li className="w-full lg:w-auto">Contact us</li>
-            <li className="w-full lg:w-auto">FAQ</li>
-            <li className="w-full lg:w-auto">Terms</li>
-            <li className="w-full lg:w-auto">Privacy policy</li>
+            <li className="w-full lg:w-auto font-industry">
+              <Link href="/services">
+                Services
+              </Link>
+            </li>
+            <li className="w-full lg:w-auto">
+              <Link href="/projects">
+                Projects
+              </Link>
+            </li>
+            <li className="w-full lg:w-auto">
+              <Link href="/about">
+                About
+              </Link>
+            </li>
+            <li className="w-full lg:w-auto">
+              <Link href="/contact">
+                Contact us
+              </Link>
+            </li>
+            <li className="w-full lg:w-auto">
+              <Link href="/faq">
+                FAQ
+              </Link>
+            </li>
+            <li className="w-full lg:w-auto">
+              <Link href="/terms">
+                Terms
+              </Link>
+            </li>
+            <li className="w-full lg:w-auto">
+              Privacy policy
+            </li>
           </ul>
           <span className="w-full lg:w-auto text-right">© 2020, All Rights Reserved</span>
         </div>
