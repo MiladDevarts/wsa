@@ -1,7 +1,7 @@
 
 function StampTwo() {
     return (
-        <svg className="w-20 lg:w-auto bg-white" width="146" height="146" viewBox="0 0 146 146" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="w-20 lg:w-auto mb-24" width="146" height="146" viewBox="0 0 146 146" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M34.2718 17.5642L33.3105 18.294L34.8309 22.5143L31.1909 19.9031L30.1886 20.6641L35.134 23.903L35.6883 25.5543L36.5921 24.8682L34.2718 17.5642Z" fill="white" />
             <path d="M22.305 25.3993L27.7396 30.6114L28.5607 29.7552L23.1261 24.5432L22.305 25.3993Z" fill="white" />
             <path d="M16.2235 32.8412L22.3262 37.2523L23.0211 36.291L16.9185 31.8798L16.2235 32.8412Z" fill="white" />
