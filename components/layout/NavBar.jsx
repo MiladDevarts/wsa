@@ -4,7 +4,6 @@ import Overlay from "./Overlay"
 
 function NavBar() {
 
-
     return (
         <>
             <nav className="container flex justify-between my-10 z-50">
