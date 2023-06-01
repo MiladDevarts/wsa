@@ -15,12 +15,13 @@ module.exports = {
         xl: '5rem',
         '2xl': '6rem',
       },
-      fontFamily: {
-        'yapari': ['var(--font-yapari)'],
-        'industry': ['var(--font-industry)']
-      }
+     
     },
     extend: {
+      fontFamily: {
+        sans: ['var(--font-industry)'],
+        mono: ['var(--font-yapari)'],
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

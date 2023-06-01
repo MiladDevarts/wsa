@@ -3,7 +3,7 @@ function BrandSolgan() {
     return (
         <section className="flex flex-col items-center py-60 lg:py-48 bg-no-repeat bg-center bg-contain" style={{ backgroundImage: `url('/images/brand/solgan-bg.png')` }}>
             <div className="container">
-                <h2 className="flex flex-col gap-y-5 items-center text-2xl lg:text-6xl text-white font-extrabold lg:font-semibold">
+                <h2 className="flex flex-col gap-y-5 items-center text-2xl lg:text-6xl text-white font-mono font-extrabold lg:font-semibold">
                     <div>
                         Snails
                         <span className="inline-block mx-1 font-thin">slow</span>

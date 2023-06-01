@@ -3,6 +3,7 @@
 import TabContent from "@/components/services/TabContent";
 import { services } from "@/data/dummy";
 import { useState } from "react";
+import { industry } from "../layout";
 
 function page() {
   const [openTab, setOpenTab] = useState(1);
@@ -17,7 +18,7 @@ function page() {
           </div>
           <div className="flex flex-col gap-y-10 text-white">
             <div className="container mx-auto mt-12">
-              <div className="flex flex-col items-center justify-center w-full font-sans">
+              <div className={`${industry.class} flex flex-col items-center justify-center w-full`}>
                 <ul className="w-full hidden lg:flex justify-between">
                   <li>
                     <a

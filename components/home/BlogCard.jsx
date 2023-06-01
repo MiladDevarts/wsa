@@ -14,7 +14,7 @@ function BlogCard({image, title, summery, author, authorAvatar, date}) {
                    {author}
                 </span>
             </div>
-            <h4 className="text-xl font-bold">
+            <h4 className="text-xl font-bold font-sans">
                 {title}
             </h4>
             <p className="text-[#8D8D8D]">

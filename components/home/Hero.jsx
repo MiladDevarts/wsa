@@ -1,12 +1,12 @@
 
 function Hero() {
     return (
-        <section className="overflow-x-hidden  py-10 bg-contain bg-center bg-no-repeat" style={{ backgroundImage: `url('/images/header/header-bg.png')` }}>
+        <section className="overflow-x-hidden  py-10 bg-contain bg-center bg-no-repeat font-sans" style={{ backgroundImage: `url('/images/header/header-bg.png')` }}>
 
             <div className="container">
                 <div className="flex flex-col items-center justify-center lg:w-full lg:items-start my-10">
                     {/* Title For Small Devices */}
-                    <h1 className="block lg:hidden text-white text-6xl lg:text-8xl font-semibold">
+                    <h1 className="block lg:hidden text-white text-6xl font-mono lg:text-8xl font-semibold">
                         <div className="font-extrabold">
                             Snails
                         </div>
@@ -48,7 +48,7 @@ function Hero() {
                     </h1>
 
                     {/* Title For Desktop Devices */}
-                    <h1 className="hidden lg:block text-white text-6xl lg:text-8xl font-semibold">
+                    <h1 className="hidden lg:block text-white text-6xl lg:text-8xl font-mono font-semibold">
                         <div className="flex">
                             <div className="font-extrabold">
                                 Snails

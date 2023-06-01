@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="mt-20 py-10 bg-contain bg-bottom bg-no-repeat" style={{ backgroundImage: `url('/images/footer/footer-bg.png')` }}>
       <section className="container flex flex-col items-center gap-y-6 my-20">
-        <h2 className="flex flex-col gap-y-3 items-center text-2xl lg:text-5xl text-white font-extrabold lg:font-semibold">
+        <h2 className={`font-mono flex flex-col gap-y-3 items-center text-2xl lg:text-5xl text-white font-bold lg:font-bold`}>
           <div className="flex gap-x-2 items-center">
             Have any
             <span className="inline-block bg-white lg:w-44 w-20 h-14 rounded-full px-4 bg-cover bg-center" style={{ backgroundImage: `url('/images/footer/footer-badge.png')` }}>
@@ -22,14 +22,14 @@ function Footer() {
           <img src="/images/logos/vertical-white-logo.png" className="w-32" alt="" />
         </div>
       </section>
-      <section className="container">
+      <section className={`container`}>
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-y-5 lg:gap-x-5 my-4">
           <div className="flex gap-x-3 items-center">
             <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M25.5 30.75H10.5C6 30.75 3 28.5 3 23.25V12.75C3 7.5 6 5.25 10.5 5.25H25.5C30 5.25 33 7.5 33 12.75V23.25C33 28.5 30 30.75 25.5 30.75Z" stroke="#8C8C8C" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
               <path d="M25.5 13.5L20.805 17.25C19.26 18.48 16.725 18.48 15.18 17.25L10.5 13.5" stroke="#8C8C8C" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
-            <div className="flex flex-col gap-y-1 font-sans">
+            <div className="flex flex-col gap-y-1">
               <span className="text-xs text-zinc-400 font-bold">
                 Feedback Mail
               </span>
@@ -43,7 +43,7 @@ function Footer() {
               <path d="M25.5 30.75H10.5C6 30.75 3 28.5 3 23.25V12.75C3 7.5 6 5.25 10.5 5.25H25.5C30 5.25 33 7.5 33 12.75V23.25C33 28.5 30 30.75 25.5 30.75Z" stroke="#8C8C8C" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
               <path d="M25.5 13.5L20.805 17.25C19.26 18.48 16.725 18.48 15.18 17.25L10.5 13.5" stroke="#8C8C8C" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
-            <div className="flex flex-col gap-y-1  font-sans">
+            <div className="flex flex-col gap-y-1">
               <span className="text-xs text-zinc-400 font-bold">
                 Education Mail
               </span>
@@ -57,7 +57,7 @@ function Footer() {
               <path d="M25.5 30.75H10.5C6 30.75 3 28.5 3 23.25V12.75C3 7.5 6 5.25 10.5 5.25H25.5C30 5.25 33 7.5 33 12.75V23.25C33 28.5 30 30.75 25.5 30.75Z" stroke="#8C8C8C" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
               <path d="M25.5 13.5L20.805 17.25C19.26 18.48 16.725 18.48 15.18 17.25L10.5 13.5" stroke="#8C8C8C" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
-            <div className="flex flex-col gap-y-1 font-sans">
+            <div className="flex flex-col gap-y-1">
               <span className="text-xs text-zinc-400 font-bold">
                 Ads Mail
               </span>
@@ -71,7 +71,7 @@ function Footer() {
               <path d="M25.5 30.75H10.5C6 30.75 3 28.5 3 23.25V12.75C3 7.5 6 5.25 10.5 5.25H25.5C30 5.25 33 7.5 33 12.75V23.25C33 28.5 30 30.75 25.5 30.75Z" stroke="#8C8C8C" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
               <path d="M25.5 13.5L20.805 17.25C19.26 18.48 16.725 18.48 15.18 17.25L10.5 13.5" stroke="#8C8C8C" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
-            <div className="flex flex-col gap-y-1 font-sans">
+            <div className="flex flex-col gap-y-1">
               <span className="text-xs text-zinc-400 font-bold">
                 Info Mail
               </span>
@@ -81,9 +81,9 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row lg:justify-between mt-10 font-sans text-zinc-400">
+        <div className="flex flex-col lg:flex-row lg:justify-between mt-10 text-zinc-400">
           <ul className="text-white grid grid-cols-2 gap-y-3 lg:flex lg:gap-x-8 mb-4 lg:mb-0">
-            <li className="w-full lg:w-auto font-industry">
+            <li className="w-full lg:w-auto">
               <Link href="/services">
                 Services
               </Link>
