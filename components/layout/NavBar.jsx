@@ -11,6 +11,7 @@ function NavBar() {
                 </Link>
                 <div className="flex items-center gap-x-3 hover:cursor-pointer">
                     <span className="hidden lg:flex">
+
                         Menu
                     </span>
                     <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -18,6 +19,7 @@ function NavBar() {
                     </svg>
                 </div>
             </nav>
+
         </>
 
     )

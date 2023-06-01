@@ -52,7 +52,7 @@ function Overlay() {
                             <span className="font-sans">
                                 Any question left ?  we are ready to help
                             </span>
-                            <Button content={"About us"} outline={true} />
+                            <Button content={"About us"} outline={true} link={"/about"} />
                         </div>
                     </div>
                 </div>

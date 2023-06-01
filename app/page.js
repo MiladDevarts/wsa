@@ -19,7 +19,7 @@ export default function Home() {
       <Services />
       <BrandSolgan />
       <FAQ />
-      <Price/>
+      <Price />
       <Blog />
       <Contact />
     </>
