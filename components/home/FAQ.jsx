@@ -7,6 +7,7 @@ import FAQItem from "./FAQItem"
 import { FAQ as FAQD } from "@/data/dummy"
 
 function FAQ() {
+
   return (
     <>
       <TitleSection title={"FAQ"} link={"/faq"} />

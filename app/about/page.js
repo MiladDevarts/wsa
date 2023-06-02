@@ -12,8 +12,12 @@ function page() {
                         <StampTwo />
                     </div>
                     <div className="flex flex-col gap-y-10 text-white">
-                        <h4>
-                            Welcome to White Snail America company
+                        <h4 className="">
+                            Welcome to
+                            <a className="inline-block mx-2 -mt-2 font-mono border-b border-white/30">
+                                White Snail America
+                            </a>
+                            company
                         </h4>
                         <p className="text-white max-w-lg">
                             We are an idea created group that manage several ideas with the help of various experts. We always support ideas that care about the nature and biological balance of this world.
