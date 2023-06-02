@@ -1,9 +1,9 @@
 
 function BlogCard({image, title, summery, author, authorAvatar, date}) {
     return (
-        <div className="flex flex-col grow-0 gap-y-4 w-full px-3 lg:px-8 border-b pb-6 border-white/10 text-white font-sans">
+        <div className={"hover:cursor-pointer hover:bg-[#0C0C0C] transition-all duration-200 flex flex-col grow-0 gap-y-4 w-full px-3 lg:px-8 border-b pb-6 border-white/10 text-white font-sans "  + (image ? 'long-item' : 'short-item')}>
             {
-                image && <img src={image} alt="" />
+                image && <img src={image} className="my-4" alt="" />
             }
             <span className="font-light">
               {date}
@@ -14,10 +14,10 @@ function BlogCard({image, title, summery, author, authorAvatar, date}) {
                    {author}
                 </span>
             </div>
-            <h4 className="text-xl font-bold font-sans">
+            <h4 className="text-xl font-bold font-sans my-2">
                 {title}
             </h4>
-            <p className="text-[#8D8D8D]">
+            <p className="text-[#8D8D8D] my-4">
                 {summery}
             </p>
             <a href="#" className="flex items-center gap-x-2">
