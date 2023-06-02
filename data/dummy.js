@@ -1,3 +1,4 @@
+
 const social = [
     {
         title: "twitter",
@@ -9,7 +10,7 @@ const social = [
     }
 ]
 
-const FAQData = [
+const FAQ = [
     {
         title: 'What is White Snail American all about?',
         content: `Our platform is designed for Iranian people who have any business ideas. Business owners can use our platform to reach their target audience and promote their products or services. Students and educators can use our platform to access educational resources and opportunities. Producers can use this platform to sell their products.`
@@ -65,4 +66,4 @@ const services = [
     },
 ];
 
-export { social, FAQData, services }
+export { social, FAQ, services }

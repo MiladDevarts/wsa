@@ -10,7 +10,7 @@ import Price from "@/components/home/Price";
 import Services from "@/components/home/Services";
 
 export default function Home() {
-
+ 
   return (
     <>
       <Hero />
