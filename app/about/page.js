@@ -20,11 +20,9 @@ function page() {
                             company
                         </h4>
                         <p className="text-white max-w-lg">
-                            We are an idea created group that manage several ideas with the help of various experts. We always support ideas that care about the nature and biological balance of this world.
-                        </p>
+                            We are a group that creates and manages innovative ideas with the help of industry experts. We also support ideas that preserve the biological balance of nature.                        </p>
                         <p className="text-zinc-300 max-w-4xl">
-                            Contribute to new ideas and production, helping small and personal businesses and rebuilding them if needed and supporting to increase their sales, gives us a pleasant feeling. Our colleagues and specialists pursue common goals to increase the knowledge and health of people, and environment.
-                        </p>
+                            Contribute to new ideas and production, helping small and personal businesses and rebuilding them if needed and supporting to increase their sales, gives us a pleasant feeling. Our colleagues and specialists pursue common goals to increase the knowledge and health of people, and environment.                        </p>
                     </div>
                 </div>
             </section>

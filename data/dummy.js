@@ -13,23 +13,23 @@ const social = [
 const FAQ = [
     {
         title: 'What is White Snail American all about?',
-        content: `Our platform is designed for Iranian people who have any business ideas. Business owners can use our platform to reach their target audience and promote their products or services. Students and educators can use our platform to access educational resources and opportunities. Producers can use this platform to sell their products.`
+        content: `White Snail America offers a wide range of services such as marketing, platform building, education, and technology support for Iranian people and Iranian businesses around the world. In addition, we are committed to supporting new and innovative ideas that have the potential to make a positive impact on the world.`
     },
     {
-        title: 'Who can use your platform?',
-        content: `Our platform is designed for Iranian people who have any business ideas. Business owners can use our platform to reach their target audience and promote their products or services. Students and educators can use our platform to access educational resources and opportunities. Producers can use this platform to sell their products.`
+        title: 'Who can use your platform building services?',
+        content: `The platforms we build are designed for people with new business ideas and existing businesses that need to optimize their processes. Business owners can build platforms for operations management to train employees, organize their activities, and modernize their processes. Platforms built for sales will target audiences, promote products or services, and complete sales and ordering processes. Students and educators can use customs platforms to access educational resources and opportunities.`
     },
     {
-        title: 'What types of ideas and startups do you invest in?',
-        content: `Our platform is designed for Iranian people who have any business ideas. Business owners can use our platform to reach their target audience and promote their products or services. Students and educators can use our platform to access educational resources and opportunities. Producers can use this platform to sell their products.`
+        title: 'Why is brand development important for my business?',
+        content: ` Brand development is crucial for any business, as it helps establish a strong and memorable presence in the marketplace. A well-defined brand can increase customer loyalty, attract new customers, and ultimately lead to increased revenue and profitability.`
     },
     {
         title: 'How much funding do you typically provide?',
-        content: `Our platform is designed for Iranian people who have any business ideas. Business owners can use our platform to reach their target audience and promote their products or services. Students and educators can use our platform to access educational resources and opportunities. Producers can use this platform to sell their products.`
+        content: `We provide funding that varies depending on the specific needs and potential of each idea or startup. We work closely with each entrepreneur to determine the appropriate amount of funding to support their growth and success.`
     },
     {
         title: 'What other resources do you provide besides funding?',
-        content: `Our platform is designed for Iranian people who have any business ideas. Business owners can use our platform to reach their target audience and promote their products or services. Students and educators can use our platform to access educational resources and opportunities. Producers can use this platform to sell their products.`
+        content: ` In addition to funding, we provide a range of resources to support the success of our investments. This may include access to industry experts, making a brand for that specific idea, graphics designs, websites design, mentorship, and strategic guidance.`
     },
 ];
 
@@ -49,13 +49,13 @@ const services = [
     {
         id: 3,
         title: 'Art Management',
-        content: 'Serve as a buffer between the artist and the business. Represent the artist and prioritize the artist’s best interests. Create marketing strategies to promote artists and their work. Negotiate prospective business deals. Secure and market gigs and performances.',
+        content: 'The art management team (AMT) serves as a buffer between the artist and the business. Represents the artist and prioritizes the artist’s best interests. Creates marketing strategies to promote artists and their work. Negotiates prospective business deals. Secures and markets gigs and performances.',
         image: '/images/service/art-management.png'
     },
     {
         id: 4,
         title: 'Performance Management',
-        content: 'Plan and monitor and artist’s concert or tour. Negotiate the performance contract with the artist’s best interest in mind. Secure compensation for the artist and negotiate compensation for any additional work requested during and after performance. Plan marketing strategies and promote the artist’s performance. Schedule crews and secure necessary performance materials. Ensure a successful performance in an organized manner.',
+        content: 'The performance management team (PMT) plans and monitors an artist’s concert or tour. Negotiates the performance contract with the artist’s best interests in mind. Secures compensation for the artist and negotiates compensation for any additional work requested during and after performance. Plans marketing strategies and promotes the artist’s performance. Schedules crews and secures necessary performance materials. Ensures a successful performance in an organized manner.',
         image: '/images/service/performance-management.png'
     },
     {

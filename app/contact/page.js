@@ -32,7 +32,7 @@ function page() {
           For any educational inquiries, including questions about our courses or content, please contact our education team at
           <a className="font-bold text-white cursor-pointer mx-2">education@whitesnail.com</a>
         </p>
-        <p className="container text-[#B5B5B5] text-lg lg:text-xl mb-8">
+        <p className="container text-[#B5B5B5] text-lg lg:text-xl lg:max-w mb-8">
           We also welcome your feedback on our platform, including any suggestions for improvement. Please feel free to share your thoughts with us by emailing 
           <a className="font-bold text-white cursor-pointer mx-2">feedback@whitesnail.com</a>
         </p>
