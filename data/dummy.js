@@ -42,15 +42,15 @@ const services = [
     },
     {
         id: 2,
-        title: 'Multipurpose Educational Platform',
-        content: 'We believe that education is the foundation for a better future. This platform is designed to provide high-quality educational resources for learners of all ages and backgrounds. All educators, artists, and field experts can sell their education courses on this platform or share their courses with other teachers for free.',
-        image: '/images/service/invest-in-deas.png'
+        title: 'Brand Development',
+        content: 'Our goal is to deliver a consistent brand experience across multiple platforms and devices. We cater to the customer to develop a custom brand tailored to their specifications. Our platforms are designed to help brands sell products and services over the internet as seamlessly as possible.',
+        image: '/images/service/brand-development.png'
     },
     {
         id: 3,
-        title: 'Art Management',
-        content: 'The art management team (AMT) serves as a buffer between the artist and the business. Represents the artist and prioritizes the artist’s best interests. Creates marketing strategies to promote artists and their work. Negotiates prospective business deals. Secures and markets gigs and performances.',
-        image: '/images/service/art-management.png'
+        title: 'Multipurpose Educational Platform',
+        content: 'We believe that education is the foundation for a better future. This platform is designed to provide high-quality educational resources for learners of all ages and backgrounds. All educators, artists, and field experts can sell their education courses on this platform or share their courses with other teachers for free.',
+        image: '/images/service/invest-in-deas.png'
     },
     {
         id: 4,
@@ -60,10 +60,11 @@ const services = [
     },
     {
         id: 5,
-        title: 'Brand Development',
-        content: 'Our goal is to deliver a consistent brand experience across multiple platforms and devices. We cater to the customer to develop a custom brand tailored to their specifications. Our platforms are designed to help brands sell products and services over the internet as seamlessly as possible.',
-        image: '/images/service/brand-development.png'
+        title: 'Art Management',
+        content: 'The art management team (AMT) serves as a buffer between the artist and the business. Represents the artist and prioritizes the artist’s best interests. Creates marketing strategies to promote artists and their work. Negotiates prospective business deals. Secures and markets gigs and performances.',
+        image: '/images/service/art-management.png'
     },
+  
 ];
 
 export { social, FAQ, services }

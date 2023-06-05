@@ -35,7 +35,8 @@ function page() {
                       onClick={() => setOpenTab(2)}
                       className={` ${openTab === 2 ? "text-white" : ""} duration-200 transition-all inline-block px-4 py-2 rounded shadow`}
                     >
-                     Multipurpose Educational Platform
+                      Brand Development
+
                     </a>
                   </li>
                   <li>
@@ -44,7 +45,8 @@ function page() {
                       onClick={() => setOpenTab(3)}
                       className={` ${openTab === 3 ? "text-white" : ""} duration-200 transition-all inline-block px-4 py-2 rounded shadow`}
                     >
-                      Art Management
+                      Multipurpose Educational Platform
+
                     </a>
                   </li>
                   <li>
@@ -62,7 +64,8 @@ function page() {
                       onClick={() => setOpenTab(5)}
                       className={` ${openTab === 5 ? "text-white" : ""} duration-200 transition-all inline-block px-4 py-2 rounded shadow`}
                     >
-                      Brand Development
+                      Art Management
+
                     </a>
                   </li>
                 </ul>
@@ -70,10 +73,10 @@ function page() {
                   <summary class="m-1 btn w-full">Build platforms</summary>
                   <ul class="p-4 shadow menu dropdown-content bg-base-100 rounded-box w-full">
                     <li><a onClick={() => setOpenTab(1)}>Platform Building</a></li>
-                    <li><a onClick={() => setOpenTab(2)}>Multipurpose Educational Platform</a></li>
-                    <li><a onClick={() => setOpenTab(3)}>Art Management</a></li>
+                    <li><a onClick={() => setOpenTab(2)}>Brand Development</a></li>
+                    <li><a onClick={() => setOpenTab(3)}>Multipurpose Educational Platform</a></li>
                     <li><a onClick={() => setOpenTab(4)}>Performance management</a></li>
-                    <li><a onClick={() => setOpenTab(5)}>Brand Development</a></li>
+                    <li><a onClick={() => setOpenTab(5)}>Art Management</a></li>
                   </ul>
                 </details>
                 <div className="w-full p-3 mt-6">
