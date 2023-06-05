@@ -36,14 +36,14 @@ const FAQ = [
 const services = [
     {
         id: 1,
-        title: 'Build platforms',
-        content: 'We assist businesses, individuals, and institutions develop scalable web solutions, designs and interoperable content while assessing and managing privacy and security risks.',
+        title: 'Platform Building',
+        content: 'We assist businesses, individuals, and institutions in the development of scalable web solutions and the design of interoperable content, while assessing and managing privacy and security risks.',
         image: '/images/service/build-platforms.png'
     },
     {
         id: 2,
-        title: 'Invest in Ideas',
-        content: 'We support your ideas for innovation, commerce, communication, entertainment, conservation, and education. Our goal is to assist your energy, creativity, and dedication blossom into a powerful force.',
+        title: 'Multipurpose Educational Platform',
+        content: 'We believe that education is the foundation for a better future. This platform is designed to provide high-quality educational resources for learners of all ages and backgrounds. All educators, artists, and field experts can sell their education courses on this platform or share their courses with other teachers for free.',
         image: '/images/service/invest-in-deas.png'
     },
     {
@@ -55,7 +55,7 @@ const services = [
     {
         id: 4,
         title: 'Performance Management',
-        content: 'The performance management team (PMT) plans and monitors an artist’s concert or tour. Negotiates the performance contract with the artist’s best interests in mind. Secures compensation for the artist and negotiates compensation for any additional work requested during and after performance. Plans marketing strategies and promotes the artist’s performance. Schedules crews and secures necessary performance materials. Ensures a successful performance in an organized manner.',
+        content: 'The performance management team (PMT) plans and monitors an artist’s concert or tour. Negotiates the performance contract with the artist’s best interests in mind. Secures compensation for the artist and negotiates compensation for any additional work requested during and after performance. Plans marketing strategies and promotes the artist’s performance. Schedules crews and secures necessary performance materials. Ensures a successful performance in an organized manner. The artists working with WSA have experience producing concerts, events, and shows for live audiences. Our event coordinators will be present and responsible for scheduling vendors, providing quality security, and hiring skilled concert staff. Professionalism, safety and enjoyment are of the utmost importance for artists and audiences. Adequate time and expertise will be allocated to set the stage and ensure quality sound and video. All these efforts will overlap with a multi-platform advertising campaign will be managed weeks in advance to maximize ticket sales.',
         image: '/images/service/performance-management.png'
     },
     {
