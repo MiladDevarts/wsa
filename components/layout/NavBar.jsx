@@ -1,13 +1,13 @@
 
 import Link from "next/link"
 
-function NavBar() {
+function NavBar({classes}) {
 
     return (
         <>
-            <nav className="container flex justify-between my-10 z-50">
+            <nav className={`container flex justify-between my-10 z-50 ${classes}`}>
                 <Link href="/">
-                    <img src="./images/logos/white-logo.svg" alt="" />
+                    <img src="../images/logos/white-logo.svg" alt="" />
                 </Link>
                 <div className="flex items-center gap-x-3 hover:cursor-pointer">
                     <span className="hidden lg:flex">

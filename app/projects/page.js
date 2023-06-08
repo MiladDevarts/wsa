@@ -1,14 +1,21 @@
+import NavBar from "@/components/layout/NavBar"
 
 function page() {
-    return (
-      <>
-        <section className='container my-36'>
-        <h1 className='mb-24 text-4xl lg:text-8xl font-semibold text-white'>
-            Projects
-          </h1>
+  return (
+    <>
+      <section className="relative top-0 left-0">
+        <NavBar classes={""} />
+        <section className='container my-5 flex gap-x-4'>
+          <div className="w-1/2 bg-white">
+s
+          </div>
+          <div className="w-1/2 bg-white">
+s
+          </div>
         </section>
-      </>
-    )
-  }
-  
-  export default page
+      </section>
+    </>
+  )
+}
+
+export default page
