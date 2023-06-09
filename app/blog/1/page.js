@@ -1,3 +1,4 @@
+import RelatedCard from "@/components/blog/RelatedCard"
 
 function page() {
   return (
@@ -48,6 +49,29 @@ function page() {
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make aLorem Ipsum is
           simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
         </p>
+      </section>
+      <section className="container flex gap-x-4 my-60">
+        <RelatedCard
+          image={"/images/blog/thumbnail-1.png"}
+          title={"WSA will start getting Clients"}
+          summery={"WSA will start getting ClientsWSA will start getting ClientsWSA will start getting ClientsWSA will start getting ClientsWSA will start getting Clients"}
+          author={"Ryan james"}
+          authorAvatar={"/images/profile/avatar-1.png"}
+          date={"11 December, 2022"} />
+              <RelatedCard
+          image={"/images/blog/thumbnail-1.png"}
+          title={"WSA will start getting Clients"}
+          summery={"WSA will start getting ClientsWSA will start getting ClientsWSA will start getting ClientsWSA will start getting ClientsWSA will start getting Clients"}
+          author={"Ryan james"}
+          authorAvatar={"/images/profile/avatar-1.png"}
+          date={"11 December, 2022"} />
+              <RelatedCard
+          image={"/images/blog/thumbnail-1.png"}
+          title={"WSA will start getting Clients"}
+          summery={"WSA will start getting ClientsWSA will start getting ClientsWSA will start getting ClientsWSA will start getting ClientsWSA will start getting Clients"}
+          author={"Ryan james"}
+          authorAvatar={"/images/profile/avatar-1.png"}
+          date={"11 December, 2022"} />
       </section>
     </>
   )
