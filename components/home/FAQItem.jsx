@@ -15,21 +15,21 @@ function FAQItem({ title, content }) {
                 <div>
                     {
                         isActive ? <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M22 6L14 14L6 6" stroke="white" stroke-width="3.16667" stroke-linecap="round"/>
-                        <path d="M22 22L14 14L6 22" stroke="white" stroke-width="3.16667" stroke-linecap="round"/>
+                            <path d="M22 6L14 14L6 6" stroke="white" strokeWidth="3.16667" stroke-linecap="round" />
+                            <path d="M22 22L14 14L6 22" stroke="white" strokeWidth="3.16667" stroke-linecap="round" />
                         </svg>
                             : <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M15.1429 26V17.8571H7V15.1429H15.1429V7H17.8571V15.1429H26V17.8571H17.8571V26H15.1429Z" fill="white"/>
+                                <path d="M15.1429 26V17.8571H7V15.1429H15.1429V7H17.8571V15.1429H26V17.8571H17.8571V26H15.1429Z" fill="white" />
                             </svg>
-                            
+
                     }
                 </div>
             </div>
             {
-             <div  className={`px-6 mt-5 overflow-hidden rounded-3xl transition-all duration-300 ease-in ${isActive ? "max-h-80 bg-[#0C0C0C]" : "max-h-0"}`}>
-                <p className='text-zinc-200 font-sans p-6 lg:p-10'>
-                    {content}
-                </p>
+                <div className={`px-6 mt-5 overflow-hidden rounded-3xl transition-all duration-300 ease-in ${isActive ? "max-h-80 bg-[#0C0C0C]" : "max-h-0"}`}>
+                    <p className='text-zinc-200 font-sans p-6 lg:p-10'>
+                        {content}
+                    </p>
                 </div>
             }
         </div>
