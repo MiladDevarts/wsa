@@ -1,3 +1,6 @@
+"use client"
+
+import { useContext } from "react"
 
 import About from "@/components/home/About";
 import Blog from "@/components/home/Blog";
@@ -8,11 +11,21 @@ import Hero from "@/components/home/Hero";
 import IntroduceOne from "@/components/home/IntroduceOne";
 import Price from "@/components/home/Price";
 import Services from "@/components/home/Services";
+import Overlay from "@/components/layout/Overlay";
+
+import { MenuContext } from "@/context/MenuProvider";
 
 export default function Home() {
- 
+
+  let menuVisibility = useContext(MenuContext)
+
   return (
     <>
+
+      {
+        menuVisibility.menu && <Overlay />
+      }
+
       <Hero />
       <About />
       <IntroduceOne />
@@ -22,6 +35,8 @@ export default function Home() {
       <Price />
       <Blog />
       <Contact />
+
     </>
   )
 }
+

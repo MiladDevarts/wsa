@@ -5,6 +5,7 @@ import NavBar from '@/components/layout/NavBar'
 import Footer from '@/components/layout/Footer'
 
 import localFont from '@next/font/local'
+import MenuProvider from '@/context/MenuProvider'
 
 /* --- Big Typography, Main Titles Font Face --- */
 export const yapari = localFont({
@@ -52,9 +53,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${industry.variable} ${yapari.variable}`}>
       <body>
-        <NavBar />
-        {children}
-        <Footer />
+        <MenuProvider>
+          <NavBar />
+          {children}
+          <Footer />
+        </MenuProvider>
       </body>
     </html>
   )

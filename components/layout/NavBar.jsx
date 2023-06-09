@@ -1,7 +1,13 @@
+"use client"
+
+import { useContext } from "react"
 
 import Link from "next/link"
+import { MenuContext } from "@/context/MenuProvider"
 
-function NavBar({classes}) {
+function NavBar({ classes }) {
+
+    let menuVisibilty = useContext(MenuContext)
 
     return (
         <>
@@ -9,7 +15,7 @@ function NavBar({classes}) {
                 <Link href="/">
                     <img src="../images/logos/white-logo.svg" alt="" />
                 </Link>
-                <div className="flex items-center gap-x-3 hover:cursor-pointer">
+                <div className="flex items-center gap-x-3 hover:cursor-pointer" onClick={() => { menuVisibilty.setMenu(true) }}>
                     <span className="hidden lg:flex">
 
                         Menu
@@ -18,7 +24,7 @@ function NavBar({classes}) {
                         <path d="M18 0H0V2H18V0ZM18 7H6V9H18V7ZM18 14H0V16H18V14Z" fill="white" />
                     </svg>
                 </div>
-            </nav>
+            </nav >
 
         </>
 
