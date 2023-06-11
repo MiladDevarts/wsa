@@ -1,7 +1,18 @@
+"use client"
+
+import Overlay from "@/components/layout/Overlay"
+import { MenuContext } from "@/context/MenuProvider"
+import { useContext } from "react"
 
 function page() {
+
+  let menuVisibility = useContext(MenuContext)
+
   return (
     <>
+      {
+        menuVisibility.menu && <Overlay />
+      }
       <section className='container my-36'>
         <div className="flex flex-col gap-y-6 mb-24">
           <h1 className='text-4xl lg:text-8xl font-mono font-semibold text-white'>
@@ -19,12 +30,12 @@ function page() {
           </h3>
         </div>
         <p className="container text-[#B5B5B5] text-lg lg:text-xl mb-8">
-          For general inquiries or feedback, please email us at 
+          For general inquiries or feedback, please email us at
           <a className="font-bold text-white cursor-pointer mx-2">info@whitesnail.com </a>
           We will do our best to respond to your message within 24 hours or you can call us to the number
         </p>
         <p className="container text-[#B5B5B5] text-lg lg:text-xl mb-8">
-          If you have any specific questions or concerns about advertising on our platform, please contact our advertising team at 
+          If you have any specific questions or concerns about advertising on our platform, please contact our advertising team at
           <a className="font-bold text-white cursor-pointer mx-2">ads@whitesnail.com </a>
           and phone number …
         </p>
@@ -33,7 +44,7 @@ function page() {
           <a className="font-bold text-white cursor-pointer mx-2">education@whitesnail.com</a>
         </p>
         <p className="container text-[#B5B5B5] text-lg lg:text-xl lg:max-w mb-8">
-          We also welcome your feedback on our platform, including any suggestions for improvement. Please feel free to share your thoughts with us by emailing 
+          We also welcome your feedback on our platform, including any suggestions for improvement. Please feel free to share your thoughts with us by emailing
           <a className="font-bold text-white cursor-pointer mx-2">feedback@whitesnail.com</a>
         </p>
       </div>

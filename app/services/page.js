@@ -14,7 +14,6 @@ function page() {
   const [openTab, setOpenTab] = useState(1);
   let menuVisibility = useContext(MenuContext)
 
-
   return (
     <>
       {

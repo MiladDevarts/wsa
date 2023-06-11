@@ -10,7 +10,6 @@ function Overlay() {
 
     let menuVisibilty = useContext(MenuContext)
 
-
     return (
         <>
             {
@@ -31,36 +30,36 @@ function Overlay() {
                     <div className="lg:container flex flex-col items-center lg:flex-row lg:my-32">
                         <ul className="text-white font-mono w-auto lg:w-1/2 container flex flex-col lg:order-2 gap-y-4 text-3xl font-bold mb-12 lg:mb-0">
                             <li className="cursor-pointer">
-                                <Link href="/">
+                                <Link href="/" onClick={() => { menuVisibilty.setMenu(false) }}>
                                     Home
                                 </Link>
                             </li>
                             <li className="cursor-pointer">
-                                <Link href="/about">
+                                <Link href="/about" onClick={() => { menuVisibilty.setMenu(false) }}>
                                     About us
                                 </Link>
                             </li>
                             <li className="cursor-pointer">
-                                <Link href="/services">
+                                <Link href="/services" onClick={() => { menuVisibilty.setMenu(false) }}>
                                 </Link>
                             </li>
                             <li className="cursor-pointer">
-                                <Link href="/contact">
+                                <Link href="/contact" onClick={() => { menuVisibilty.setMenu(false) }}>
                                     Contact us
                                 </Link>
                             </li>
                             <li className="cursor-pointer">
-                                <Link href="/projects">
+                                <Link href="/projects" onClick={() => { menuVisibilty.setMenu(false) }}>
                                     Projects
                                 </Link>
                             </li>
                             <li className="text-xl font-medium cursor-pointer text-[#7E7E7E]">
-                                <Link href="/blog">
+                                <Link href="/blog" onClick={() => { menuVisibilty.setMenu(false) }}>
                                     Blog
                                 </Link>
                             </li>
                             <li className="text-xl font-medium cursor-pointer text-[#7E7E7E]">
-                                <Link href="/faq">
+                                <Link href="/faq" onClick={() => { menuVisibilty.setMenu(false) }}>
                                     FAQ & Terms
                                 </Link>
                             </li>
