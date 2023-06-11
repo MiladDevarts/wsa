@@ -85,7 +85,7 @@ function Overlay() {
                             </div>
                             <div>
                                 <h4 className="text-[#7E7E7E] lg:text-2xl font-mono font-medium mb-1 lg:mb-4">Office:</h4>
-                                <span className="text-white font-sans lg:text-xl">Stockholm,Newyork</span>
+                                <span className="text-white font-sans lg:text-xl">Stockholm, New York</span>
                             </div>
                             <div className="flex gap-x-4 items-center w-full lg:my-16 my-2">
                                 <a href="">
