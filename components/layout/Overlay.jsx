@@ -43,7 +43,7 @@ function Overlay() {
                         </div>
                     </nav >
                     <div className="lg:container flex flex-col items-center lg:flex-row mt-28 lg:my-32">
-                        <ul className="text-white font-mono w-auto lg:w-1/2 container flex flex-col lg:order-2 gap-y-4 text-3xl font-bold mb-12 lg:mb-0">
+                        <ul className="text-white font-mono w-auto lg:w-1/2 container flex flex-col lg:order-2 gap-y-8 text-3xl font-bold mb-12 lg:mb-0">
                             <li className="cursor-pointer">
                                 <Link data-aos-delay="300" data-aos="fade-left" data-aos-duration="1000" href="/" onClick={() => { menuVisibilty.setMenu(false) }}>
                                     Home
@@ -56,6 +56,7 @@ function Overlay() {
                             </li>
                             <li className="cursor-pointer">
                                 <Link data-aos-delay="500" data-aos="fade-left" data-aos-duration="1000" href="/services" onClick={() => { menuVisibilty.setMenu(false) }}>
+                                Services
                                 </Link>
                             </li>
                             <li className="cursor-pointer">
