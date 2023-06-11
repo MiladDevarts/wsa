@@ -41,10 +41,10 @@ body {
 .text-shadow {
   color: rgb(16, 16, 16);
   text-shadow:
-    -0.5px -0.5px 0 #FFFFFF,
-    0.5px -0.5px 0 #FFFFFF,
-    -0.5px 0.5px 0 #FFFFFF,
-    0.5px 0.5px 0 #FFFFFF;
+    -1px -1px 0 #FFFFFF,
+    1px -1px 0 #FFFFFF,
+    -1px 1px 0 #FFFFFF,
+    1px 1px 0 #FFFFFF;
   ;
 }
 
