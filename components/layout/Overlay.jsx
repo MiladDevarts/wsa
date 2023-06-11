@@ -30,13 +30,40 @@ function Overlay() {
                     </nav >
                     <div className="lg:container flex flex-col items-center lg:flex-row lg:my-32">
                         <ul className="text-white font-mono w-auto lg:w-1/2 container flex flex-col lg:order-2 gap-y-4 text-3xl font-bold mb-12 lg:mb-0">
-                            <li className="cursor-pointer">Home </li>
-                            <li className="cursor-pointer">About us</li>
-                            <li className="cursor-pointer">Services</li>
-                            <li className="cursor-pointer">Contact us</li>
-                            <li className="cursor-pointer">Projects</li>
-                            <li className="text-xl font-medium cursor-pointer text-[#7E7E7E]">Blog</li>
-                            <li className="text-xl font-medium cursor-pointer text-[#7E7E7E]">FAQ a & Terms</li>
+                            <li className="cursor-pointer">
+                                <Link href="/">
+                                    Home
+                                </Link>
+                            </li>
+                            <li className="cursor-pointer">
+                                <Link href="/about">
+                                    About us
+                                </Link>
+                            </li>
+                            <li className="cursor-pointer">
+                                <Link href="/services">
+                                </Link>
+                            </li>
+                            <li className="cursor-pointer">
+                                <Link href="/contact">
+                                    Contact us
+                                </Link>
+                            </li>
+                            <li className="cursor-pointer">
+                                <Link href="/projects">
+                                    Projects
+                                </Link>
+                            </li>
+                            <li className="text-xl font-medium cursor-pointer text-[#7E7E7E]">
+                                <Link href="/blog">
+                                    Blog
+                                </Link>
+                            </li>
+                            <li className="text-xl font-medium cursor-pointer text-[#7E7E7E]">
+                                <Link href="/faq">
+                                    FAQ & Terms
+                                </Link>
+                            </li>
                         </ul>
                         <div className="container w-full lg:w-1/2 flex flex-wrap gap-y-4 lg:flex-col lg:gap-y-10 justify-between">
                             <div>

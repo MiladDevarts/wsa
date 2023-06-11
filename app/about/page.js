@@ -1,8 +1,20 @@
+"use client"
+
 import StampTwo from "@/components/StampTwo"
+import Overlay from "@/components/layout/Overlay"
+
+import { MenuContext } from "@/context/MenuProvider"
+import { useContext } from "react"
 
 function page() {
+
+    let menuVisibility = useContext(MenuContext)
+
     return (
         <>
+            {
+                menuVisibility.menu && <Overlay />
+            }
             <section className='py-10 lg:py-32 bg-right bg-contain bg-no-repeat' style={{ backgroundImage: `url('/images/about/about-bg.png')` }}>
                 <div className="container">
                     <div className="flex justify-between items-center">

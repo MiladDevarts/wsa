@@ -1,10 +1,20 @@
+"use client"
 
 import BlogCard from "@/components/home/BlogCard"
-import { yapari, industry } from "../layout"
+import Overlay from "@/components/layout/Overlay"
+
+import { MenuContext } from "@/context/MenuProvider"
+import { useContext } from "react"
 
 function page() {
+
+  let menuVisibility = useContext(MenuContext)
+
   return (
     <>
+      {
+        menuVisibility.menu && <Overlay />
+      }
       <section className='container flex flex-col lg:flex-row lg:justify-between gap-y-4 my-36'>
         <h1 className='text-4xl lg:text-8xl font-mono font-semibold text-white'>
           Blog

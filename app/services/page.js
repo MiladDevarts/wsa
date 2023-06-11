@@ -1,24 +1,35 @@
 "use client"
 
+import Overlay from "@/components/layout/Overlay";
 import TabContent from "@/components/services/TabContent";
+
 import { services } from "@/data/dummy";
 import { useState } from "react";
-import { industry } from "../layout";
+
+import { MenuContext } from "@/context/MenuProvider"
+import { useContext } from "react"
 
 function page() {
+
   const [openTab, setOpenTab] = useState(1);
+  let menuVisibility = useContext(MenuContext)
+
+
   return (
     <>
+      {
+        menuVisibility.menu && <Overlay />
+      }
       <section className='py-10 lg:py-32 bg-right bg-contain bg-no-repeat' style={{ backgroundImage: `url('/images/about/about-bg.png')` }}>
         <div className="">
           <div className="container">
-            <h1 className='mb-24 text-4xl lg:text-8xl font-semibold text-white'>
+            <h1 className='mb-24 text-4xl lg:text-8xl font-semibold text-white font-mono'>
               Services
             </h1>
           </div>
           <div className="flex flex-col gap-y-10 text-white">
             <div className="container mx-auto mt-12">
-              <div className={`${industry.class} flex flex-col items-center justify-center w-full`}>
+              <div className={`flex flex-col items-center justify-center w-full`}>
                 <ul className="w-full hidden lg:flex justify-between">
                   <li>
                     <a

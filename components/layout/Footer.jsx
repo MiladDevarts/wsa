@@ -3,23 +3,25 @@ import Link from "next/link"
 function Footer() {
   return (
     <footer className="mt-20 py-10 bg-contain bg-bottom bg-no-repeat" style={{ backgroundImage: `url('/images/footer/footer-bg.png')` }}>
-      <section className="container flex flex-col items-center gap-y-6 my-20">
-        <h2 className={`font-mono flex flex-col gap-y-3 items-center text-2xl lg:text-5xl text-white font-bold lg:font-bold`}>
+      <section className="container flex flex-col lg:flex-row lg:justify-between items-center gap-y-6 my-36">
+        <h2 className={`font-mono flex flex-col gap-y-3 lg:gap-y-6 items-start text-xl lg:text-4xl text-white font-bold lg:font-bold`}>
           <div className="flex gap-x-2 items-center">
-            Have any
-            <span className="inline-block bg-white lg:w-44 w-20 h-14 rounded-full px-4 bg-cover bg-center" style={{ backgroundImage: `url('/images/footer/footer-badge.png')` }}>
+            Large project
+            <span className="inline-block bg-white lg:w-44 w-20 h-14 rounded-full px-4 bg-cover bg-center ml-4" style={{ backgroundImage: `url('/images/footer/footer-badge.png')` }}>
             </span>
           </div>
           <div>
-            Ideas to work on?
+            start with small steps,
+          </div>
+          <div>
+            are you ready
           </div>
           <div className="flex gap-x-2">
-            <span className="font-extrabold text-shadow">Tell us</span>
-            about it
+            for the first step?
           </div>
         </h2>
         <div>
-          <img src="/images/logos/vertical-white-logo.png" className="w-32" alt="" />
+          <img src="/images/logos/vertical-white-logo.png" className="w-32 opacity-50 animate-pulse" alt="" />
         </div>
       </section>
       <section className={`container`}>
