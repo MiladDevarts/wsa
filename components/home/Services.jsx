@@ -6,7 +6,7 @@ function Services() {
     return (
         <>
            <TitleSection title="Services" link="/services" />
-            <section className="container mt-4 mb-20 lg:grid lg:grid-cols-3 gap-x-6">
+            <section className="container mt-4 mb-20 grid lg:grid-cols-3 gap-y-8 lg:gap-x-6">
                {
                 <>
                     <ServiceCard showData={true} serviceTitle="Platform Building" servicelink="/services" />
