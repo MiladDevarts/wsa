@@ -29,7 +29,7 @@ function Overlay() {
                         </div>
                     </nav >
                     <div className="lg:container flex flex-col items-center lg:flex-row lg:my-32">
-                        <ul className="font-mono w-auto lg:w-1/2 container flex flex-col lg:order-2 gap-y-4 text-3xl font-bold mb-12 lg:mb-0">
+                        <ul className="text-white font-mono w-auto lg:w-1/2 container flex flex-col lg:order-2 gap-y-4 text-3xl font-bold mb-12 lg:mb-0">
                             <li className="cursor-pointer">Home </li>
                             <li className="cursor-pointer">About us</li>
                             <li className="cursor-pointer">Services</li>
