@@ -27,7 +27,7 @@ function Overlay() {
                             </svg>
                         </div>
                     </nav >
-                    <div className="lg:container flex flex-col items-center lg:flex-row lg:my-32">
+                    <div className="lg:container flex flex-col items-center lg:flex-row mt-28 lg:my-32">
                         <ul className="text-white font-mono w-auto lg:w-1/2 container flex flex-col lg:order-2 gap-y-4 text-3xl font-bold mb-12 lg:mb-0">
                             <li className="cursor-pointer">
                                 <Link href="/" onClick={() => { menuVisibilty.setMenu(false) }}>
@@ -67,11 +67,11 @@ function Overlay() {
                         <div className="container w-full lg:w-1/2 flex flex-wrap gap-y-4 lg:flex-col lg:gap-y-10 justify-between">
                             <div>
                                 <h4 className="text-zinc-400 lg:text-2xl">E-mail:</h4>
-                                <span className="font-sans lg:text-xl">info@whitesnail.com</span>
+                                <span className="text-white font-sans lg:text-xl">info@whitesnail.com</span>
                             </div>
                             <div>
                                 <h4 className="text-zinc-400 lg:text-2xl">Office:</h4>
-                                <span className="font-sans lg:text-xl">Stockholm, Sweden</span>
+                                <span className="text-white font-sans lg:text-xl">Stockholm, Sweden</span>
                             </div>
                             <div className="flex gap-x-4 items-center w-full">
                                 <a href="">
