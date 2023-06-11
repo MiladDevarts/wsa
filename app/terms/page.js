@@ -19,7 +19,7 @@ function page() {
     Aos.refresh()
   }, [])
 
-  return (
+  return (    
     <>
       <section className='container my-36'>
         <div className="flex flex-col gap-y-6 mb-24">

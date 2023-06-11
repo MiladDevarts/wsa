@@ -16,8 +16,8 @@ function page() {
       {
         menuVisibility.menu && <Overlay />
       }
-      <section className='container my-5 flex gap-x-4 h-screen' >
-        <div className="w-2/3 flex flex-col gap-y-14">
+      <section className='container my-5 flex flex-col lg:flex-row gap-y-10 lg:gap-x-4 h-screen' >
+        <div className="lg:w-2/3 w-full flex flex-col gap-y-14 text-white">
           <h1 className="flex items-center gap-x-4 font-mono text-6xl font-bold mt-36">
             Projects
             <span className="text-[#2D2D2] text-3xl">
@@ -32,7 +32,7 @@ function page() {
           </p>
           <Button content="Full project" link="/" />
         </div>
-        <div className="w-1/3 bg-white h-full bg-cover rounded-3xl" style={{ backgroundImage: `url('/images/projects/preview-1.jpg')` }}>
+        <div className="lg:w-1/3 w-full bg-white h-full bg-cover rounded-3xl" style={{ backgroundImage: `url('/images/projects/preview-1.jpg')` }}>
 
         </div>
       </section>
