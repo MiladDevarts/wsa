@@ -1,9 +1,30 @@
+"use client"
+
+import { useEffect } from "react";
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function IntroduceOne() {
+
+    useEffect(() => {
+        Aos.init({
+            easing: "ease-out-cubic",
+            once: true,
+            offset: 120,
+            duration: 600
+        });
+    }, []);
+
+    useEffect(() => {
+        Aos.refresh()
+    }, [])
+
+
     return (
         <section className="py-32 lg:py-48 bg-no-repeat bg-center bg-contain" style={{ backgroundImage: `url('/images/header/introduce-bg.png')` }}>
             <div className="container">
-                <h2 className="flex flex-col gap-y-3 items-center text-2xl lg:text-5xl text-white font-mono font-extrabold lg:font-semibold">
+                <h2 data-aos="zoom-out-left" className="flex flex-col gap-y-3 items-center text-2xl lg:text-5xl text-white font-mono font-extrabold lg:font-semibold">
                     <div>
                         Like the snails we
                     </div>

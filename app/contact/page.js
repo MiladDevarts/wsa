@@ -2,12 +2,27 @@
 
 import Overlay from "@/components/layout/Overlay"
 import { MenuContext } from "@/context/MenuProvider"
-import { useContext } from "react"
+import { useContext, useEffect } from "react"
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function page() {
 
   let menuVisibility = useContext(MenuContext)
 
+  useEffect(() => {
+    Aos.init({
+      easing: "ease-out-cubic",
+      once: true,
+      offset: 100,
+    });
+  }, []);
+
+  useEffect(() => {
+    Aos.refresh()
+  }, [])
+  
   return (
     <>
       {
@@ -15,7 +30,7 @@ function page() {
       }
       <section className='container my-36'>
         <div className="flex flex-col gap-y-6 mb-24">
-          <h1 className='text-4xl lg:text-8xl font-mono font-semibold text-white'>
+          <h1 data-aos-delay="400" data-aos="zoom-in-right" data-aos-duration="1000" className='text-4xl lg:text-8xl font-mono font-semibold text-white'>
             Contact Us
           </h1>
           <p className="text-lg lg:text-2xl font-medium text-[#B5B5B5] ">

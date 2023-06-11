@@ -1,21 +1,36 @@
 "use client"
 
-import { useContext } from "react"
+import { useContext, useEffect } from "react"
 import { MenuContext } from "@/context/MenuProvider"
 
 import Button from "../Button"
 import Link from "next/link"
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 function Overlay() {
+
+    useEffect(() => {
+        Aos.init({
+            easing: "ease-out-cubic",
+            once: true,
+            offset: 200,
+        });
+    }, []);
+
+    useEffect(() => {
+        Aos.refresh()
+    }, [])
 
     let menuVisibilty = useContext(MenuContext)
 
     return (
         <>
             {
-                <section className="fixed top-0 left-0 w-full h-screen bg-black/90 backdrop-blur-lg z-50">
+                <section data-aos="slide-left" className="fixed top-0 left-0 w-full h-screen bg-black/90 backdrop-blur-lg z-50 transition-all">
                     <nav className={`container flex justify-between my-10 z-50`}>
-                        <Link href="/">
+                        <Link onClick={() => { menuVisibilty.setMenu(true) }} href="/">
                             <img src="../images/logos/white-logo.svg" alt="" />
                         </Link>
                         <div className="flex items-center gap-x-3 hover:cursor-pointer" onClick={() => { menuVisibilty.setMenu(false) }}>
@@ -30,36 +45,36 @@ function Overlay() {
                     <div className="lg:container flex flex-col items-center lg:flex-row mt-28 lg:my-32">
                         <ul className="text-white font-mono w-auto lg:w-1/2 container flex flex-col lg:order-2 gap-y-4 text-3xl font-bold mb-12 lg:mb-0">
                             <li className="cursor-pointer">
-                                <Link href="/" onClick={() => { menuVisibilty.setMenu(false) }}>
+                                <Link data-aos-delay="300" data-aos="fade-left" data-aos-duration="1000" href="/" onClick={() => { menuVisibilty.setMenu(false) }}>
                                     Home
                                 </Link>
                             </li>
                             <li className="cursor-pointer">
-                                <Link href="/about" onClick={() => { menuVisibilty.setMenu(false) }}>
+                                <Link data-aos-delay="400" data-aos="fade-left" data-aos-duration="1000" href="/about" onClick={() => { menuVisibilty.setMenu(false) }}>
                                     About us
                                 </Link>
                             </li>
                             <li className="cursor-pointer">
-                                <Link href="/services" onClick={() => { menuVisibilty.setMenu(false) }}>
+                                <Link data-aos-delay="500" data-aos="fade-left" data-aos-duration="1000" href="/services" onClick={() => { menuVisibilty.setMenu(false) }}>
                                 </Link>
                             </li>
                             <li className="cursor-pointer">
-                                <Link href="/contact" onClick={() => { menuVisibilty.setMenu(false) }}>
+                                <Link data-aos-delay="600" data-aos="fade-left" data-aos-duration="1000" href="/contact" onClick={() => { menuVisibilty.setMenu(false) }}>
                                     Contact us
                                 </Link>
                             </li>
                             <li className="cursor-pointer">
-                                <Link href="/projects" onClick={() => { menuVisibilty.setMenu(false) }}>
+                                <Link data-aos-delay="700" data-aos="fade-left" data-aos-duration="1000" href="/projects" onClick={() => { menuVisibilty.setMenu(false) }}>
                                     Projects
                                 </Link>
                             </li>
                             <li className="text-xl font-medium cursor-pointer text-[#7E7E7E]">
-                                <Link href="/blog" onClick={() => { menuVisibilty.setMenu(false) }}>
+                                <Link data-aos-delay="800" data-aos="fade-up" data-aos-duration="1000" href="/blog" onClick={() => { menuVisibilty.setMenu(false) }}>
                                     Blog
                                 </Link>
                             </li>
                             <li className="text-xl font-medium cursor-pointer text-[#7E7E7E]">
-                                <Link href="/faq" onClick={() => { menuVisibilty.setMenu(false) }}>
+                                <Link data-aos-delay="9 00" data-aos="fade-up" data-aos-duration="1000" href="/faq" onClick={() => { menuVisibilty.setMenu(false) }}>
                                     FAQ & Terms
                                 </Link>
                             </li>

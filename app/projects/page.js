@@ -1,8 +1,21 @@
+"use client"
+
+import { MenuContext } from "@/context/MenuProvider"
+import { useContext } from "react"
+
+import Overlay from "@/components/layout/Overlay";
+
 import Button from "@/components/Button"
 
 function page() {
+
+  let menuVisibility = useContext(MenuContext)
+
   return (
     <>
+      {
+        menuVisibility.menu && <Overlay />
+      }
       <section className='container my-5 flex gap-x-4 h-screen' >
         <div className="w-2/3 flex flex-col gap-y-14">
           <h1 className="flex items-center gap-x-4 font-mono text-6xl font-bold mt-36">

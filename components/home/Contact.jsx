@@ -1,8 +1,27 @@
+"use client"
+
+import { useEffect } from "react";
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Contact() {
+
+    useEffect(() => {
+        Aos.init({
+            easing: "ease-out-cubic",
+            once: true,
+            offset: 200,
+        });
+    }, []);
+
+    useEffect(() => {
+        Aos.refresh()
+    }, [])
+
     return (
         <section className="flex flex-col items-center py-32 lg:py-48 bg-no-repeat bg-center bg-contain" style={{ backgroundImage: `url('/images/header/introduce-bg.png')` }}>
-            <div className="container">
+            <div data-aos-delay="200" data-aos="fade-up" data-aos-duration="1000" className="container">
                 <h2 className="flex flex-col gap-y-3 items-center text-2xl lg:text-5xl text-white font-mono font-extrabold lg:font-semibold">
                     <div>
                         LETS DISCUSS

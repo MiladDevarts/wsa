@@ -1,10 +1,30 @@
+"use client"
+
+import { useEffect } from "react";
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Hero() {
-    return (
-        <section className="overflow-x-hidden  py-10 bg-contain bg-center bg-no-repeat font-sans" style={{ backgroundImage: `url('/images/header/header-bg.png')` }}>
 
+    useEffect(() => {
+        Aos.init({
+            easing: "ease-out-cubic",
+            once: true,
+            offset: 200,
+        });
+    }, []);
+
+    useEffect(() => {
+        Aos.refresh()
+    }, [])
+
+
+    return (
+
+        <section className="overflow-x-hidden  py-10 bg-contain bg-center bg-no-repeat font-sans" style={{ backgroundImage: `url('/images/header/header-bg.png')` }}>
             <div className="container">
-                <div className="flex flex-col items-center justify-center lg:w-full lg:items-start my-10">
+                <div data-aos-delay="200" data-aos="fade-up" className="flex flex-col items-center justify-center lg:w-full lg:items-start my-10">
                     {/* Title For Small Devices */}
                     <h1 className="block lg:hidden text-white text-6xl font-mono lg:text-8xl font-semibold">
                         <div className="font-extrabold">
@@ -43,12 +63,12 @@ function Hero() {
                             </svg>
                         </div>
                         <div className="text-3xl lg:text-6xl font-extrabold text-shadow">
-                        with determination
+                            with determination
                         </div>
                     </h1>
 
                     {/* Title For Desktop Devices */}
-                    <h1 className="hidden lg:block text-white text-6xl lg:text-8xl font-mono font-semibold">
+                    <h1 data-aos-delay="200" data-aos="fade-up" className="hidden lg:block text-white text-6xl lg:text-8xl font-mono font-semibold">
                         <div className="flex">
                             <div className="font-extrabold">
                                 Snails
@@ -106,7 +126,7 @@ function Hero() {
                     </div>
                 </div>
                 <div className="flex flex-col lg:w-full lg:flex-row lg:justify-end lg:gap-x-5 gap-y-6 items-center mt-32 lg:mt-10">
-                    <div className="flex justify-center items-center gap-x-4 text-white">
+                    <div data-aos-delay="400" data-aos="fade-left" className="flex justify-center items-center gap-x-4 text-white">
                         <svg className="animate-ping " width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="4" cy="4" r="4" fill="#52FF00" />
                         </svg>
@@ -115,12 +135,12 @@ function Hero() {
                         </span>
                     </div>
                     <div className="flex gap-x-3 items-center">
-                        <a href="#">
+                        <a href="#" data-aos-delay="500" data-aos="fade-left">
                             <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M21.4591 2C20.6891 2.35 19.8591 2.58 18.9991 2.69C19.8791 2.16 20.5591 1.32 20.8791 0.31C20.0491 0.81 19.1291 1.16 18.1591 1.36C17.3691 0.5 16.2591 0 14.9991 0C12.6491 0 10.7291 1.92 10.7291 4.29C10.7291 4.63 10.7691 4.96 10.8391 5.27C7.27906 5.09 4.10906 3.38 1.99906 0.79C1.62906 1.42 1.41906 2.16 1.41906 2.94C1.41906 4.43 2.16906 5.75 3.32906 6.5C2.61906 6.5 1.95906 6.3 1.37906 6V6.03C1.37906 8.11 2.85906 9.85 4.81906 10.24C4.18979 10.4122 3.52916 10.4362 2.88906 10.31C3.16067 11.1625 3.6926 11.9084 4.41008 12.4429C5.12756 12.9775 5.99451 13.2737 6.88906 13.29C5.37269 14.4904 3.49306 15.1393 1.55906 15.13C1.21906 15.13 0.879063 15.11 0.539062 15.07C2.43906 16.29 4.69906 17 7.11906 17C14.9991 17 19.3291 10.46 19.3291 4.79C19.3291 4.6 19.3291 4.42 19.3191 4.23C20.1591 3.63 20.8791 2.87 21.4591 2Z" fill="white" />
                             </svg>
                         </a>
-                        <a href="#">
+                        <a href="#" data-aos-delay="600" data-aos="fade-left">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2ZM12 15.88C9.86 15.88 8.12 14.14 8.12 12C8.12 9.86 9.86 8.12 12 8.12C14.14 8.12 15.88 9.86 15.88 12C15.88 14.14 14.14 15.88 12 15.88ZM17.92 6.88C17.87 7 17.8 7.11 17.71 7.21C17.61 7.3 17.5 7.37 17.38 7.42C17.26 7.47 17.13 7.5 17 7.5C16.73 7.5 16.48 7.4 16.29 7.21C16.2 7.11 16.13 7 16.08 6.88C16.03 6.76 16 6.63 16 6.5C16 6.37 16.03 6.24 16.08 6.12C16.13 5.99 16.2 5.89 16.29 5.79C16.52 5.56 16.87 5.45 17.19 5.52C17.26 5.53 17.32 5.55 17.38 5.58C17.44 5.6 17.5 5.63 17.56 5.67C17.61 5.7 17.66 5.75 17.71 5.79C17.8 5.89 17.87 5.99 17.92 6.12C17.97 6.24 18 6.37 18 6.5C18 6.63 17.97 6.76 17.92 6.88Z" fill="white" />
                             </svg>
@@ -134,10 +154,10 @@ function Hero() {
                     </span>
                 </div>
             </div>
-
         </section>
 
     )
+
 }
 
 export default Hero

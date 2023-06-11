@@ -1,6 +1,9 @@
 "use client"
 
-import { useContext } from "react"
+import { useContext, useEffect } from "react"
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import Link from "next/link"
 import { MenuContext } from "@/context/MenuProvider"
@@ -9,10 +12,22 @@ function NavBar({ classes }) {
 
     let menuVisibilty = useContext(MenuContext)
 
+    useEffect(() => {
+        Aos.init({
+            easing: "ease-out-cubic",
+            once: true,
+            offset: 200,
+        });
+    }, []);
+
+    useEffect(() => {
+        Aos.refresh()
+    }, [])
+
     return (
         <>
-            <nav className={`container flex justify-between my-10 z-50 ${classes}`}>
-                <Link href="/">
+            <nav data-aos-delay="100" data-aos="fade-down" data-aos-duration="1000" className={`container flex justify-between my-10 z-50 ${classes}`}>
+                <Link onClick={() => { menuVisibilty.setMenu(false) }} href="/">
                     <img src="../images/logos/white-logo.svg" alt="" />
                 </Link>
                 <div className="flex items-center gap-x-3 hover:cursor-pointer" onClick={() => { menuVisibilty.setMenu(true) }}>

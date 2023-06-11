@@ -1,8 +1,28 @@
+"use client"
+
+import { useEffect } from "react";
+
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 import Link from "next/link"
 
-function ServiceCard({ showData, showBtn, servicelink  , serviceTitle }) {
+function ServiceCard({ animationDelay, showData, showBtn, servicelink, serviceTitle }) {
+
+    useEffect(() => {
+        Aos.init({
+            easing: "ease-out-cubic",
+            once: true,
+            offset: 200,
+        });
+    }, []);
+
+    useEffect(() => {
+        Aos.refresh()
+    }, [])
+
     return (
-        <Link href={servicelink} className="font-sans text-white w-full p-8 flex flex-col gap-y-10 rounded-2xl border 
+        <Link data-aos-delay={animationDelay} data-aos="zoom-out-right" href={servicelink} className="font-sans text-white w-full p-8 flex flex-col gap-y-10 rounded-2xl border 
     border-white/20">
             <h4 className="text-xl">
                 {serviceTitle}

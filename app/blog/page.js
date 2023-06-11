@@ -16,7 +16,7 @@ function page() {
         menuVisibility.menu && <Overlay />
       }
       <section className='container flex flex-col lg:flex-row lg:justify-between gap-y-4 my-36'>
-        <h1 className='text-4xl lg:text-8xl font-mono font-semibold text-white'>
+        <h1 data-aos-delay="400" data-aos="zoom-in-right" data-aos-duration="1000" className='text-4xl lg:text-8xl font-mono font-semibold text-white'>
           Blog
         </h1>
         <div className="hover:cursor-pointer hover:bg-[#0C0C0C] transition-all duration-200 flex flex-col grow-0 gap-y-4 w-full lg:w-1/3 px-3 lg:px-8 border-b py-6 border-white/10 text-white font-sans short-item">

@@ -4,11 +4,26 @@ import StampTwo from "@/components/StampTwo"
 import Overlay from "@/components/layout/Overlay"
 
 import { MenuContext } from "@/context/MenuProvider"
-import { useContext } from "react"
+import { useContext, useEffect } from "react"
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function page() {
 
     let menuVisibility = useContext(MenuContext)
+
+    useEffect(() => {
+        Aos.init({
+            easing: "ease-out-cubic",
+            once: true,
+            offset: 200,
+        });
+    }, []);
+
+    useEffect(() => {
+        Aos.refresh()
+    }, [])
 
     return (
         <>
@@ -17,7 +32,7 @@ function page() {
             }
             <section className='py-10 lg:py-32 bg-right bg-contain bg-no-repeat' style={{ backgroundImage: `url('/images/about/about-bg.png')` }}>
                 <div className="container">
-                    <div className="flex justify-between items-center">
+                    <div data-aos-delay="400" data-aos="zoom-in-right" data-aos-duration="1000" className="flex justify-between items-center">
                         <h1 className='font-mono mb-24 text-4xl lg:text-8xl font-semibold text-white'>
                             About
                         </h1>
