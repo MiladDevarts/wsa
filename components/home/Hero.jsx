@@ -131,7 +131,7 @@ function Hero() {
                             <circle cx="4" cy="4" r="4" fill="#52FF00" />
                         </svg>
                         <span className="font-sans">
-                            Currently in Stockholm,Newyork
+                            Currently in Stockholm, New York
                         </span>
                     </div>
                     <div className="flex gap-x-3 items-center">

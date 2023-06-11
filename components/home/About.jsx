@@ -51,8 +51,8 @@ function About() {
           <div className=" flex flex-col gap-y-4">
             <p className="lg:max-w-2xl lg:text-2xl font-sans text-zinc-400 ">
               We are
-              <span className="text-white inline-block mx-1">an idea</span>
-              created group that manage several ideas with the help of various experts. We always support ideas that care about the nature and biological balance of this world.
+              <span className="text-white inline-block mx-1">a group</span>
+               that creates and manages innovative ideas with the help of industry experts. We also support ideas that preserve the biological balance of nature.
             </p>
             <Button content={"About us"} link={"/about"} />
           </div>
