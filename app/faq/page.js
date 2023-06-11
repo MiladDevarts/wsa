@@ -7,7 +7,14 @@ import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
+import { MenuContext } from "@/context/MenuProvider"
+import { useContext } from "react"
+
+import Overlay from "@/components/layout/Overlay";
+
 function page() {
+
+  let menuVisibility = useContext(MenuContext)
 
   useEffect(() => {
     Aos.init({
@@ -23,6 +30,9 @@ function page() {
 
   return (
     <>
+     {
+        menuVisibility.menu && <Overlay />
+      }
       <section className='container my-36'>
         <h1 data-aos-delay="400" data-aos="zoom-in-right" data-aos-duration="1000" className='text-4xl lg:text-8xl font-mono font-semibold text-white'>
           FAQ

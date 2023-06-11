@@ -28,22 +28,20 @@ function Overlay() {
     return (
         <>
             {
-                <section data-aos="slide-left" className="fixed top-0 left-0 w-full h-screen bg-black/90 backdrop-blur-lg z-50 transition-all">
+                <section data-aos="slide-left" className=" fixed p-6 lg:p-0 top-0 left-0 w-full h-screen bg-black/90 backdrop-blur-lg z-50 transition-all overflow-hidden">
                     <nav className={`container flex justify-between my-10 z-50`}>
                         <Link onClick={() => { menuVisibilty.setMenu(true) }} href="/">
-                            <img src="../images/logos/white-logo.svg" alt="" />
+                            <img src={"/images/logos/circle-logo.svg"} alt="" />
                         </Link>
                         <div className="flex items-center gap-x-3 hover:cursor-pointer" onClick={() => { menuVisibilty.setMenu(false) }}>
-                            <span className="hidden lg:flex">
-                                Close
-                            </span>
-                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M18 0H0V2H18V0ZM18 7H6V9H18V7ZM18 14H0V16H18V14Z" fill="white" />
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 2L9 9L2 2" stroke="white" stroke-width="3.16667" stroke-linecap="round" />
+                                <path d="M16 16L9 9L2 16" stroke="white" stroke-width="3.16667" stroke-linecap="round" />
                             </svg>
                         </div>
                     </nav >
-                    <div className="lg:container flex flex-col items-center lg:flex-row mt-28 lg:my-32">
-                        <ul className="text-white font-mono w-auto lg:w-1/2 container flex flex-col lg:order-2 gap-y-8 text-3xl font-bold mb-12 lg:mb-0">
+                    <div className="container flex flex-col items-center lg:flex-row mt-16 lg:mt-16 lg:mb-32">
+                        <ul className=" text-white font-mono w-auto lg:w-1/2  flex flex-col lg:order-2 gap-y-8 text-3xl font-bold mb-10 lg:mb-0">
                             <li className="cursor-pointer">
                                 <Link data-aos-delay="300" data-aos="fade-left" data-aos-duration="1000" href="/" onClick={() => { menuVisibilty.setMenu(false) }}>
                                     Home
@@ -56,7 +54,7 @@ function Overlay() {
                             </li>
                             <li className="cursor-pointer">
                                 <Link data-aos-delay="500" data-aos="fade-left" data-aos-duration="1000" href="/services" onClick={() => { menuVisibilty.setMenu(false) }}>
-                                Services
+                                    Services
                                 </Link>
                             </li>
                             <li className="cursor-pointer">
@@ -80,16 +78,16 @@ function Overlay() {
                                 </Link>
                             </li>
                         </ul>
-                        <div className="container w-full lg:w-1/2 flex flex-wrap gap-y-4 lg:flex-col lg:gap-y-10 justify-between">
+                        <div className="w-full lg:w-1/2 flex flex-wrap gap-y-4 lg:flex-col lg:gap-y-10 justify-between mt-0 lg:mt-2">
                             <div>
-                                <h4 className="text-zinc-400 lg:text-2xl">E-mail:</h4>
+                                <h4 className="text-[#7E7E7E] lg:text-2xl font-mono font-medium mb-1 lg:mb-4 ">E-mail:</h4>
                                 <span className="text-white font-sans lg:text-xl">info@wsa.team</span>
                             </div>
                             <div>
-                                <h4 className="text-zinc-400 lg:text-2xl">Office:</h4>
+                                <h4 className="text-[#7E7E7E] lg:text-2xl font-mono font-medium mb-1 lg:mb-4">Office:</h4>
                                 <span className="text-white font-sans lg:text-xl">Stockholm,Newyork</span>
                             </div>
-                            <div className="flex gap-x-4 items-center w-full">
+                            <div className="flex gap-x-4 items-center w-full lg:my-16 my-2">
                                 <a href="">
                                     <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M21.46 2C20.69 2.35 19.86 2.58 19 2.69C19.88 2.16 20.56 1.32 20.88 0.31C20.05 0.81 19.13 1.16 18.16 1.36C17.37 0.5 16.26 0 15 0C12.65 0 10.73 1.92 10.73 4.29C10.73 4.63 10.77 4.96 10.84 5.27C7.28004 5.09 4.11004 3.38 2.00004 0.79C1.63004 1.42 1.42004 2.16 1.42004 2.94C1.42004 4.43 2.17004 5.75 3.33004 6.5C2.62004 6.5 1.96004 6.3 1.38004 6V6.03C1.38004 8.11 2.86004 9.85 4.82004 10.24C4.19077 10.4122 3.53013 10.4362 2.89004 10.31C3.16165 11.1625 3.69358 11.9084 4.41106 12.4429C5.12854 12.9775 5.99549 13.2737 6.89004 13.29C5.37367 14.4904 3.49404 15.1393 1.56004 15.13C1.22004 15.13 0.880039 15.11 0.540039 15.07C2.44004 16.29 4.70004 17 7.12004 17C15 17 19.33 10.46 19.33 4.79C19.33 4.6 19.33 4.42 19.32 4.23C20.16 3.63 20.88 2.87 21.46 2Z" fill="white" />
@@ -101,8 +99,8 @@ function Overlay() {
                                     </svg>
                                 </a>
                             </div>
-                            <div className="flex flex-col gap-y-4 w-full">
-                                <span className="font-sans">
+                            <div className="flex flex-col gap-y-4 w-full lg:mt-20">
+                                <span className="text-xl mb-2">
                                     Any question left ?  we are ready to help
                                 </span>
                                 <Button content={"About us"} outline={true} link={"/about"} />
