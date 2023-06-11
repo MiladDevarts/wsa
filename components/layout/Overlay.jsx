@@ -67,11 +67,11 @@ function Overlay() {
                         <div className="container w-full lg:w-1/2 flex flex-wrap gap-y-4 lg:flex-col lg:gap-y-10 justify-between">
                             <div>
                                 <h4 className="text-zinc-400 lg:text-2xl">E-mail:</h4>
-                                <span className="text-white font-sans lg:text-xl">info@whitesnail.com</span>
+                                <span className="text-white font-sans lg:text-xl">info@wsa.team</span>
                             </div>
                             <div>
                                 <h4 className="text-zinc-400 lg:text-2xl">Office:</h4>
-                                <span className="text-white font-sans lg:text-xl">Stockholm, Sweden</span>
+                                <span className="text-white font-sans lg:text-xl">Stockholm,Newyork</span>
                             </div>
                             <div className="flex gap-x-4 items-center w-full">
                                 <a href="">

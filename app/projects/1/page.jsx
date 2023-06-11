@@ -4,7 +4,6 @@ import NavBar from "@/components/layout/NavBar"
 function page() {
   return (
     <>
-      <NavBar classes={"z-50"} />
       <section className="flex items-center w-full h-[900px] lg:h-screen bg-cover bg-center mb-20 -mt-32 -z-50" style={{ backgroundImage: `url('/images/projects/cover-1.jpg')` }}>
         <div className="container text-white">
           <span className="text-6xl lg:text-9xl font-mono font-bold">
