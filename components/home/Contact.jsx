@@ -35,9 +35,9 @@ function Contact() {
                 </h2>
             </div>
             <section className='container flex justify-center py-8'>
-                <div className='w-full lg:w-1/2 flex h-20 border border-white/20 p-2 rounded-2xl'>
-                    <input type="text" className='w-4/6 lg:w-5/6 h-full bg-transparent text-white pl-2 focus:outline-none' placeholder='Your E-mail' />
-                    <input type="submit" className='flex items-center justify-center w-2/6 lg:2-1/6 h-full rounded-3xl bg-white text-black font-sans' />
+                <div className='w-full lg:w-1/2 flex h-20 border border-white/20 p-2 rounded-3xl'>
+                    <input type="text" className='w-4/6 lg:w-5/6  h-full bg-transparent text-white pl-2 focus:outline-none' placeholder='Your E-mail' />
+                    <input type="submit" className='flex items-center justify-center w-2/6 lg:2-1/6 h-full rounded-2xl bg-white text-black font-sans' />
                 </div>
             </section>
         </section>
