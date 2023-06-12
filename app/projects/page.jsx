@@ -134,7 +134,6 @@ function page() {
               <p className="font-light">
                 We believe that education is the foundation for a better future. This platform is designed to provide high-quality educational resources for learners of all ages and backgrounds. All educators, artists, and field experts can sell their education courses on this platform or share their courses with other teachers for free.
               </p>
-              <Button content="Full project" link="/" />
               <div className="hidden lg:flex flex-col gap-y-3 mt-20">
                 <div className="flex justify-between ">
                   <div className="flex gap-x-3">
@@ -181,7 +180,6 @@ function page() {
               <p className="font-light">
                 We understand that starting an online business can be daunting, so we strive to provide a user-friendly platform with all the tools and resources you need to succeed. Whether you're a seasoned entrepreneur or just starting out, our platform makes it easy to list and sell your products, manage orders, and connect with customers.
               </p>
-              <Button content="Full project" link="/" />
               <div className="hidden lg:flex flex-col gap-y-3 mt-20">
                 <div className="flex justify-between ">
                   <div className="flex gap-x-3">
