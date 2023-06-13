@@ -4,11 +4,27 @@ import BlogCard from "@/components/home/BlogCard"
 import Overlay from "@/components/layout/Overlay"
 
 import { MenuContext } from "@/context/MenuProvider"
-import { useContext } from "react"
+import { useContext, useEffect } from "react"
+
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 
 function page() {
 
   let menuVisibility = useContext(MenuContext)
+
+  useEffect(() => {
+    Aos.init({
+      easing: "ease-out-cubic",
+      once: true,
+      offset: 200,
+    });
+  }, []);
+
+  useEffect(() => {
+    Aos.refresh()
+  }, [])
 
   return (
     <>
@@ -49,21 +65,21 @@ function page() {
           title={"WSA will start getting Clients"}
           summery={"WSA will start getting ClientsWSA will start getting ClientsWSA will start getting ClientsWSA will start getting ClientsWSA will start getting Clients"}
           author={"Ryan james"}
-          authorAvatar={"./images/profile/avatar-1.png"}
+          authorAvatar={"/images/profile/avatar-1.png"}
           date={"11 December, 2022"} />
         <BlogCard
-          image={"./images/blog/thumbnail-1.png"}
+          image={"/images/blog/thumbnail-1.png"}
           title={"WSA will start getting Clients"}
           summery={"WSA will start getting ClientsWSA will start getting ClientsWSA will start getting ClientsWSA will start getting ClientsWSA will start getting Clients"}
           author={"Ryan james"}
-          authorAvatar={"./images/profile/avatar-1.png"}
+          authorAvatar={"/images/profile/avatar-1.png"}
           date={"11 December, 2022"} />
         <BlogCard
-          image={"./images/blog/thumbnail-1.png"}
+          image={"/images/blog/thumbnail-1.png"}
           title={"WSA will start getting Clients"}
           summery={"WSA will start getting ClientsWSA will start getting ClientsWSA will start getting ClientsWSA will start getting ClientsWSA will start getting Clients"}
           author={"Ryan james"}
-          authorAvatar={"./images/profile/avatar-1.png"}
+          authorAvatar={"/images/profile/avatar-1.png"}
           date={"11 December, 2022"} />
       </section>
     </>
