@@ -2,7 +2,7 @@ import React from 'react'
 
 function RelatedCard({ image, date, author, authorAvatar, title, summery }) {
     return (
-        <div className='w-1/3 flex flex-col grow-0 gap-y-4 px-3 '>
+        <div className='w-full lg:w-1/3 flex flex-col grow-0 gap-y-4 px-3 '>
             {
                 image && <img src={image} className="my-4" alt="" />
             }

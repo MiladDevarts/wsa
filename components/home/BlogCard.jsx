@@ -1,9 +1,11 @@
 
-function BlogCard({image, title, summery, author, authorAvatar, date}) {
+import Link from "next/link"
+
+function BlogCard({image, title, summery, author, authorAvatar, date, url}) {
     return (
-        <div className={"hover:cursor-pointer hover:bg-[#0C0C0C] transition-all duration-200 flex flex-col grow-0 gap-y-4 w-full px-3 lg:px-8 border-b pb-6 border-white/10 text-white font-sans "  + (image ? 'long-item' : 'short-item')}>
+        <Link href={url} className={"hover:cursor-pointer hover:bg-[#0C0C0C] transition-all duration-200 flex flex-col grow-0 gap-y-4 w-full px-3 lg:px-8 border-b pb-6 border-white/10 text-white font-sans "  + (image ? 'long-item' : 'short-item')}>
             {
-                image && <img src={image} className="my-4" alt="" />
+                image && <img src={image} className="my-4 rounded-3xl" alt="" />
             }
             <span className="font-light">
               {date}
@@ -26,7 +28,7 @@ function BlogCard({image, title, summery, author, authorAvatar, date}) {
                     <path d="M3.44303 8L2.79688 7.35385L7.22764 2.92308H3.25841V2H8.79688V7.53846H7.8738V3.56923L3.44303 8Z" fill="white" />
                 </svg>
             </a>
-        </div>
+        </Link>
     )
 }
 
