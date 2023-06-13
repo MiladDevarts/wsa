@@ -10,12 +10,12 @@ function Blog() {
 
         <BlogCard
           image={""}
-          title={"WSA will start getting Clients"}
-          summery={"WSA will start getting ClientsWSA will start getting ClientsWSA will start getting ClientsWSA will start getting ClientsWSA will start getting Clients"}
-          author={"Ryan james"}
-          authorAvatar={"./images/profile/avatar-1.png"}
-          date={"11 December, 2022"}
-          url="/"
+          title={"Educational Platforms"}
+          summery={"Online learning has exploded since COVID leading consumers to become more and more familiar with online learning tools. "}
+          author={"WSA Board"}
+          authorAvatar={"./images/logos/circle-logo.svg"}
+          date={"14 June, 2023"}
+          url="/blog/educational-platforms"
           />
           
           <BlogCard
@@ -29,23 +29,23 @@ function Blog() {
           />
 
           <BlogCard
-          image={"./images/blog/thumbnail-1.png"}
-          title={"WSA will start getting Clients"}
-          summery={"WSA will start getting ClientsWSA will start getting ClientsWSA will start getting ClientsWSA will start getting ClientsWSA will start getting Clients"}
-          author={"Ryan james"}
-          authorAvatar={"./images/profile/avatar-1.png"}
-          date={"11 December, 2022"}
-          url="/"
+          image={"./images/blog/post-3-cover.jpg"}
+          title={"Organic/Green Online Shop Direct to Consumer (no plastics)"}
+          summery={"There is a huge consumer demand to get away from cheap mass manufacturing and plastic products. "}
+          author={"WSA Board"}
+          authorAvatar={"./images/logos/circle-logo.svg"}
+          date={"14 June, 2023"}
+          url="/blog/organic-shop"
           />
 
           <BlogCard
           image={""}
-          title={"WSA will start getting Clients"}
-          summery={"WSA will start getting ClientsWSA will start getting ClientsWSA will start getting ClientsWSA will start getting ClientsWSA will start getting Clients"}
-          author={"Ryan james"}
-          authorAvatar={"./images/profile/avatar-1.png"}
-          date={"11 December, 2022"}
-          url="/"
+          title={"Company Communication & Scheduling Platform"}
+          summery={"Business apps are the leading way for employers to efficiently interact with their employees. "}
+          author={"WSA Board"}
+          authorAvatar={"./images/logos/circle-logo.svg"}
+          date={"14 June, 2023"}
+          url="/blog/company-communication"
           />
 
       </section>
