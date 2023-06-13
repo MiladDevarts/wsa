@@ -4,7 +4,7 @@ import RelatedCard from "@/components/blog/RelatedCard"
 import Overlay from "@/components/layout/Overlay"
 
 import { MenuContext } from "@/context/MenuProvider"
-import { useContext, useEffect } from "react"
+import { useContext } from "react"
 
 function page() {
 

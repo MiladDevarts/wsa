@@ -9,8 +9,6 @@ import { useContext, useEffect } from "react"
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-import Head from "next/head"
-
 function page() {
 
     let menuVisibility = useContext(MenuContext)
