@@ -67,10 +67,10 @@ function page() {
               <div className="flex lg:hidden flex-col gap-y-3 mt-5">
                 <div className="flex justify-between ">
                   <div className="flex gap-x-3">
-                    <svg onClick={() => { handlePrevProject() }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 20L13.425 18.6L7.825 13H20V11H7.825L13.425 5.4L12 4L4 12L12 20Z" fill="white" /> </svg>
+                    <svg className="cursor-pointer" onClick={() => { handlePrevProject() }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 20L13.425 18.6L7.825 13H20V11H7.825L13.425 5.4L12 4L4 12L12 20Z" fill="white" /> </svg>
                     <span className="inline-block ml-4 font-bold text-xl text-white font-mono"> 01 </span>
                   </div>
-                  <svg onClick={() => { handleNextProject() }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 20L10.575 18.6L16.175 13H4V11H16.175L10.575 5.4L12 4L20 12L12 20Z" fill="white" /> </svg>
+                  <svg className="cursor-pointer" onClick={() => { handleNextProject() }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 20L10.575 18.6L16.175 13H4V11H16.175L10.575 5.4L12 4L20 12L12 20Z" fill="white" /> </svg>
                 </div>
                 <div className="relative top-0 left-0 w-full h-1 bg-white/20">
                   <div className="absolute top-0 left-o w-1/3 h-full bg-white"> </div>
@@ -90,10 +90,10 @@ function page() {
               <div className="hidden lg:flex flex-col gap-y-3 mt-20">
                 <div className="flex justify-between ">
                   <div className="flex gap-x-3">
-                    <svg onClick={() => { handlePrevProject() }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 20L13.425 18.6L7.825 13H20V11H7.825L13.425 5.4L12 4L4 12L12 20Z" fill="white" /> </svg>
+                    <svg className="cursor-pointer" onClick={() => { handlePrevProject() }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 20L13.425 18.6L7.825 13H20V11H7.825L13.425 5.4L12 4L4 12L12 20Z" fill="white" /> </svg>
                     <span className="inline-block ml-4 font-bold text-xl text-white font-mono"> 01 </span>
                   </div>
-                  <svg onClick={() => { handleNextProject() }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 20L10.575 18.6L16.175 13H4V11H16.175L10.575 5.4L12 4L20 12L12 20Z" fill="white" /> </svg>
+                  <svg className="cursor-pointer" onClick={() => { handleNextProject() }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 20L10.575 18.6L16.175 13H4V11H16.175L10.575 5.4L12 4L20 12L12 20Z" fill="white" /> </svg>
                 </div>
                 <div className="relative top-0 left-0 w-full h-1 bg-white/20">
                   <div className="absolute top-0 left-o w-1/3 h-full bg-white"> </div>
@@ -115,10 +115,10 @@ function page() {
               <div className="flex lg:hidden flex-col gap-y-3 mt-20">
                 <div className="flex justify-between ">
                   <div className="flex gap-x-3">
-                    <svg onClick={() => { handlePrevProject() }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 20L13.425 18.6L7.825 13H20V11H7.825L13.425 5.4L12 4L4 12L12 20Z" fill="white" /> </svg>
+                    <svg className="cursor-pointer" onClick={() => { handlePrevProject() }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 20L13.425 18.6L7.825 13H20V11H7.825L13.425 5.4L12 4L4 12L12 20Z" fill="white" /> </svg>
                     <span className="inline-block ml-4 font-bold text-xl text-white font-mono"> 02 </span>
                   </div>
-                  <svg onClick={() => { handleNextProject() }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 20L10.575 18.6L16.175 13H4V11H16.175L10.575 5.4L12 4L20 12L12 20Z" fill="white" /> </svg>
+                  <svg className="cursor-pointer" onClick={() => { handleNextProject() }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 20L10.575 18.6L16.175 13H4V11H16.175L10.575 5.4L12 4L20 12L12 20Z" fill="white" /> </svg>
                 </div>
                 <div className="relative top-0 left-0 w-full h-1 bg-white/20">
                   <div className="absolute top-0 left-1/2 w-1/3 h-full bg-white -translate-x-1/2"> </div>
@@ -132,15 +132,15 @@ function page() {
                 learning platform
               </p>
               <p className="font-light">
-                We believe that education is the foundation for a better future. This platform is designed to provide high-quality educational resources for learners of all ages and backgrounds. All educators, artists, and field experts can sell their education courses on this platform or share their courses with other teachers for free.
+              At WSA, we contribute to new ideas and production - helping small businesses and professionals. We can assist new businesses launch, rebuild existing brands, and help increase sales. In addition, our partners and specialists pursue the common goal of increasing the natural health of people and the environment.
               </p>
               <div className="hidden lg:flex flex-col gap-y-3 mt-20">
                 <div className="flex justify-between ">
                   <div className="flex gap-x-3">
-                    <svg onClick={() => { handlePrevProject() }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 20L13.425 18.6L7.825 13H20V11H7.825L13.425 5.4L12 4L4 12L12 20Z" fill="white" /> </svg>
+                    <svg className="cursor-pointer" onClick={() => { handlePrevProject() }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 20L13.425 18.6L7.825 13H20V11H7.825L13.425 5.4L12 4L4 12L12 20Z" fill="white" /> </svg>
                     <span className="inline-block ml-4 font-bold text-xl text-white font-mono"> 02 </span>
                   </div>
-                  <svg onClick={() => { handleNextProject() }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 20L10.575 18.6L16.175 13H4V11H16.175L10.575 5.4L12 4L20 12L12 20Z" fill="white" /> </svg>
+                  <svg className="cursor-pointer" onClick={() => { handleNextProject() }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 20L10.575 18.6L16.175 13H4V11H16.175L10.575 5.4L12 4L20 12L12 20Z" fill="white" /> </svg>
                 </div>
                 <div className="relative top-0 left-0 w-full h-1 bg-white/20">
                   <div className="absolute top-0 left-1/2 w-1/3 h-full bg-white -translate-x-1/2"> </div>
@@ -161,10 +161,10 @@ function page() {
               <div className="flex lg:hidden flex-col gap-y-3 mt-20">
                 <div className="flex justify-between ">
                   <div className="flex gap-x-3">
-                    <svg onClick={() => { handlePrevProject() }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 20L13.425 18.6L7.825 13H20V11H7.825L13.425 5.4L12 4L4 12L12 20Z" fill="white" /> </svg>
+                    <svg className="cursor-pointer" onClick={() => { handlePrevProject() }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 20L13.425 18.6L7.825 13H20V11H7.825L13.425 5.4L12 4L4 12L12 20Z" fill="white" /> </svg>
                     <span className="inline-block ml-4 font-bold text-xl text-white font-mono"> 03 </span>
                   </div>
-                  <svg onClick={() => { handleNextProject() }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 20L10.575 18.6L16.175 13H4V11H16.175L10.575 5.4L12 4L20 12L12 20Z" fill="white" /> </svg>
+                  <svg className="cursor-pointer" onClick={() => { handleNextProject() }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 20L10.575 18.6L16.175 13H4V11H16.175L10.575 5.4L12 4L20 12L12 20Z" fill="white" /> </svg>
                 </div>
                 <div className="relative top-0 left-0 w-full h-1 bg-white/20">
                   <div className="absolute top-0 right-0 w-1/3 h-full bg-white"> </div>
@@ -183,10 +183,10 @@ function page() {
               <div className="hidden lg:flex flex-col gap-y-3 mt-20">
                 <div className="flex justify-between ">
                   <div className="flex gap-x-3">
-                    <svg onClick={() => { handlePrevProject() }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 20L13.425 18.6L7.825 13H20V11H7.825L13.425 5.4L12 4L4 12L12 20Z" fill="white" /> </svg>
+                    <svg className="cursor-pointer" onClick={() => { handlePrevProject() }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 20L13.425 18.6L7.825 13H20V11H7.825L13.425 5.4L12 4L4 12L12 20Z" fill="white" /> </svg>
                     <span className="inline-block ml-4 font-bold text-xl text-white font-mono"> 03 </span>
                   </div>
-                  <svg onClick={() => { handleNextProject() }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 20L10.575 18.6L16.175 13H4V11H16.175L10.575 5.4L12 4L20 12L12 20Z" fill="white" /> </svg>
+                  <svg className="cursor-pointer" onClick={() => { handleNextProject() }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 20L10.575 18.6L16.175 13H4V11H16.175L10.575 5.4L12 4L20 12L12 20Z" fill="white" /> </svg>
                 </div>
                 <div className="relative top-0 left-0 w-full h-1 bg-white/20">
                   <div className="absolute top-0 right-0 w-1/3 h-full bg-white"> </div>
