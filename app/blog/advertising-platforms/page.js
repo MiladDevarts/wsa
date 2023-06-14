@@ -90,7 +90,7 @@ function page() {
       </section>
       <section className="container flex flex-col lg:flex-row gap-x-4 my-60">
 
-        {/* <RelatedCard
+        <RelatedCard
           image={"/images/blog/post-2-cover.jpg"}
           title={"Organic/Green Online Shop Direct to Consumer (no plastics)"}
           summery={"There is a huge consumer demand to get away from cheap mass manufacturing and plastic products. "}
@@ -118,7 +118,7 @@ function page() {
           authorAvatar={"/images/logos/circle-logo.svg"}
           date={"14 June, 2023"}
           url="/blog/company-communication"
-          /> */}
+          />
 
       </section>
     </>
