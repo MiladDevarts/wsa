@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function RelatedCard({ image, date, author, authorAvatar, title, summery, url }) {
