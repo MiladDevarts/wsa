@@ -106,7 +106,9 @@ function page() {
           summery={"Online learning has exploded since COVID leading consumers to become more and more familiar with online learning tools. "}
           author={"WSA Board"}
           authorAvatar={"./images/logos/circle-logo.svg"}
-          date={"14 June, 2023"} />
+          date={"14 June, 2023"}
+          url="/blog/educational-platforms"
+          />
 
         <RelatedCard
           image={"/images/blog/post-4-cover.jpg"}
