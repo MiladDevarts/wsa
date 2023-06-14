@@ -92,22 +92,22 @@ function page() {
 
         <RelatedCard
           image={"/images/blog/post-2-cover.jpg"}
-          title={"Organic/Green Online Shop Direct to Consumer (no plastics)"}
-          summery={"There is a huge consumer demand to get away from cheap mass manufacturing and plastic products. "}
-          author={"WSA Board"}
-          authorAvatar={"/images/logos/circle-logo.svg"}
-          date={"14 June, 2023"}
-          url="/blog/organic-shop"
-        />
-
-        <RelatedCard
-          image={"/images/blog/post-3-cover.jpg"}
           title={"Educational Platforms"}
           summery={"Online learning has exploded since COVID leading consumers to become more and more familiar with online learning tools. "}
           author={"WSA Board"}
           authorAvatar={"./images/logos/circle-logo.svg"}
           date={"14 June, 2023"}
           url="/blog/educational-platforms"
+        />
+
+        <RelatedCard
+          image={"/images/blog/post-3-cover.jpg"}
+          title={"Organic/Green Online Shop Direct to Consumer (no plastics)"}
+          summery={"There is a huge consumer demand to get away from cheap mass manufacturing and plastic products. "}
+          author={"WSA Board"}
+          authorAvatar={"/images/logos/circle-logo.svg"}
+          date={"14 June, 2023"}
+          url="/blog/organic-shop"
           />
 
         <RelatedCard
