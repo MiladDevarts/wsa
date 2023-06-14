@@ -66,21 +66,27 @@ function page() {
           summery={"WSA will start getting ClientsWSA will start getting ClientsWSA will start getting ClientsWSA will start getting ClientsWSA will start getting Clients"}
           author={"Ryan james"}
           authorAvatar={"/images/profile/avatar-1.png"}
-          date={"11 December, 2022"} />
+          date={"11 December, 2022"}
+          url={"/"}
+          />
         <BlogCard
           image={"/images/blog/thumbnail-1.png"}
           title={"WSA will start getting Clients"}
           summery={"WSA will start getting ClientsWSA will start getting ClientsWSA will start getting ClientsWSA will start getting ClientsWSA will start getting Clients"}
           author={"Ryan james"}
           authorAvatar={"/images/profile/avatar-1.png"}
-          date={"11 December, 2022"} />
+          date={"11 December, 2022"} 
+          url={"/"}
+          />
         <BlogCard
           image={"/images/blog/thumbnail-1.png"}
           title={"WSA will start getting Clients"}
           summery={"WSA will start getting ClientsWSA will start getting ClientsWSA will start getting ClientsWSA will start getting ClientsWSA will start getting Clients"}
           author={"Ryan james"}
           authorAvatar={"/images/profile/avatar-1.png"}
-          date={"11 December, 2022"} />
+          date={"11 December, 2022"} 
+          url={"/"}
+          />
       </section>
     </>
   )
