@@ -20,7 +20,7 @@ function Price() {
     }, [])
 
     return (
-        <section className="flex flex-col justify-center items-center w-full py-64 my-20  bg-no-repeat bg-center" style={{ backgroundImage: `url('/images/brand/price-bg.png')` }}>
+        <section className="flex flex-col justify-center items-center w-full py-64 my-20  bg-no-repeat bg-center bg-cover" style={{ backgroundImage: `url('/images/brand/price-bg.png')` }}>
             <div data-aos-delay="200" data-aos="fade-up" data-aos-duration="1000"  className="w-4/6 lg:w-1/6 h-10 rounded-t-2xl bg-white text-black font-sans flex justify-center items-center">
                 Today price
             </div>
