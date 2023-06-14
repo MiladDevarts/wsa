@@ -29,13 +29,13 @@ function Blog() {
           />
 
           <BlogCard
-          image={"./images/blog/post-3-cover.jpg"}
-          title={"Organic/Green Online Shop Direct to Consumer (no plastics)"}
-          summery={"There is a huge consumer demand to get away from cheap mass manufacturing and plastic products. "}
+          image={"./images/blog/post-5-cover.jpg"}
+          title={"Brand Development and Investment in Ideas"}
+          summery={"Brand development starts with a quality product but needs much more to succeed in the competitive market. "}
           author={"WSA Board"}
           authorAvatar={"./images/logos/circle-logo.svg"}
           date={"14 June, 2023"}
-          url="/blog/organic-shop"
+          url="/blog/brand-development"
           />
 
           <BlogCard

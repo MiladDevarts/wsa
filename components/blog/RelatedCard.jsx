@@ -1,8 +1,8 @@
 import React from 'react'
 
-function RelatedCard({ image, date, author, authorAvatar, title, summery }) {
+function RelatedCard({ image, date, author, authorAvatar, title, summery, url }) {
     return (
-        <div className='w-full lg:w-1/3 flex flex-col grow-0 gap-y-4 px-3 '>
+        <Link href={url} className='w-full lg:w-1/3 flex flex-col grow-0 gap-y-4 px-3 '>
             {
                 image && <img src={image} className="my-4 rounded-3xl" alt="" />
             }
@@ -27,7 +27,7 @@ function RelatedCard({ image, date, author, authorAvatar, title, summery }) {
                     <path d="M3.44303 8L2.79688 7.35385L7.22764 2.92308H3.25841V2H8.79688V7.53846H7.8738V3.56923L3.44303 8Z" fill="white" />
                 </svg>
             </a>
-        </div>
+        </Link>
     )
 }
 

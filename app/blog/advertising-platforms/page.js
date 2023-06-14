@@ -97,6 +97,7 @@ function page() {
           author={"WSA Board"}
           authorAvatar={"/images/logos/circle-logo.svg"}
           date={"14 June, 2023"}
+          url="/blog/organic-shop"
         />
 
         <RelatedCard
@@ -113,7 +114,9 @@ function page() {
           summery={"Business apps are the leading way for employers to efficiently interact with their employees. "}
           author={"WSA Board"}
           authorAvatar={"/images/logos/circle-logo.svg"}
-          date={"14 June, 2023"} />
+          date={"14 June, 2023"}
+          url="/blog/company-communication"
+          />
 
       </section>
     </>
