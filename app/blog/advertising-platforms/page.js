@@ -12,9 +12,11 @@ function page() {
 
   return (
     <>
+
       {
         menuVisibility.menu && <Overlay />
       }
+
       <section className='container flex flex-col gap-y-4 items-center mt-28 text-white'>
         <span>
           14 June, 2023
@@ -29,6 +31,7 @@ function page() {
           </span>
         </div>
       </section>
+
       <section className='container flex gap-x-4 mt-20'>
         <a href="#">
           <svg width="30" height="30" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -52,7 +55,9 @@ function page() {
           </svg>
         </a>
       </section>
+
       <section className="w-full h-[700px] my-10 bg-white bg-cover bg-center bg-top-[20px]" style={{ backgroundImage: `url('/images/blog/post-1-cover.jpg')` }}></section>
+
       <section className='container my-20'>
         <p className='text-white text-lg leading-8 my-8'>
           - Unique audiences and communities have to ask themselves if the mainstream advertising giants have adequately met their particular needs while still respecting their privacy.
@@ -84,6 +89,7 @@ function page() {
 
       </section>
       <section className="container flex flex-col lg:flex-row gap-x-4 my-60">
+
         <RelatedCard
           image={"/images/blog/thumbnail-1.png"}
           title={"WSA will start getting Clients"}
@@ -91,6 +97,7 @@ function page() {
           author={"Ryan james"}
           authorAvatar={"/images/profile/avatar-1.png"}
           date={"11 December, 2022"} />
+
         <RelatedCard
           image={"/images/blog/thumbnail-1.png"}
           title={"WSA will start getting Clients"}
@@ -98,6 +105,7 @@ function page() {
           author={"Ryan james"}
           authorAvatar={"/images/profile/avatar-1.png"}
           date={"11 December, 2022"} />
+
         <RelatedCard
           image={"/images/blog/thumbnail-1.png"}
           title={"WSA will start getting Clients"}
@@ -105,6 +113,7 @@ function page() {
           author={"Ryan james"}
           authorAvatar={"/images/profile/avatar-1.png"}
           date={"11 December, 2022"} />
+
       </section>
     </>
   )
