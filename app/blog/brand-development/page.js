@@ -22,7 +22,7 @@ function page() {
           14 June, 2023
         </span>
         <h1 className='font-bold text-3xl'>
-          Advertising Platforms
+        Brand Development and Investment in Ideas
         </h1>
         <div className="flex items-center gap-x-2">
           <img src={"/images/logos/circle-logo.svg"} className="w-10" alt="" />
@@ -56,48 +56,36 @@ function page() {
         </a>
       </section>
 
-      <section className="w-full h-[700px] my-10 bg-white bg-cover bg-center bg-top-[20px]" style={{ backgroundImage: `url('/images/blog/post-1-cover.jpg')` }}></section>
+      <section className="w-full h-[700px] my-10 bg-white bg-cover bg-center bg-top-[20px]" style={{ backgroundImage: `url('/images/blog/post-5-cover.jpg')` }}></section>
 
       <section className='container my-20'>
         <p className='text-white text-lg leading-8 my-8'>
-          - Unique audiences and communities have to ask themselves if the mainstream advertising giants have adequately met their particular needs while still respecting their privacy.
+        Brand development starts with a quality product but needs much more to succeed in the competitive market. 
         </p>
         <p className='text-[#B5B5B5] text-lg leading-8 my-8'>
-          Meta is one of the largest and fastest growing advertising platforms because of its high level of customization and large number of daily users.
+        Every brand needs an appropriate logo, web presence, sales platform, and a marketing strategy. As many brand development companies shift towards automated branding platforms, there is a loss of momentum caused by the impersonal branding process. 
         </p>
         <p className='text-[#B5B5B5] text-lg leading-8 my-8'>
-          Meta’s success comes at the cost of user privacy. Google remains a leading advertising platform but has a similar achilles heel.
+        At WSA, we strive to invest in ideas and support their success in any way necessary without losing the personal touch. 
+         </p>
+        <p className='text-[#B5B5B5] text-lg leading-8 my-8'>
+        Moreover, if you have an idea that needs an investor, we can help. If you have investment capital but need help with investment ideas, we can help. 
         </p>
         <p className='text-[#B5B5B5] text-lg leading-8 my-8'>
-          In addition, leading brands are taking a more proactive role in their web marketing by directing their focus on multiethnic growth and other new audiences.
-        </p>
-        <p className='text-white text-lg leading-8 my-8'>
-          Despite these current trends, certain communities remain mostly ignored and should begin to take matters in their own hands.
-        </p>
-        <p className='text-white text-lg leading-8 my-8'>
-          In order to reach both the leading areas of advertising growth such as Meta and Google, while focussing on underserved markets, WSA has decided to create the first custom platform for advertising and business marketing that allows users to individually select integration with Google, Meta, and other large advertisers.
-        </p>
-        <p className='text-white text-lg leading-8 my-8'>
-          This new platform allows every community to create a custom directory of professionals, businesses, and artists.
-        </p>
-        <p className='text-white text-lg leading-8 my-8'>
-          Professionals, businesses, and artists can create their business profiles, build their websites, add their links, calendar their events, and most importantly, access large advertisers directly from their dashboards.
-        </p>
-        <p className='text-white text-lg leading-8 my-8'>
-          Thus each community is served directly without losing any of the benefits provided by the leading advertising platforms
+        The WSA team has a diverse set of skills and abilities including capital investment and idea sharing for the right partners.
         </p>
 
       </section>
       <section className="container flex flex-col lg:flex-row gap-x-4 my-60">
 
         <RelatedCard
-          image={"/images/blog/post-2-cover.jpg"}
-          title={"Educational Platforms"}
-          summery={"Online learning has exploded since COVID leading consumers to become more and more familiar with online learning tools. "}
+          image={"/images/blog/post-1-cover.jpg"}
+          title={"Advertising Platforms "}
+          summery={"Unique audiences and communities have to ask themselves if the mainstream advertising giants have adequately met their particular needs while still respecting their privacy. "}
           author={"WSA Board"}
           authorAvatar={"/images/logos/circle-logo.svg"}
           date={"14 June, 2023"}
-          url="/blog/educational-platforms"
+          url="/blog/advertising-platforms"
         />
 
         <RelatedCard
@@ -108,17 +96,17 @@ function page() {
           authorAvatar={"/images/logos/circle-logo.svg"}
           date={"14 June, 2023"}
           url="/blog/organic-shop"
-        />
+          />
 
         <RelatedCard
-          image={"/images/blog/post-4-cover.jpg"}
+          image={"/images/blog/post-2-cover.jpg"}
           title={"Company Communication & Scheduling Platform"}
           summery={"Business apps are the leading way for employers to efficiently interact with their employees. "}
           author={"WSA Board"}
           authorAvatar={"/images/logos/circle-logo.svg"}
           date={"14 June, 2023"}
           url="/blog/company-communication"
-        />
+          />
 
       </section>
     </>

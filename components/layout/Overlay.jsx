@@ -29,7 +29,7 @@ function Overlay() {
         <>
             {
                 <section data-aos="slide-left" className=" fixed p-6 lg:p-0 top-0 left-0 w-full h-screen bg-black/90 backdrop-blur-lg z-50 transition-all overflow-hidden">
-                    <nav className={`container flex justify-between my-10 z-50`}>
+                    <nav className={`container flex justify-between my-5 lg:my-10 z-50`}>
                         <Link onClick={() => { menuVisibilty.setMenu(true) }} href="/">
                             <img src={"/images/logos/circle-logo.svg"} alt="" />
                         </Link>
@@ -40,7 +40,7 @@ function Overlay() {
                             </svg>
                         </div>
                     </nav >
-                    <div className="container flex flex-col items-center lg:flex-row mt-16 lg:mt-16 lg:mb-32">
+                    <div className="container flex flex-col items-center lg:flex-row mt-8 lg:mt-16 lg:mb-32">
                         <ul className=" text-white font-mono w-auto lg:w-1/2  flex flex-col lg:order-2 gap-y-8 text-3xl font-bold mb-10 lg:mb-0">
                             <li className="cursor-pointer">
                                 <Link data-aos-delay="300" data-aos="fade-left" data-aos-duration="1000" href="/" onClick={() => { menuVisibilty.setMenu(false) }}>
@@ -99,8 +99,8 @@ function Overlay() {
                                     </svg>
                                 </a>
                             </div>
-                            <div className="flex flex-col gap-y-4 w-full lg:mt-20">
-                                <span className="text-xl mb-2">
+                            <div className="flex flex-col gap-y-2 w-full lg:mt-20">
+                                <span className="text-sm lg:text-xl mb-2">
                                     Any question left ?  we are ready to help
                                 </span>
                                 <Button content={"About us"} outline={true} link={"/about"} />

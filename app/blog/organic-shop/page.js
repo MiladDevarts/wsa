@@ -22,7 +22,7 @@ function page() {
           14 June, 2023
         </span>
         <h1 className='font-bold text-3xl'>
-          Advertising Platforms
+          Organic/Green Online Shop Direct to Consumer (no plastics)
         </h1>
         <div className="flex items-center gap-x-2">
           <img src={"/images/logos/circle-logo.svg"} className="w-10" alt="" />
@@ -56,35 +56,20 @@ function page() {
         </a>
       </section>
 
-      <section className="w-full h-[700px] my-10 bg-white bg-cover bg-center bg-top-[20px]" style={{ backgroundImage: `url('/images/blog/post-1-cover.jpg')` }}></section>
+      <section className="w-full h-[700px] my-10 bg-white bg-cover bg-center bg-top-[20px]" style={{ backgroundImage: `url('/images/blog/post-3-cover.jpg')` }}></section>
 
       <section className='container my-20'>
         <p className='text-white text-lg leading-8 my-8'>
-          - Unique audiences and communities have to ask themselves if the mainstream advertising giants have adequately met their particular needs while still respecting their privacy.
+          There is a huge consumer demand to get away from cheap mass manufacturing and plastic products.
         </p>
         <p className='text-[#B5B5B5] text-lg leading-8 my-8'>
-          Meta is one of the largest and fastest growing advertising platforms because of its high level of customization and large number of daily users.
+          The online shops we intend to build for our partners are focused on organic small batch craftsmanship selling directly to the consumer.
         </p>
         <p className='text-[#B5B5B5] text-lg leading-8 my-8'>
-          Meta’s success comes at the cost of user privacy. Google remains a leading advertising platform but has a similar achilles heel.
-        </p>
-        <p className='text-[#B5B5B5] text-lg leading-8 my-8'>
-          In addition, leading brands are taking a more proactive role in their web marketing by directing their focus on multiethnic growth and other new audiences.
+          Craftsman can integrate their advertising and marketing campaigns to bring consumers directly to their online shops and maximize their click conversions.
         </p>
         <p className='text-white text-lg leading-8 my-8'>
-          Despite these current trends, certain communities remain mostly ignored and should begin to take matters in their own hands.
-        </p>
-        <p className='text-white text-lg leading-8 my-8'>
-          In order to reach both the leading areas of advertising growth such as Meta and Google, while focussing on underserved markets, WSA has decided to create the first custom platform for advertising and business marketing that allows users to individually select integration with Google, Meta, and other large advertisers.
-        </p>
-        <p className='text-white text-lg leading-8 my-8'>
-          This new platform allows every community to create a custom directory of professionals, businesses, and artists.
-        </p>
-        <p className='text-white text-lg leading-8 my-8'>
-          Professionals, businesses, and artists can create their business profiles, build their websites, add their links, calendar their events, and most importantly, access large advertisers directly from their dashboards.
-        </p>
-        <p className='text-white text-lg leading-8 my-8'>
-          Thus each community is served directly without losing any of the benefits provided by the leading advertising platforms
+          Products can be featured in short videos with custom music and audio for social media platforms to allow consumers to get a better feel for products before purchase. WSA has the ability to brand, market, and create the online shop for local craftsman and mid size manufacturing.
         </p>
 
       </section>
@@ -101,13 +86,13 @@ function page() {
         />
 
         <RelatedCard
-          image={"/images/blog/post-3-cover.jpg"}
-          title={"Organic/Green Online Shop Direct to Consumer (no plastics)"}
-          summery={"There is a huge consumer demand to get away from cheap mass manufacturing and plastic products. "}
+          image={"/images/blog/post-5-cover.jpg"}
+          title={"Brand Development and Investment in Ideas"}
+          summery={" Brand development starts with a quality product but needs much more to succeed in the competitive market."}
           author={"WSA Board"}
           authorAvatar={"/images/logos/circle-logo.svg"}
           date={"14 June, 2023"}
-          url="/blog/organic-shop"
+          url="/blog/brand-development"
         />
 
         <RelatedCard
