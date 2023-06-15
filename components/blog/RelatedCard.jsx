@@ -16,7 +16,7 @@ function RelatedCard({ image, date, author, authorAvatar, title, summery, url })
                     {author}
                 </span>
             </div>
-            <h4 className="text-xl font-bold font-sans my-2">
+            <h4 className="text-xl font-bold font-sans my-2 text-white">
                 {title}
             </h4>
             <p className="text-[#8D8D8D] my-4">
