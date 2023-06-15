@@ -74,26 +74,20 @@ function Projects() {
                     </div>
                 </Link>
 
-                <Link data-aos-delay="60" data-aos="zoom-in-down" href="/projects/1" className="w-full h-96 flex gap-x-10 p-16 px-16 pt-8 pb-6 gap-y-6 border-b border-[#2D2D2D]">
+                <Link data-aos-delay="60" data-aos="zoom-in-down" href="/projects" className="w-full h-56 flex gap-x-10 p-16 px-16 pt-8 pb-6 gap-y-6 border-b border-[#2D2D2D] items-center">
                     <span className="inline-block text-center w-1/6 my-10 font-mono font-bold text-2xl">02</span>
                     <div className="flex flex-col w-5/6 gap-y-10 my-10">
                         <p className="text-2xl font-bold">
                             - Providing a Multipurpose learning platform
                         </p>
-                        <p className="leading-8 text-lg">
-                            At WSA, we contribute to new ideas and production - helping small businesses and professionals. We can assist new businesses launch, rebuild existing brands, and help increase sales. In addition, our partners and specialists pursue the common goal of increasing the natural health of people and the environment.
-                        </p>
                     </div>
                 </Link>
 
-                <Link data-aos-delay="70" data-aos="zoom-in-down" href="/projects/1" className="w-full h-96 flex gap-x-10 p-16 px-16 pt-8 pb-6 gap-y-6 border-b border-[#2D2D2D]">
+                <Link data-aos-delay="70" data-aos="zoom-in-down" href="/projects" className="w-full h-56 flex gap-x-10 p-16 px-16 pt-8 pb-6 gap-y-6 border-b border-[#2D2D2D] items-center">
                     <span className="inline-block text-center w-1/6 my-10 font-mono font-bold text-2xl">03</span>
                     <div className="flex flex-col w-5/6 gap-y-10 my-10">
                         <p className="text-2xl font-bold">
                             - Providing a Marketplace Platform
-                        </p>
-                        <p className="leading-8 text-lg">
-                            We understand that starting an online business can be daunting, so we strive to provide a user-friendly platform with all the tools and resources you need to succeed. Whether you're a seasoned entrepreneur or just starting out, our platform makes it easy to list and sell your products, manage orders, and connect with customers.
                         </p>
                     </div>
                 </Link>
