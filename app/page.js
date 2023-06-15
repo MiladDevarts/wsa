@@ -14,6 +14,7 @@ import Services from "@/components/home/Services";
 import Overlay from "@/components/layout/Overlay";
 
 import { MenuContext } from "@/context/MenuProvider";
+import Projects from "@/components/home/Projects";
 
 export default function Home() {
 
@@ -30,6 +31,7 @@ export default function Home() {
       <About />
       <IntroduceOne />
       <Services />
+      <Projects/>
       <BrandSolgan />
       <FAQ />
       <Price />

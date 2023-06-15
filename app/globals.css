@@ -27,12 +27,12 @@ html {
   background-color: #010101;
 }
 
-
 /* --- Global Color --- */
 
 body {
   color: rgb(var(--foreground-rgb));
   background-color: #010101 !important; 
+  overflow-x: hidden;
 }
 
 

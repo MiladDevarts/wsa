@@ -105,7 +105,7 @@ function page() {
           {/* Project 2 (Content) */}
           {
             projectindicator === 2 &&
-            <div data-aos-delay="100" data-aos="fade-left" data-aos-duration="1000" className="w-full  flex flex-col gap-y-14 text-white">
+            <div id="project_2" data-aos-delay="100" data-aos="fade-left" data-aos-duration="1000" className="w-full  flex flex-col gap-y-14 text-white">
               <h1 className="flex items-center gap-x-4 font-mono text-5xl lg:text-6xl font-bold mt-10">
                 Projects
                 <span className="text-[#2D2D2D] text-3xl">
