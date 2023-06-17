@@ -28,7 +28,7 @@ function Overlay() {
     return (
         <>
             {
-                <section data-aos="slide-left" className=" fixed p-6 lg:p-0 top-0 left-0 w-full h-screen bg-black/90 backdrop-blur-lg z-50 transition-all overflow-hidden">
+                <section data-aos="slide-left" className=" fixed p-6 lg:p-0 top-0 left-0 w-full h-screen bg-black/100 backdrop-blur-lg z-50 transition-all overflow-hidden">
                     <nav className={`container flex justify-between my-5 lg:my-10 z-50`}>
                         <Link onClick={() => { menuVisibilty.setMenu(true) }} href="/">
                             <img src={"/images/logos/circle-logo.svg"} alt="" />
@@ -41,7 +41,7 @@ function Overlay() {
                         </div>
                     </nav >
                     <div className="container flex flex-col items-center lg:flex-row mt-8 lg:mt-16 lg:mb-32">
-                        <ul className=" text-white font-mono w-auto lg:w-1/2  flex flex-col lg:order-2 gap-y-8 text-3xl font-bold mb-10 lg:mb-0">
+                        <ul className="text-white font-mono w-auto lg:w-1/2 flex flex-col lg:order-2 gap-y-6 text-3xl font-bold mb-10 lg:mb-0">
                             <li className="cursor-pointer">
                                 <Link data-aos-delay="300" data-aos="fade-left" data-aos-duration="1000" href="/" onClick={() => { menuVisibilty.setMenu(false) }}>
                                     Home
@@ -65,6 +65,11 @@ function Overlay() {
                             <li className="cursor-pointer">
                                 <Link data-aos-delay="700" data-aos="fade-left" data-aos-duration="1000" href="/projects" onClick={() => { menuVisibilty.setMenu(false) }}>
                                     Projects
+                                </Link>
+                            </li>
+                            <li className="text-xl font-medium cursor-pointer text-[#7E7E7E]">
+                                <Link data-aos-delay="800" data-aos="fade-up" data-aos-duration="1000" href="/blog" onClick={() => { menuVisibilty.setMenu(false) }}>
+                                Team Log in
                                 </Link>
                             </li>
                             <li className="text-xl font-medium cursor-pointer text-[#7E7E7E]">
@@ -99,7 +104,7 @@ function Overlay() {
                                     </svg>
                                 </a>
                             </div>
-                            <div className="flex flex-col gap-y-2 w-full lg:mt-20">
+                            <div className="flex flex-col gap-y-2 w-full lg:mt-6">
                                 <span className="text-sm lg:text-xl mb-2">
                                     Any question left ?  we are ready to help
                                 </span>
