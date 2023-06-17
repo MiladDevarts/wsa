@@ -52,7 +52,7 @@ function page() {
 
       <section className='container my-5 flex flex-col lg:flex-row gap-y-10 lg:gap-x-28 h-screen' >
 
-        <div className="lg:w-2/3 w-full">
+        <div className="lg:w-2/3 w-full text-white">
 
           {/* Project 1 (Content) */}
           {
