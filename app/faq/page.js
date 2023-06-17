@@ -33,8 +33,8 @@ function page() {
      {
         menuVisibility.menu && <Overlay />
       }
-      <section className='container my-36'>
-        <h1 data-aos-delay="400" data-aos="zoom-in-right" data-aos-duration="1000" className='text-4xl lg:text-8xl font-mono font-semibold text-white'>
+      <section className='container my-24'>
+        <h1 data-aos-delay="400" data-aos="zoom-in-right" data-aos-duration="1000" className='text-6xl lg:text-8xl font-mono font-semibold text-white'>
           FAQ
         </h1>
       </section>
