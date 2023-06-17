@@ -26,7 +26,7 @@ function Projects() {
 
             <TitleSection title="Projects" link="/projects" />
 
-            <section className="container mt-4 mb-20 flex lg:hidden flex-col gap-y-10">
+            <section className="container mt-4 mb-20 flex lg:hidden flex-col gap-y-10 text-white">
 
                 <div className="w-full h-[550px] flex flex-col justify-center  bg-center bg-no-repeat  bg-contain p-16 gap-y-10" style={{ backgroundImage: `url('/images/projects/project-card-bg.jpg')` }}>
                     <span className="font-mono font-bold text-2xl">01</span>
