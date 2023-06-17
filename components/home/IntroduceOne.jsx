@@ -34,7 +34,7 @@ function IntroduceOne() {
                     </div>
                     <div className="flex items-center gap-x-4">
                         with care
-                        <svg width="20" height="20" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg className="lg:w-20" width="24" height="24" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M5.60962 51.1017L0.119141 45.6112L37.7682 7.9622H4.04091V0.118652H51.1022V47.1799H43.2586V13.4527L5.60962 51.1017Z" fill="white" />
                         </svg>
                     </div>
