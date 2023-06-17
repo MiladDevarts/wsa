@@ -4,7 +4,7 @@ import Link from "next/link"
 function TitleSection({title, link}) {
     return (
         <div className="container flex justify-between items-center mb-16 lg:mb-28 mt-32">
-            <h3 className="flex items-center gap-x-2 text-white font-mono font-bold text-2xl">
+            <h3 className="flex items-center gap-x-2 text-white font-mono font-bold text-2xl lg:text-2xl">
                 <svg className="" width="27" viewBox="0 0 31 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect x="24.6523" width="6.22587" height="24.0141" transform="rotate(24.8486 24.6523 0)" fill="white" />
                     <rect x="11.0898" width="6.22587" height="24.0141" transform="rotate(24.8486 11.0898 0)" fill="#5F5F5F" />
