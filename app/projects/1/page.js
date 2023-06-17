@@ -192,7 +192,7 @@ function page() {
         <Link data-aos-delay="50" data-aos="zoom-in-down" href="/projects/1" className="w-full h-96 flex gap-x-10 bg-center bg-no-repeat  bg-contain p-16 gap-y-10" style={{ backgroundImage: `url('/images/projects/project-card-bg-lg.jpg')` }}>
           <span className="inline-block text-center w-1/6 my-10 font-mono font-bold text-2xl">02</span>
           <div className="flex flex-col w-5/6 gap-y-10 my-10">
-            <p className="text-2xl font-bold">
+            <p className="text-2xl font-bold text-white">
               - Providing a Multipurpose learning platform
             </p>
             <p className="leading-8 text-lg">
