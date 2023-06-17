@@ -12,7 +12,7 @@ function Button({ content, classes, outline, link }) {
   if (outline) {
     return <Link href={link} className={`flex items-center justify-center w-44 h-16 rounded-3xl bg-transparent text-white border border-white font-sans ${classes}`}  onClick={() => { menuVisibilty.setMenu(false) }}>{content}</Link>
   } else {
-    return <Link href={link} className={`flex items-center justify-center w-44 h-16 rounded-3xl bg-white text-black font-sans ${classes}`}>{content}</Link>
+    return <Link href={link} className={`flex items-center justify-center w-40 h-16 rounded-full bg-white text-black font-sans ${classes}`}>{content}</Link>
   }
 
 }
