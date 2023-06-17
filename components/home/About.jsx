@@ -32,7 +32,7 @@ function About() {
             </svg>
             About us
           </h3>
-          <p className="text-sm lg:text-3xl text-white font-sans mb-6 lg:mb-0">
+          <p className="text-sm lg:text-3xl text-white font-sans mb-3 lg:mb-0">
             <span className="text-zinc-400 inline-block mr-1">
               Welcome
             </span>
