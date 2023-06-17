@@ -163,7 +163,7 @@ function page() {
         </svg>
       </section>
 
-      <section className="container mt-14 mb-20 flex lg:hidden flex-col gap-y-10">
+      <section className="container mt-14 mb-20 flex lg:hidden flex-col gap-y-10 text-white">
 
         <Link data-aos-delay="50" data-aos="zoom-in-down" href="/projects/1" className="w-full h-[550px] flex flex-col justify-center bg-center bg-no-repeat  bg-contain px-16 py-6 gap-y-6" style={{ backgroundImage: `url('/images/projects/project-card-bg-2.jpg')` }}>
           <span className="font-mono font-bold text-2xl">02</span>
