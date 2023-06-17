@@ -29,7 +29,7 @@ function Price() {
                     <span className="flex items-center h-1/2 font-sans text-zinc-400">
                         7d Low / 7d High
                     </span>
-                    <span className="font-sans font-bold text-xl text-white">
+                    <span className="font-sans font-bold text-lg text-white">
                         $19.95 / $25.43
                     </span>
                 </div>
