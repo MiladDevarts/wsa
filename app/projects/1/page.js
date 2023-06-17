@@ -187,7 +187,7 @@ function page() {
 
       </section>
 
-      <section className="container mt-4 mb-20 lg:flex hidden flex-col gap-y-10">
+      <section className="container mt-4 mb-20 lg:flex hidden flex-col gap-y-10 text-white">
 
         <Link data-aos-delay="50" data-aos="zoom-in-down" href="/projects/1" className="w-full h-96 flex gap-x-10 bg-center bg-no-repeat  bg-contain p-16 gap-y-10" style={{ backgroundImage: `url('/images/projects/project-card-bg-lg.jpg')` }}>
           <span className="inline-block text-center w-1/6 my-10 font-mono font-bold text-2xl">02</span>
