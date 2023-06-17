@@ -9,7 +9,7 @@ function FAQItem({ title, content }) {
     return (
         <div className='flex flex-col w-full m-auto p-4 lg:p-8 border-b border-white/10 text-white hover:cursor-pointer leading-8 duration-300'>
             <div className='flex justify-between' onClick={() => setIsActive(!isActive)}>
-                <h4 className='font-sans text-lg lg:text-2xl sm text-white'>
+                <h4 className='font-sans text-sm lg:text-xl text-white'>
                     - {title}
                 </h4>
                 <div>
@@ -27,7 +27,7 @@ function FAQItem({ title, content }) {
             </div>
             {
                 <div className={`px-6 mt-5 overflow-hidden rounded-3xl transition-all duration-300 ease-in ${isActive ? "max-h-80 bg-[#0C0C0C]" : "max-h-0"}`}>
-                    <p className='text-zinc-200 font-sans p-6 lg:p-10'>
+                    <p className='text-zinc-200 font-sans text-[16px] p-6 lg:p-10'>
                         {content}
                     </p>
                 </div>

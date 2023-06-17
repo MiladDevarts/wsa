@@ -59,3 +59,21 @@ body {
 .long-item {
   @apply row-span-2	
 }
+
+.overlay-item {
+  display: flex;
+  gap:10px;
+  align-items: center;
+}
+
+.overlay-item {
+  transition: all .5s ease-in-out;
+}
+
+.overlay-item svg{
+  transition: all .5s ease-in-out;
+}
+
+/* .overlay-item:hover svg{
+    display: block;
+} */

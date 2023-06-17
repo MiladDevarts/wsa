@@ -41,48 +41,68 @@ function Overlay() {
                         </div>
                     </nav >
                     <div className="container flex flex-col items-center lg:flex-row mt-8 lg:mt-16 lg:mb-32">
-                        <ul className="flex items-end justify-end text-white font-mono w-auto lg:w-1/2 lg:order-2 text-3xl lg:text-5xl font-bold mb-10 mt-10 lg:mt-0">
+                        <ul className="flex items-end justify-end text-white font-mono w-auto lg:w-1/2 lg:order-2 text-3xl lg:text-5xl font-bold mb-10 mt-10 lg:mt-0 pr-0 lg:pr-20">
                             <div className="inline-flex flex-col lg:order-2 gap-y-6">
-                            <li className="cursor-pointer">
-                                <Link data-aos-delay="300" data-aos="fade-left" data-aos-duration="1000" href="/" onClick={() => { menuVisibilty.setMenu(false) }}>
-                                    Home
-                                </Link>
-                            </li>
-                            <li className="cursor-pointer">
-                                <Link data-aos-delay="400" data-aos="fade-left" data-aos-duration="1000" href="/about" onClick={() => { menuVisibilty.setMenu(false) }}>
-                                    About us
-                                </Link>
-                            </li>
-                            <li className="cursor-pointer">
-                                <Link data-aos-delay="500" data-aos="fade-left" data-aos-duration="1000" href="/services" onClick={() => { menuVisibilty.setMenu(false) }}>
-                                    Services
-                                </Link>
-                            </li>
-                            <li className="cursor-pointer">
-                                <Link data-aos-delay="600" data-aos="fade-left" data-aos-duration="1000" href="/contact" onClick={() => { menuVisibilty.setMenu(false) }}>
-                                    Contact us
-                                </Link>
-                            </li>
-                            <li className="cursor-pointer">
-                                <Link data-aos-delay="700" data-aos="fade-left" data-aos-duration="1000" href="/projects" onClick={() => { menuVisibilty.setMenu(false) }}>
-                                    Projects
-                                </Link>
-                            </li>
-                            <li className="text-xl font-medium cursor-pointer text-[#7E7E7E]">
-                                <Link data-aos-delay="800" data-aos="fade-up" data-aos-duration="1000" href="/blog" onClick={() => { menuVisibilty.setMenu(false) }}>
-                                Team Log in
-                                </Link>
-                            </li>
-                            <li className="text-xl font-medium cursor-pointer text-[#7E7E7E]">
-                                <Link data-aos-delay="800" data-aos="fade-up" data-aos-duration="1000" href="/blog" onClick={() => { menuVisibilty.setMenu(false) }}>
-                                    Blog
-                                </Link>
-                            </li>
-                            <li className="text-xl font-medium cursor-pointer text-[#7E7E7E]">
-                                <Link data-aos-delay="9 00" data-aos="fade-up" data-aos-duration="1000" href="/faq" onClick={() => { menuVisibilty.setMenu(false) }}>
-                                    FAQ & Terms
-                                </Link>
-                            </li>
+                                <li className="cursor-pointer overlay-item">
+                                    <svg className="hidden" width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20.4427 26.6616C20.1736 26.6616 19.9044 26.5624 19.6919 26.3499C19.2811 25.9391 19.2811 25.2591 19.6919 24.8483L27.5402 16.9999L19.6919 9.15159C19.2811 8.74076 19.2811 8.06076 19.6919 7.64992C20.1027 7.23909 20.7827 7.23909 21.1936 7.64992L29.7927 16.2491C30.2036 16.6599 30.2036 17.3399 29.7927 17.7508L21.1936 26.3499C20.9811 26.5624 20.7119 26.6616 20.4427 26.6616Z" fill="white" />
+                                        <path d="M28.8005 18.0625H4.95801C4.37717 18.0625 3.89551 17.5808 3.89551 17C3.89551 16.4192 4.37717 15.9375 4.95801 15.9375H28.8005C29.3813 15.9375 29.863 16.4192 29.863 17C29.863 17.5808 29.3813 18.0625 28.8005 18.0625Z" fill="white" />
+                                    </svg>
+                                    <Link className="flex gap-x-3" data-aos-delay="300" data-aos="fade-left" data-aos-duration="1000" href="/" onClick={() => { menuVisibilty.setMenu(false) }}>
+                                        Home
+                                    </Link>
+                                </li>
+                                <li className="cursor-pointer overlay-item">
+                                    <svg className="hidden" width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20.4427 26.6616C20.1736 26.6616 19.9044 26.5624 19.6919 26.3499C19.2811 25.9391 19.2811 25.2591 19.6919 24.8483L27.5402 16.9999L19.6919 9.15159C19.2811 8.74076 19.2811 8.06076 19.6919 7.64992C20.1027 7.23909 20.7827 7.23909 21.1936 7.64992L29.7927 16.2491C30.2036 16.6599 30.2036 17.3399 29.7927 17.7508L21.1936 26.3499C20.9811 26.5624 20.7119 26.6616 20.4427 26.6616Z" fill="white" />
+                                        <path d="M28.8005 18.0625H4.95801C4.37717 18.0625 3.89551 17.5808 3.89551 17C3.89551 16.4192 4.37717 15.9375 4.95801 15.9375H28.8005C29.3813 15.9375 29.863 16.4192 29.863 17C29.863 17.5808 29.3813 18.0625 28.8005 18.0625Z" fill="white" />
+                                    </svg>
+                                    <Link data-aos-delay="400" data-aos="fade-left" data-aos-duration="1000" href="/about" onClick={() => { menuVisibilty.setMenu(false) }}>
+                                        About us
+                                    </Link>
+                                </li>
+                                <li className="cursor-pointer overlay-item">
+                                    <svg className="hidden" width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20.4427 26.6616C20.1736 26.6616 19.9044 26.5624 19.6919 26.3499C19.2811 25.9391 19.2811 25.2591 19.6919 24.8483L27.5402 16.9999L19.6919 9.15159C19.2811 8.74076 19.2811 8.06076 19.6919 7.64992C20.1027 7.23909 20.7827 7.23909 21.1936 7.64992L29.7927 16.2491C30.2036 16.6599 30.2036 17.3399 29.7927 17.7508L21.1936 26.3499C20.9811 26.5624 20.7119 26.6616 20.4427 26.6616Z" fill="white" />
+                                        <path d="M28.8005 18.0625H4.95801C4.37717 18.0625 3.89551 17.5808 3.89551 17C3.89551 16.4192 4.37717 15.9375 4.95801 15.9375H28.8005C29.3813 15.9375 29.863 16.4192 29.863 17C29.863 17.5808 29.3813 18.0625 28.8005 18.0625Z" fill="white" />
+                                    </svg>
+                                    <Link data-aos-delay="500" data-aos="fade-left" data-aos-duration="1000" href="/services" onClick={() => { menuVisibilty.setMenu(false) }}>
+                                        Services
+                                    </Link>
+                                </li>
+                                <li className="cursor-pointer overlay-item">
+                                    <svg className="hidden" width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20.4427 26.6616C20.1736 26.6616 19.9044 26.5624 19.6919 26.3499C19.2811 25.9391 19.2811 25.2591 19.6919 24.8483L27.5402 16.9999L19.6919 9.15159C19.2811 8.74076 19.2811 8.06076 19.6919 7.64992C20.1027 7.23909 20.7827 7.23909 21.1936 7.64992L29.7927 16.2491C30.2036 16.6599 30.2036 17.3399 29.7927 17.7508L21.1936 26.3499C20.9811 26.5624 20.7119 26.6616 20.4427 26.6616Z" fill="white" />
+                                        <path d="M28.8005 18.0625H4.95801C4.37717 18.0625 3.89551 17.5808 3.89551 17C3.89551 16.4192 4.37717 15.9375 4.95801 15.9375H28.8005C29.3813 15.9375 29.863 16.4192 29.863 17C29.863 17.5808 29.3813 18.0625 28.8005 18.0625Z" fill="white" />
+                                    </svg>
+                                    <Link data-aos-delay="600" data-aos="fade-left" data-aos-duration="1000" href="/contact" onClick={() => { menuVisibilty.setMenu(false) }}>
+                                        Contact us
+                                    </Link>
+                                </li>
+                                <li className="cursor-pointer overlay-item">
+                                <svg className="hidden" width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20.4427 26.6616C20.1736 26.6616 19.9044 26.5624 19.6919 26.3499C19.2811 25.9391 19.2811 25.2591 19.6919 24.8483L27.5402 16.9999L19.6919 9.15159C19.2811 8.74076 19.2811 8.06076 19.6919 7.64992C20.1027 7.23909 20.7827 7.23909 21.1936 7.64992L29.7927 16.2491C30.2036 16.6599 30.2036 17.3399 29.7927 17.7508L21.1936 26.3499C20.9811 26.5624 20.7119 26.6616 20.4427 26.6616Z" fill="white" />
+                                        <path d="M28.8005 18.0625H4.95801C4.37717 18.0625 3.89551 17.5808 3.89551 17C3.89551 16.4192 4.37717 15.9375 4.95801 15.9375H28.8005C29.3813 15.9375 29.863 16.4192 29.863 17C29.863 17.5808 29.3813 18.0625 28.8005 18.0625Z" fill="white" />
+                                    </svg>
+                                    <Link data-aos-delay="700" data-aos="fade-left" data-aos-duration="1000" href="/projects" onClick={() => { menuVisibilty.setMenu(false) }}>
+                                        Projects
+                                    </Link>
+                                </li>
+                                <li className="text-xl font-medium cursor-pointer text-[#7E7E7E]">
+                                    <Link data-aos-delay="800" data-aos="fade-up" data-aos-duration="1000" href="/blog" onClick={() => { menuVisibilty.setMenu(false) }}>
+                                        Team Log in
+                                    </Link>
+                                </li>
+                                <li className="text-xl font-medium cursor-pointer text-[#7E7E7E]">
+                                    <Link data-aos-delay="800" data-aos="fade-up" data-aos-duration="1000" href="/blog" onClick={() => { menuVisibilty.setMenu(false) }}>
+                                        Blog
+                                    </Link>
+                                </li>
+                                <li className="text-xl font-medium cursor-pointer text-[#7E7E7E]">
+                                    <Link data-aos-delay="9 00" data-aos="fade-up" data-aos-duration="1000" href="/faq" onClick={() => { menuVisibilty.setMenu(false) }}>
+                                        FAQ & Terms
+                                    </Link>
+                                </li>
                             </div>
                         </ul>
                         <div className="w-full lg:w-1/2 flex flex-wrap gap-y-4 lg:flex-col lg:gap-y-10 justify-between mt-0 lg:mt-2">
