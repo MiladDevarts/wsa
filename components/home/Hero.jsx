@@ -125,7 +125,7 @@ function Hero() {
                         <div class="h-1 bg-white w-1/2"></div>
                     </div>
                 </div>
-                <div className="flex flex-col lg:w-full lg:flex-row lg:justify-end lg:gap-x-5 gap-y-6 items-end mt-32 lg:mt-10">
+                <div className="flex flex-col lg:w-full lg:flex-row lg:justify-end lg:gap-x-5 gap-y-6 lg:items-end items-center mt-32 lg:mt-10">
                     <div className="flex gap-x-3 items-center">
                         <a href="#" data-aos-delay="80" data-aos="fade-left">
                             <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -141,10 +141,10 @@ function Hero() {
                     <div data-aos-delay="70" data-aos="fade-left" className="flex justify-center items-center gap-x-4 text-white">
 
                         <div className="font-sans">
-                            <div className="text-[#868686] ml-6">
+                            <div className="text-[#868686] ml-6 text-center lg:text-left font-bold mb-2">
                                 Currently
                             </div>
-                            <div className="flex gap-x-4 items-center">
+                            <div className="flex gap-x-4 items-center font-bold">
                                 <svg className="animate-ping " width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="4" cy="4" r="4" fill="#52FF00" />
                                 </svg>
