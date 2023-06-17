@@ -41,7 +41,8 @@ function Overlay() {
                         </div>
                     </nav >
                     <div className="container flex flex-col items-center lg:flex-row mt-8 lg:mt-16 lg:mb-32">
-                        <ul className="text-white font-mono w-auto lg:w-1/2 flex flex-col lg:order-2 gap-y-6 text-3xl font-bold mb-10 lg:mb-0">
+                        <ul className="flex items-end justify-end text-white font-mono w-auto lg:w-1/2 lg:order-2 text-3xl lg:text-5xl font-bold mb-10 mt-10 lg:mt-0">
+                            <div className="inline-flex flex-col lg:order-2 gap-y-6">
                             <li className="cursor-pointer">
                                 <Link data-aos-delay="300" data-aos="fade-left" data-aos-duration="1000" href="/" onClick={() => { menuVisibilty.setMenu(false) }}>
                                     Home
@@ -82,6 +83,7 @@ function Overlay() {
                                     FAQ & Terms
                                 </Link>
                             </li>
+                            </div>
                         </ul>
                         <div className="w-full lg:w-1/2 flex flex-wrap gap-y-4 lg:flex-col lg:gap-y-10 justify-between mt-0 lg:mt-2">
                             <div>
@@ -104,8 +106,8 @@ function Overlay() {
                                     </svg>
                                 </a>
                             </div>
-                            <div className="flex flex-col gap-y-2 w-full lg:mt-6">
-                                <span className="text-sm lg:text-xl mb-2">
+                            <div className="hidden lg:flex flex-col gap-y-2 w-full lg:mt-4">
+                                <span className="text-sm lg:text-xl mb-2 text-white">
                                     Any question left ?  we are ready to help
                                 </span>
                                 <Button content={"About us"} outline={true} link={"/about"} />
