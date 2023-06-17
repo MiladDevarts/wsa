@@ -125,7 +125,7 @@ function Hero() {
                         <div class="h-1 bg-white w-1/2"></div>
                     </div>
                 </div>
-                <div className="flex flex-col lg:w-full lg:flex-row lg:justify-end lg:gap-x-5 gap-y-6 lg:items-end items-center mt-32 lg:mt-10">
+                <div className="flex flex-col lg:w-full lg:flex-row lg:justify-end lg:gap-x-5 gap-y-6 lg:items-end items-center mt-32 lg:mt-10 mr-6 lg:mr-0">
                     <div className="flex gap-x-3 items-center ml-6 lg:ml-0 order-2 lg:order-1">
                         <a href="#" data-aos-delay="80" data-aos="fade-left">
                             <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -155,11 +155,11 @@ function Hero() {
 
                 </div>
                 <span className="mt-20 w-full flex justify-center ml-6 lg:hidden">
-                        <svg class="mr-6" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9.99961 17.7086C9.84128 17.7086 9.68294 17.6503 9.55794 17.5253L4.49961 12.4669C4.25794 12.2253 4.25794 11.8253 4.49961 11.5836C4.74128 11.3419 5.14128 11.3419 5.38294 11.5836L9.99961 16.2003L14.6163 11.5836C14.8579 11.3419 15.2579 11.3419 15.4996 11.5836C15.7413 11.8253 15.7413 12.2253 15.4996 12.4669L10.4413 17.5253C10.3163 17.6503 10.1579 17.7086 9.99961 17.7086Z" fill="white" />
-                            <path d="M10 17.567C9.65833 17.567 9.375 17.2837 9.375 16.942V2.91699C9.375 2.57533 9.65833 2.29199 10 2.29199C10.3417 2.29199 10.625 2.57533 10.625 2.91699V16.942C10.625 17.2837 10.3417 17.567 10 17.567Z" fill="white" />
-                        </svg>
-                    </span>
+                    <svg class="mr-6" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.99961 17.7086C9.84128 17.7086 9.68294 17.6503 9.55794 17.5253L4.49961 12.4669C4.25794 12.2253 4.25794 11.8253 4.49961 11.5836C4.74128 11.3419 5.14128 11.3419 5.38294 11.5836L9.99961 16.2003L14.6163 11.5836C14.8579 11.3419 15.2579 11.3419 15.4996 11.5836C15.7413 11.8253 15.7413 12.2253 15.4996 12.4669L10.4413 17.5253C10.3163 17.6503 10.1579 17.7086 9.99961 17.7086Z" fill="white" />
+                        <path d="M10 17.567C9.65833 17.567 9.375 17.2837 9.375 16.942V2.91699C9.375 2.57533 9.65833 2.29199 10 2.29199C10.3417 2.29199 10.625 2.57533 10.625 2.91699V16.942C10.625 17.2837 10.3417 17.567 10 17.567Z" fill="white" />
+                    </svg>
+                </span>
             </div>
         </section>
 
