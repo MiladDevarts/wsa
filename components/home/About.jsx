@@ -49,7 +49,7 @@ function About() {
         </div>
         <div data-aos-delay="200" data-aos="zoom-in-up" className="lg:w-3/5 w-full flex flex-col lg:items-end gap-y-4">
           <div className=" flex flex-col gap-y-8">
-            <p className="text-[8px] lg:max-w-2xl lg:text-xl font-sans text-zinc-400 ">
+            <p className="text-[16px] lg:max-w-2xl lg:text-xl font-sans text-zinc-400 ">
               We are
               <span className="text-white inline-block mx-1">a group</span>
                that creates and manages innovative ideas with the help of industry experts. We also support ideas that preserve the biological balance of nature.
