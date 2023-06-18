@@ -56,7 +56,7 @@ function page() {
         </a>
       </section>
 
-      <section className="w-full h-[700px] my-10 bg-white bg-cover bg-center bg-top-[20px]" style={{ backgroundImage: `url('/images/blog/post-3-cover.jpg')` }}></section>
+      <section className="w-full h-[700px] my-10 bg-white bg-cover bg-center bg-top-[20px]" style={{ backgroundImage: `url('/images/blog/post-3-cover.webp')` }}></section>
 
       <section className='container my-20'>
         <p className='text-white text-lg leading-8 my-8'>
@@ -76,7 +76,7 @@ function page() {
       <section className="container flex flex-col lg:flex-row gap-x-4 my-60">
 
         <RelatedCard
-          image={"/images/blog/post-2-cover.jpg"}
+          image={"/images/blog/post-2-cover.webp"}
           title={"Educational Platforms"}
           summery={"Online learning has exploded since COVID leading consumers to become more and more familiar with online learning tools. "}
           author={"WSA Board"}
@@ -86,7 +86,7 @@ function page() {
         />
 
         <RelatedCard
-          image={"/images/blog/post-5-cover.jpg"}
+          image={"/images/blog/post-5-cover.webp"}
           title={"Brand Development and Investment in Ideas"}
           summery={" Brand development starts with a quality product but needs much more to succeed in the competitive market."}
           author={"WSA Board"}
@@ -96,7 +96,7 @@ function page() {
         />
 
         <RelatedCard
-          image={"/images/blog/post-4-cover.jpg"}
+          image={"/images/blog/post-4-cover.webp"}
           title={"Company Communication & Scheduling Platform"}
           summery={"Business apps are the leading way for employers to efficiently interact with their employees. "}
           author={"WSA Board"}

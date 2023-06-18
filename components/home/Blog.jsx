@@ -19,7 +19,7 @@ function Blog() {
         />
 
         <BlogCard
-          image={"./images/blog/post-1-cover.jpg"}
+          image={"./images/blog/post-1-cover.webp"}
           title={"Advertising Platforms "}
           summery={"Unique audiences and communities have to ask themselves if the mainstream advertising giants have adequately met their particular needs while still respecting their privacy. "}
           author={"WSA Board"}
@@ -29,7 +29,7 @@ function Blog() {
         />
 
         <BlogCard
-          image={"./images/blog/post-5-cover.jpg"}
+          image={"./images/blog/post-5-cover.webp"}
           title={"Brand Development and Investment in Ideas"}
           summery={"Brand development starts with a quality product but needs much more to succeed in the competitive market. "}
           author={"WSA Board"}
