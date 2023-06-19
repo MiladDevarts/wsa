@@ -38,31 +38,31 @@ const services = [
         id: 1,
         title: 'Platform Building',
         content: 'We assist businesses, individuals, and institutions in the development of scalable web solutions and the design of interoperable content, while assessing and managing privacy and security risks.',
-        image: '/images/service/build-platforms.webp'
+        image: '/images/service/build-platforms.png'
     },
     {
         id: 2,
         title: 'Brand Development',
         content: 'Our goal is to deliver a consistent brand experience across multiple platforms and devices. We cater to the customer to develop a custom brand tailored to their specifications. Our platforms are designed to help brands sell products and services over the internet as seamlessly as possible.',
-        image: '/images/service/brand-development.webp'
+        image: '/images/service/brand-development.png'
     },
     {
         id: 3,
         title: 'Multipurpose Educational Platform',
         content: 'We believe that education is the foundation for a better future. This platform is designed to provide high-quality educational resources for learners of all ages and backgrounds. All educators, artists, and field experts can sell their education courses on this platform or share their courses with other teachers for free.',
-        image: '/images/service/invest-in-deas.webp'
+        image: '/images/service/invest-in-deas.png'
     },
     {
         id: 4,
         title: 'Performance Management',
         content: 'The performance management team (PMT) plans and monitors an artist’s concert or tour. Negotiates the performance contract with the artist’s best interests in mind. Secures compensation for the artist and negotiates compensation for any additional work requested during and after performance. Plans marketing strategies and promotes the artist’s performance. Schedules crews and secures necessary performance materials. Ensures a successful performance in an organized manner. The artists working with WSA have experience producing concerts, events, and shows for live audiences. Our event coordinators will be present and responsible for scheduling vendors, providing quality security, and hiring skilled concert staff. Professionalism, safety and enjoyment are of the utmost importance for artists and audiences. Adequate time and expertise will be allocated to set the stage and ensure quality sound and video. All these efforts will overlap with a multi-platform advertising campaign will be managed weeks in advance to maximize ticket sales.',
-        image: '/images/service/performance-management.webp'
+        image: '/images/service/performance-management.png'
     },
     {
         id: 5,
         title: 'Art Management',
         content: 'The art management team (AMT) serves as a buffer between the artist and the business. Represents the artist and prioritizes the artist’s best interests. Creates marketing strategies to promote artists and their work. Negotiates prospective business deals. Secures and markets gigs and performances.',
-        image: '/images/service/art-management.webp'
+        image: '/images/service/art-management.png'
     },
 
 ];

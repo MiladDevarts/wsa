@@ -22,7 +22,7 @@ function page() {
           14 June, 2023
         </span>
         <h1 className='font-bold text-3xl'>
-        Performance Management
+          Performance Management
         </h1>
         <div className="flex items-center gap-x-2">
           <img src={"/images/logos/circle-logo.svg"} className="w-10" alt="" />
@@ -60,15 +60,15 @@ function page() {
 
       <section className='container my-20'>
         <p className='text-white text-lg leading-8 my-8'>
-        For a concert, we think of everything, stage, sound, location, video, security, advertising, high quality, total package.
+          For a concert, we think of everything, stage, sound, location, video, security, advertising, high quality, total package.
         </p>
         <p className='text-[#B5B5B5] text-lg leading-8 my-8'>
-        The artists working with WSA have experience producing concerts, events, and shows for live audiences. Our event coordinators will be present and responsible for scheduling vendors, providing quality security, and hiring skilled concert staff.
+          The artists working with WSA have experience producing concerts, events, and shows for live audiences. Our event coordinators will be present and responsible for scheduling vendors, providing quality security, and hiring skilled concert staff.
         </p>
         <p className='text-[#B5B5B5] text-lg leading-8 my-8'>
-        Professionalism, safety and enjoyment are of the utmost importance for artists and audiences. Adequate time and expertise will be allocated to set the stage and ensure quality sound and video.         </p>
+          Professionalism, safety and enjoyment are of the utmost importance for artists and audiences. Adequate time and expertise will be allocated to set the stage and ensure quality sound and video.         </p>
         <p className='text-[#B5B5B5] text-lg leading-8 my-8'>
-        All these efforts will overlap with a multi-platform advertising campaign that will be managed weeks in advance to maximize ticket sales.
+          All these efforts will overlap with a multi-platform advertising campaign that will be managed weeks in advance to maximize ticket sales.
         </p>
 
       </section>
@@ -92,7 +92,7 @@ function page() {
           authorAvatar={"/images/logos/circle-logo.svg"}
           date={"14 June, 2023"}
           url="/blog/organic-shop"
-          />
+        />
 
         <RelatedCard
           image={"/images/blog/post-2-cover.webp"}
@@ -102,7 +102,7 @@ function page() {
           authorAvatar={"/images/logos/circle-logo.svg"}
           date={"14 June, 2023"}
           url="/blog/company-communication"
-          />
+        />
 
       </section>
     </>

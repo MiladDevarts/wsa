@@ -29,7 +29,7 @@ function ServiceCard({ animationDelay, showData, showBtn, servicelink, serviceTi
             </h4>
             {
                 showData && <>
-                    <img src="/images/service/build-platforms.webp" className="w-28 self-center" alt="" />
+                    <img src="/images/service/build-platforms.png" className="w-28 self-center" alt="" />
                     <p className="text-zinc-400">
                         We assist businesses, individuals, and institutions develop scalable web solutions, designs and interoperable content while assessing and managing privacy and security risks.
                     </p>

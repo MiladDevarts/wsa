@@ -5,7 +5,7 @@ function notFound() {
   return (
     <>
       <section className="container flex flex-col items-center my-10 overflow-x-hidden">
-        <img src="/images/errors/not-found.webp" className="w-full lg:max-w-2xl" alt="" />
+        <img src="/images/errors/not-found.png" className="w-full lg:max-w-2xl" alt="" />
         <div className="flex flex-col gap-y-5 items-center">
           <h2 className='text-white text-xl lg:text-[26px] font-bold mb-3 font-mono text-center'>
             we have lost this page

@@ -22,7 +22,7 @@ function Hero() {
 
     return (
 
-        <section className="overflow-x-hidden  py-10 bg-contain bg-center bg-no-repeat font-sans" style={{ backgroundImage: `url('/images/header/header-bg.webp')` }}>
+        <section className="overflow-x-hidden  py-10 bg-contain bg-center bg-no-repeat font-sans" style={{ backgroundImage: `url('/images/header/header-bg.png')` }}>
             <div className="container">
                 <div data-aos-delay="50" data-aos="fade-up" className="flex flex-col items-center justify-center lg:w-full lg:items-start my-10">
                     {/* Title For Small Devices */}

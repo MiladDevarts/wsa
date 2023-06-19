@@ -63,7 +63,7 @@ function page() {
           <a className="font-bold text-white cursor-pointer mx-2">feedback@whitesnail.com</a>
         </p>
       </div>
-      <section className="w-full h-[700px] bg-[center_top_100px] bg-contain bg-no-repeat" style={{ backgroundImage: `url('/images/contact/earth.webp')` }}>
+      <section className="w-full h-[700px] bg-[center_top_100px] bg-contain bg-no-repeat" style={{ backgroundImage: `url('/images/contact/earth.png')` }}>
         <div className="container">
           <h2 className="flex flex-col gap-y-1 lg:gap-y-4 items-center mb-8  lg:text-4xl text-white font-mono font-extrabold lg:font-semibold">
             <div>

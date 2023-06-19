@@ -198,17 +198,17 @@ function page() {
 
         {
           projectindicator === 1 &&
-          <div data-aos-delay="100" data-aos="fade-down" data-aos-duration="1000" className="lg:w-1/3 w-full bg-white h-full bg-cover rounded-3xl" style={{ backgroundImage: `url('/images/projects/preview-1.webp')` }}></div>
+          <div data-aos-delay="100" data-aos="fade-down" data-aos-duration="1000" className="lg:w-1/3 w-full bg-white h-full bg-cover rounded-3xl" style={{ backgroundImage: `url('/images/projects/preview-1.png')` }}></div>
         }
 
         {
           projectindicator === 2 &&
-          <div data-aos-delay="100" data-aos="fade-up" data-aos-duration="1000" className="lg:w-1/3 w-full bg-white h-full bg-cover rounded-3xl" style={{ backgroundImage: `url('/images/projects/preview-2.webp')` }}></div>
+          <div data-aos-delay="100" data-aos="fade-up" data-aos-duration="1000" className="lg:w-1/3 w-full bg-white h-full bg-cover rounded-3xl" style={{ backgroundImage: `url('/images/projects/preview-2.png')` }}></div>
         }
 
         {
           projectindicator === 3 &&
-          <div data-aos-delay="100" data-aos="fade-down" data-aos-duration="1000" className="lg:w-1/3 w-full bg-white h-full bg-cover rounded-3xl" style={{ backgroundImage: `url('/images/projects/preview-3.webp')` }}></div>
+          <div data-aos-delay="100" data-aos="fade-down" data-aos-duration="1000" className="lg:w-1/3 w-full bg-white h-full bg-cover rounded-3xl" style={{ backgroundImage: `url('/images/projects/preview-3.png')` }}></div>
         }
 
       </section>

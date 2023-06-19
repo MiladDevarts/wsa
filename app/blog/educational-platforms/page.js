@@ -22,7 +22,7 @@ function page() {
           14 June, 2023
         </span>
         <h1 className='font-bold text-3xl'>
-        Educational Platforms
+          Educational Platforms
         </h1>
         <div className="flex items-center gap-x-2">
           <img src={"/images/logos/circle-logo.svg"} className="w-10" alt="" />
@@ -60,19 +60,19 @@ function page() {
 
       <section className='container my-20'>
         <p className='text-white text-lg leading-8 my-8'>
-        Skills Share, Master Class, Udemy , Coursera, Entertainment Platforms. 
+          Skills Share, Master Class, Udemy , Coursera, Entertainment Platforms.
         </p>
         <p className='text-[#B5B5B5] text-lg leading-8 my-8'>
-        Online learning has exploded since COVID leading consumers to become more and more familiar with online learning tools. 
+          Online learning has exploded since COVID leading consumers to become more and more familiar with online learning tools.
         </p>
         <p className='text-[#B5B5B5] text-lg leading-8 my-8'>
-        WSA has a combined team of artists and web developers who make up a modern production company that can create visual and audio content for both learning and entertainment. 
+          WSA has a combined team of artists and web developers who make up a modern production company that can create visual and audio content for both learning and entertainment.
         </p>
         <p className='text-[#B5B5B5] text-lg leading-8 my-8'>
-        Whether creating a custom library of learning tools, music, or podcasts, WSA has the ability to complete technical production, add music and audio, and create custom platforms to reach users directly. 
+          Whether creating a custom library of learning tools, music, or podcasts, WSA has the ability to complete technical production, add music and audio, and create custom platforms to reach users directly.
         </p>
         <p className='text-white text-lg leading-8 my-8'>
-        Users can gain access through a custom platform that is built for individuals or larger institutions such as schools or universities.
+          Users can gain access through a custom platform that is built for individuals or larger institutions such as schools or universities.
         </p>
 
       </section>
@@ -96,7 +96,7 @@ function page() {
           authorAvatar={"/images/logos/circle-logo.svg"}
           date={"14 June, 2023"}
           url="/blog/organic-shop"
-          />
+        />
 
         <RelatedCard
           image={"/images/blog/post-4-cover.webp"}
@@ -106,7 +106,7 @@ function page() {
           authorAvatar={"/images/logos/circle-logo.svg"}
           date={"14 June, 2023"}
           url="/blog/company-communication"
-          />
+        />
 
       </section>
     </>

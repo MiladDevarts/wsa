@@ -22,7 +22,7 @@ function page() {
           14 June, 2023
         </span>
         <h1 className='font-bold text-3xl'>
-        Brand Development and Investment in Ideas
+          Brand Development and Investment in Ideas
         </h1>
         <div className="flex items-center gap-x-2">
           <img src={"/images/logos/circle-logo.svg"} className="w-10" alt="" />
@@ -60,19 +60,19 @@ function page() {
 
       <section className='container my-20'>
         <p className='text-white text-lg leading-8 my-8'>
-        Brand development starts with a quality product but needs much more to succeed in the competitive market. 
+          Brand development starts with a quality product but needs much more to succeed in the competitive market.
         </p>
         <p className='text-[#B5B5B5] text-lg leading-8 my-8'>
-        Every brand needs an appropriate logo, web presence, sales platform, and a marketing strategy. As many brand development companies shift towards automated branding platforms, there is a loss of momentum caused by the impersonal branding process. 
+          Every brand needs an appropriate logo, web presence, sales platform, and a marketing strategy. As many brand development companies shift towards automated branding platforms, there is a loss of momentum caused by the impersonal branding process.
         </p>
         <p className='text-[#B5B5B5] text-lg leading-8 my-8'>
-        At WSA, we strive to invest in ideas and support their success in any way necessary without losing the personal touch. 
-         </p>
-        <p className='text-[#B5B5B5] text-lg leading-8 my-8'>
-        Moreover, if you have an idea that needs an investor, we can help. If you have investment capital but need help with investment ideas, we can help. 
+          At WSA, we strive to invest in ideas and support their success in any way necessary without losing the personal touch.
         </p>
         <p className='text-[#B5B5B5] text-lg leading-8 my-8'>
-        The WSA team has a diverse set of skills and abilities including capital investment and idea sharing for the right partners.
+          Moreover, if you have an idea that needs an investor, we can help. If you have investment capital but need help with investment ideas, we can help.
+        </p>
+        <p className='text-[#B5B5B5] text-lg leading-8 my-8'>
+          The WSA team has a diverse set of skills and abilities including capital investment and idea sharing for the right partners.
         </p>
 
       </section>
@@ -96,7 +96,7 @@ function page() {
           authorAvatar={"/images/logos/circle-logo.svg"}
           date={"14 June, 2023"}
           url="/blog/organic-shop"
-          />
+        />
 
         <RelatedCard
           image={"/images/blog/post-2-cover.webp"}
@@ -106,7 +106,7 @@ function page() {
           authorAvatar={"/images/logos/circle-logo.svg"}
           date={"14 June, 2023"}
           url="/blog/company-communication"
-          />
+        />
 
       </section>
     </>

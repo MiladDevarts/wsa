@@ -60,19 +60,19 @@ function page() {
 
       <section className='container my-20'>
         <p className='text-white text-lg leading-8 my-8'>
-        Business apps are the leading way for employers to efficiently interact with their employees. 
+          Business apps are the leading way for employers to efficiently interact with their employees.
         </p>
         <p className='text-[#B5B5B5] text-lg leading-8 my-8'>
-        Business apps are used to rapidly and efficiently communicate, schedule, and complete tasks. 
+          Business apps are used to rapidly and efficiently communicate, schedule, and complete tasks.
         </p>
         <p className='text-[#B5B5B5] text-lg leading-8 my-8'>
-        Business apps allow companies to automate tasks, forms, and reports across different responsible departments. 
+          Business apps allow companies to automate tasks, forms, and reports across different responsible departments.
         </p>
         <p className='text-[#B5B5B5] text-lg leading-8 my-8'>
-        Custom business apps are incredibly useful for streamlining communication to achieve more productivity off-site or in large facilities. 
+          Custom business apps are incredibly useful for streamlining communication to achieve more productivity off-site or in large facilities.
         </p>
         <p className='text-white text-lg leading-8 my-8'>
-        Businesses which depend on offsite services, like technology installation, insurance claims reports, and emergency services can avoid errors and omissions while rapidly scaling their businesses up to serve more customers.        </p>
+          Businesses which depend on offsite services, like technology installation, insurance claims reports, and emergency services can avoid errors and omissions while rapidly scaling their businesses up to serve more customers.        </p>
 
 
       </section>
