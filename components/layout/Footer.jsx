@@ -21,7 +21,6 @@ function Footer() {
           </div>
         </h2>
         <div>
-          <img src="/images/logos/vertical-white-logo.png" className="w-32 opacity-50 animate-pulse" alt="" />
         </div>
       </section>
       <section className={`container`}>
