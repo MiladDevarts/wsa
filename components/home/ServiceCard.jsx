@@ -22,7 +22,7 @@ function ServiceCard({ animationDelay, showData, showBtn, servicelink, serviceTi
     }, [])
 
     return (
-        <Link data-aos-delay={animationDelay} data-aos="zoom-out-right" href={servicelink} className="font-sans text-white w-full p-8 flex flex-col gap-y-10 rounded-2xl border 
+        <Link data-aos-delay={animationDelay} data-aos="zoom-out-right" href={servicelink} className="keen-slider__slide font-sans text-white w-full p-8 flex flex-col gap-y-10 rounded-2xl border 
     border-white/20">
             <h4 className="text-xl">
                 {serviceTitle}
