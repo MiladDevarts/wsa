@@ -9,8 +9,10 @@ function FAQItem({ title, content }) {
     return (
         <div className='flex flex-col w-full m-auto p-4 lg:p-8 border-b border-white/10 text-white hover:cursor-pointer leading-8 duration-300'>
             <div className='flex justify-between' onClick={() => setIsActive(!isActive)}>
-                <h4 className='font-sans text-sm lg:text-xl text-white'>
-                   
+                <h4 className='flex items-center gap-x-3 font-sans text-sm lg:text-xl text-white'>
+                    <svg width="18" height="2" viewBox="0 0 24 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="1" x2="24" y2="1" stroke="white" stroke-width="2" />
+                    </svg>
                     {title}
                 </h4>
                 <div>

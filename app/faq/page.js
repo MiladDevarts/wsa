@@ -33,12 +33,12 @@ function page() {
      {
         menuVisibility.menu && <Overlay />
       }
-      <section className='container my-24'>
+      <section className='container mt-36 mb-24'>
         <h1 data-aos-delay="400" data-aos="zoom-in-right" data-aos-duration="1000" className='text-6xl lg:text-8xl font-mono font-semibold text-white'>
           FAQ
         </h1>
       </section>
-      <section className="container flex flex-col items-center gap-y-6 my-6">
+      <section className="container flex flex-col items-center gap-y-6 mt-20 mb-32">
         {
           FAQData.map((item) => {
             return <FAQItem title={item.title} content={item.content} />
