@@ -30,7 +30,7 @@ function Overlay() {
             {
                 <section data-aos="slide-left" className=" fixed p-6 lg:p-0 top-0 left-0 w-full h-screen bg-black/100 backdrop-blur-lg z-50 transition-all overflow-hidden">
                     <nav className={`container flex justify-between my-5 lg:my-10 z-50`}>
-                        <Link onClick={() => { menuVisibilty.setMenu(true) }} href="/">
+                        <Link onClick={() => { menuVisibilty.setMenu(false) }} href="/">
                             <img src={"/images/logos/circle-logo.svg"} alt="" />
                         </Link>
                         <div className="flex items-center gap-x-3 hover:cursor-pointer" onClick={() => { menuVisibilty.setMenu(false) }}>

@@ -43,7 +43,7 @@ function page() {
           <div className="flex flex-col gap-y-10 text-white">
             <div className="container mx-auto mt-12">
               <div className={`flex flex-col items-center justify-center w-full`}>
-                <ul data-aos-delay="200" data-aos="fade-up" data-aos-duration="1000" className="w-full hidden lg:flex justify-between">
+                <ul data-aos-delay="200" data-aos="fade-up" data-aos-duration="1000" className="w-full hidden lg:flex justify-between mb-10">
                   <li>
                     <a
                       href="#"
