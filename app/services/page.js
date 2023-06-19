@@ -33,7 +33,7 @@ function page() {
       {
         menuVisibility.menu && <Overlay />
       }
-      <section className='py-10 lg:py-32 bg-right bg-contain bg-no-repeat' style={{ backgroundImage: `url('/images/about/about-bg.png')` }}>
+      <section className='py-10 lg:py-32 bg-right bg-contain bg-no-repeat'>
         <div className="">
           <div className="container">
             <h1 data-aos-delay="400" data-aos="zoom-in-right" data-aos-duration="1000" className='mb-24 text-4xl lg:text-8xl font-semibold text-white font-mono'>
