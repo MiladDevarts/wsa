@@ -15,7 +15,7 @@ function Overlay() {
         Aos.init({
             easing: "ease-out-cubic",
             once: true,
-            offset: 200,
+            offset: 50,
         });
     }, []);
 
@@ -98,9 +98,13 @@ function Overlay() {
                                         Blog
                                     </Link>
                                 </li>
-                                <li className="text-xl font-medium cursor-pointer text-[#7E7E7E]">
-                                    <Link data-aos-delay="9 00" data-aos="fade-up" data-aos-duration="1000" href="/faq" onClick={() => { menuVisibilty.setMenu(false) }}>
-                                        FAQ & Terms
+                                <li className="flex text-xl font-medium cursor-pointer text-[#7E7E7E]">
+                                    <Link className="mr-1" data-aos-delay="90" data-aos="fade-up" data-aos-duration="1000" href="/faq" onClick={() => { menuVisibilty.setMenu(false) }}>
+                                        FAQ 
+                                    </Link>
+                                    &
+                                    <Link className="ml-1" data-aos-delay="90" data-aos="fade-up" data-aos-duration="1000" href="/terms" onClick={() => { menuVisibilty.setMenu(false) }}>
+                                        Terms 
                                     </Link>
                                 </li>
                             </div>
