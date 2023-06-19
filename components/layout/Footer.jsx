@@ -2,8 +2,8 @@ import Link from "next/link"
 
 function Footer() {
   return (
-    <footer className="mt-10 py-10 bg-contain bg-bottom bg-no-repeat" style={{ backgroundImage: `url('/images/footer/footer-bg.png')` }}>
-      <section className="container flex flex-col lg:flex-row lg:justify-between items-center gap-y-6 my-20 lg:my-36">
+    <footer className="mt-10 lg:mt-4 py-10 bg-contain bg-bottom bg-no-repeat" style={{ backgroundImage: `url('/images/footer/footer-bg.png')` }}>
+      <section className="container flex flex-col lg:flex-row lg:justify-between items-center gap-y-6 my-20 lg:mb-36 lg:mt-1">
         <h2 className={`font-mono flex flex-col gap-y-3 lg:gap-y-6 items-start text-xl lg:text-4xl text-white font-bold lg:font-bold`}>
           <div className="flex gap-x-2 items-center">
             Large project
