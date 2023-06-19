@@ -22,7 +22,7 @@ function About() {
   }, [])
 
   return (
-    <section className="w-full py-28 lg:py-48 bg-right-top bg-contain bg-no-repeat" style={{ backgroundImage: `url('/images/header/header-bg.png')` }} >
+    <section className="w-full py-28 lg:py-48 bg-right-top bg-contain bg-no-repeat" style={{ backgroundImage: `url('/images/header/header-bg.webp')` }} >
       <div className="container flex flex-col lg:flex-row gap-y-5">
         <div data-aos-delay="110" data-aos="zoom-in-down" className="lg:w-2/5 w-full flex flex-col gap-y-8 lg:-mt-20">
           <h3 className="text-white text-3xl lg:text-5xl font-bold flex gap-x-2 font-mono">
@@ -52,7 +52,7 @@ function About() {
             <p className="text-[16px] lg:max-w-2xl lg:text-xl font-sans text-zinc-400 ">
               We are
               <span className="text-white inline-block mx-1">a group</span>
-               that creates and manages innovative ideas with the help of industry experts. We also support ideas that preserve the biological balance of nature.
+              that creates and manages innovative ideas with the help of industry experts. We also support ideas that preserve the biological balance of nature.
             </p>
             <Button content={"About us"} link={"/about"} />
           </div>

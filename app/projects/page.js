@@ -132,7 +132,7 @@ function page() {
                 learning platform
               </p>
               <p className="font-light">
-              At WSA, we contribute to new ideas and production - helping small businesses and professionals. We can assist new businesses launch, rebuild existing brands, and help increase sales. In addition, our partners and specialists pursue the common goal of increasing the natural health of people and the environment.
+                At WSA, we contribute to new ideas and production - helping small businesses and professionals. We can assist new businesses launch, rebuild existing brands, and help increase sales. In addition, our partners and specialists pursue the common goal of increasing the natural health of people and the environment.
               </p>
               <div className="hidden lg:flex flex-col gap-y-3 mt-20">
                 <div className="flex justify-between ">
@@ -198,22 +198,22 @@ function page() {
 
         {
           projectindicator === 1 &&
-          <div data-aos-delay="100" data-aos="fade-down" data-aos-duration="1000" className="lg:w-1/3 w-full bg-white h-full bg-cover rounded-3xl" style={{ backgroundImage: `url('/images/projects/preview-1.jpg')` }}></div>
+          <div data-aos-delay="100" data-aos="fade-down" data-aos-duration="1000" className="lg:w-1/3 w-full bg-white h-full bg-cover rounded-3xl" style={{ backgroundImage: `url('/images/projects/preview-1.webp')` }}></div>
         }
 
         {
           projectindicator === 2 &&
-          <div data-aos-delay="100" data-aos="fade-up" data-aos-duration="1000" className="lg:w-1/3 w-full bg-white h-full bg-cover rounded-3xl" style={{ backgroundImage: `url('/images/projects/preview-2.jpg')` }}></div>
+          <div data-aos-delay="100" data-aos="fade-up" data-aos-duration="1000" className="lg:w-1/3 w-full bg-white h-full bg-cover rounded-3xl" style={{ backgroundImage: `url('/images/projects/preview-2.webp')` }}></div>
         }
 
         {
           projectindicator === 3 &&
-          <div data-aos-delay="100" data-aos="fade-down" data-aos-duration="1000" className="lg:w-1/3 w-full bg-white h-full bg-cover rounded-3xl" style={{ backgroundImage: `url('/images/projects/preview-3.jpg')` }}></div>
+          <div data-aos-delay="100" data-aos="fade-down" data-aos-duration="1000" className="lg:w-1/3 w-full bg-white h-full bg-cover rounded-3xl" style={{ backgroundImage: `url('/images/projects/preview-3.webp')` }}></div>
         }
 
       </section>
 
-      
+
 
     </>
   )

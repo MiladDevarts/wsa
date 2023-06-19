@@ -15,7 +15,7 @@ function page() {
       {
         menuVisibility.menu && <Overlay />
       }
-      <section className="flex items-center w-full h-[900px] lg:h-screen bg-cover bg-center mb-20 -mt-32 -z-50" style={{ backgroundImage: `url('/images/projects/cover-1.jpg')` }}>
+      <section className="flex items-center w-full h-[900px] lg:h-screen bg-cover bg-center mb-20 -mt-32 -z-50" style={{ backgroundImage: `url('/images/projects/cover-1.webp')` }}>
         <div className="container text-white">
           <span className="text-6xl lg:text-9xl font-mono font-bold">
             01
@@ -98,7 +98,7 @@ function page() {
               </p>
             </div>
             <div className="w-full lg:w-2/6 flex justify-center">
-              <img src={"/images/projects/catalog-1.png"} />
+              <img src={"/images/projects/catalog-1.webp"} />
             </div>
           </div>
           <p className="container text-[#B5B5B5] text-lg lg:text-xl my-20 font-light">
@@ -111,10 +111,10 @@ function page() {
             The EP can provide certification and credentialing services for students who complete courses or program
           </p>
           <div className="container flex flex-col lg:flex-row gap-y-5 lg:gap-x-10 h-[400px]">
-            <div className="w-full lg:w-2/6 h-full bg-cover bg-no-repeat bg-center rounded-3xl" style={{ backgroundImage: `url('/images/projects/catolog-2.png')` }}>
+            <div className="w-full lg:w-2/6 h-full bg-cover bg-no-repeat bg-center rounded-3xl" style={{ backgroundImage: `url('/images/projects/catolog-2.webp')` }}>
 
             </div>
-            <div className="w-full lg:w-4/6 h-full bg-cover bg-no-repeat bg-center rounded-3xl" style={{ backgroundImage: `url('/images/projects/catolog-3.png')` }}>
+            <div className="w-full lg:w-4/6 h-full bg-cover bg-no-repeat bg-center rounded-3xl" style={{ backgroundImage: `url('/images/projects/catolog-3.webp')` }}>
 
             </div>
           </div>
@@ -128,7 +128,7 @@ function page() {
             The EP provides resources to help users navigate the job market after completing their courses. Users can access job boards, resume building tools, and interview preparation materials.
           </p>
           <div className="container">
-            <div className=" w-full h-[400px] bg-cover bg-no-repeat bg-center rounded-3xl " style={{ backgroundImage: `url('/images/projects/catolog-4.png')` }}>
+            <div className=" w-full h-[400px] bg-cover bg-no-repeat bg-center rounded-3xl " style={{ backgroundImage: `url('/images/projects/catolog-4.webp')` }}>
 
             </div>
           </div>
@@ -165,7 +165,7 @@ function page() {
 
       <section className="container mt-14 mb-20 flex lg:hidden flex-col gap-y-10 text-white">
 
-        <Link data-aos-delay="50" data-aos="zoom-in-down" href="/projects/1" className="w-full h-[550px] flex flex-col justify-center bg-center bg-no-repeat  bg-contain px-16 py-6 gap-y-6" style={{ backgroundImage: `url('/images/projects/project-card-bg-2.jpg')` }}>
+        <Link data-aos-delay="50" data-aos="zoom-in-down" href="/projects/1" className="w-full h-[550px] flex flex-col justify-center bg-center bg-no-repeat  bg-contain px-16 py-6 gap-y-6" style={{ backgroundImage: `url('/images/projects/project-card-bg-2.webp')` }}>
           <span className="font-mono font-bold text-2xl">02</span>
           <p className="text-2xl font-bold">
             Providing a Multipurpose learning platform
@@ -175,7 +175,7 @@ function page() {
           </p>
         </Link>
 
-        <Link data-aos-delay="60" data-aos="zoom-in-down" href="/projects/2" className="w-full h-[550px] flex flex-col justify-center bg-center bg-no-repeat  bg-contain px-16 py-14 gap-y-6" style={{ backgroundImage: `url('/images/projects/project-card-bg.jpg')` }}>
+        <Link data-aos-delay="60" data-aos="zoom-in-down" href="/projects/2" className="w-full h-[550px] flex flex-col justify-center bg-center bg-no-repeat  bg-contain px-16 py-14 gap-y-6" style={{ backgroundImage: `url('/images/projects/project-card-bg.webp')` }}>
           <span className="font-mono font-bold text-2xl">03</span>
           <p className="text-2xl font-bold">
             Providing a Marketplace Platform
@@ -189,7 +189,7 @@ function page() {
 
       <section className="container mt-4 mb-20 lg:flex hidden flex-col gap-y-10 text-white">
 
-        <Link data-aos-delay="50" data-aos="zoom-in-down" href="/projects/1" className="w-full h-96 flex gap-x-10 bg-center bg-no-repeat  bg-contain p-16 gap-y-10" style={{ backgroundImage: `url('/images/projects/project-card-bg-lg.jpg')` }}>
+        <Link data-aos-delay="50" data-aos="zoom-in-down" href="/projects/1" className="w-full h-96 flex gap-x-10 bg-center bg-no-repeat  bg-contain p-16 gap-y-10" style={{ backgroundImage: `url('/images/projects/project-card-bg-lg.webp')` }}>
           <span className="inline-block text-center w-1/6 my-10 font-mono font-bold text-2xl">02</span>
           <div className="flex flex-col w-5/6 gap-y-10 my-10">
             <p className="text-2xl font-bold text-white">

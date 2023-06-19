@@ -20,16 +20,16 @@ function Price() {
     }, [])
 
     return (
-        <section className="flex flex-col justify-center items-center w-full py-64 my-20  bg-no-repeat bg-center bg-cover" style={{ backgroundImage: `url('/images/brand/price-bg.png')` }}>
-            <div data-aos-delay="200" data-aos="fade-up" data-aos-duration="1000"  className="w-4/6 lg:w-1/6 h-10 rounded-t-2xl bg-white text-black font-sans flex justify-center items-center">
+        <section className="flex flex-col justify-center items-center w-full py-64 my-20  bg-no-repeat bg-center bg-cover" style={{ backgroundImage: `url('/images/brand/price-bg.webp')` }}>
+            <div data-aos-delay="200" data-aos="fade-up" data-aos-duration="1000" className="w-4/6 lg:w-1/6 h-10 rounded-t-2xl bg-white text-black font-sans flex justify-center items-center">
                 Today price
             </div>
-            <div data-aos-delay="400" data-aos="fade-up" data-aos-duration="1000"  className="flex justify-between gap-x-4 w-5/6 lg:w-1/5 p-4 h-36 rounded-3xl bg-black/30 backdrop-blur-xl">
+            <div data-aos-delay="400" data-aos="fade-up" data-aos-duration="1000" className="flex justify-between gap-x-4 w-5/6 lg:w-1/5 p-4 h-36 rounded-3xl bg-black/30 backdrop-blur-xl">
                 ‍‍<div className="flex flex-col gap-y-2 w-4/6">
                     <span className="flex items-center h-1/2 font-sans text-zinc-400">
                         7d Low / 7d High
                     </span>
-                    <span className="font-sans font-bold text-lg text-white">
+                    <span className="font-sans font-bold text-lg s text-white">
                         $19.95 / $25.43
                     </span>
                 </div>

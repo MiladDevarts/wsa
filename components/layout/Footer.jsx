@@ -2,12 +2,12 @@ import Link from "next/link"
 
 function Footer() {
   return (
-    <footer className="mt-10 py-10 bg-contain bg-bottom bg-no-repeat" style={{ backgroundImage: `url('/images/footer/footer-bg.png')` }}>
+    <footer className="mt-10 py-10 bg-contain bg-bottom bg-no-repeat" style={{ backgroundImage: `url('/images/footer/footer-bg.webp')` }}>
       <section className="container flex flex-col lg:flex-row lg:justify-between items-center gap-y-6 my-36">
         <h2 className={`font-mono flex flex-col gap-y-3 lg:gap-y-6 items-start text-lg lg:text-4xl text-white font-bold lg:font-bold`}>
           <div className="flex gap-x-2 items-center">
             Large project
-            <span className="inline-block bg-white lg:w-44 w-24 h-10 lg:h-14 rounded-full px-2 bg-cover bg-center ml-2 lg:ml-4" style={{ backgroundImage: `url('/images/footer/footer-badge.png')` }}>
+            <span className="inline-block bg-white lg:w-44 w-24 h-10 lg:h-14 rounded-full px-2 bg-cover bg-center ml-2 lg:ml-4" style={{ backgroundImage: `url('/images/footer/footer-badge.webp')` }}>
             </span>
           </div>
           <div>
@@ -21,7 +21,7 @@ function Footer() {
           </div>
         </h2>
         <div>
-          <img src="/images/logos/vertical-white-logo.png" className="w-32 opacity-50 animate-pulse" alt="" />
+          <img src="/images/logos/vertical-white-logo.webp" className="w-32 opacity-50 animate-pulse" alt="" />
         </div>
       </section>
       <section className={`container`}>

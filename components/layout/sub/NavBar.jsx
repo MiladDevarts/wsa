@@ -5,7 +5,7 @@ function NavBar() {
 
     return (
         <>
-            <nav className="py-10 lg:py-10 z-50 bg-contain bg-no-repeat bg-center" style={{ backgroundImage: `url('/images/header/nav-bg.png')` }}>
+            <nav className="py-10 lg:py-10 z-50 bg-contain bg-no-repeat bg-center" style={{ backgroundImage: `url('/images/header/nav-bg.webp')` }}>
                 <div className="container flex justify-between ">
                     <Link href="/">
                         <img src="./images/logos/white-logo.svg" alt="" />
