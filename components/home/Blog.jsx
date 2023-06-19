@@ -7,7 +7,6 @@ function Blog() {
     <>
       <TitleSection title="Blog" link="/blog" />
       <section className="blog-container">
-
         <BlogCard
           image={""}
           title={"Educational Platforms"}
@@ -17,7 +16,6 @@ function Blog() {
           date={"14 June, 2023"}
           url="/blog/educational-platforms"
         />
-
         <BlogCard
           image={"./images/blog/post-1-cover.webp"}
           title={"Advertising Platforms "}
@@ -27,7 +25,6 @@ function Blog() {
           date={"14 June, 2023"}
           url="/blog/advertising-platforms"
         />
-
         <BlogCard
           image={"./images/blog/post-5-cover.webp"}
           title={"Brand Development and Investment in Ideas"}
@@ -37,7 +34,6 @@ function Blog() {
           date={"14 June, 2023"}
           url="/blog/brand-development"
         />
-
         <BlogCard
           image={""}
           title={"Company Communication & Scheduling Platform"}
@@ -47,7 +43,6 @@ function Blog() {
           date={"14 June, 2023"}
           url="/blog/company-communication"
         />
-
       </section>
     </>
   )

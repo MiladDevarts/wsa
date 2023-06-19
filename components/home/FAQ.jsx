@@ -11,7 +11,7 @@ function FAQ() {
   return (
     <>
       <TitleSection title={"FAQ"} link={"/faq"} />
-      <section className="container flex flex-col items-center gap-y-6 mb-32">
+      <section className="container flex flex-col items-center gap-y-6 mb-6">
         {
           FAQD.map((item) => {
             return <FAQItem title={item.title} content={item.content} />
