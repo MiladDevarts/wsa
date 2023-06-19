@@ -33,7 +33,7 @@ function Projects() {
                     <p className="text-2xl font-bold">
                         Providing a Multipurpose Educational Platform
                     </p>
-                    <p className="leading-8 text-lg">
+                    <p className="leading-8 text-xl font-medium">
                         We believe that education is the foundation for a better future...
                     </p>
                 </div>
@@ -74,18 +74,18 @@ function Projects() {
                     </div>
                 </Link>
 
-                <Link data-aos-delay="60" data-aos="zoom-in-down" href="/projects" className="w-full h-56 flex gap-x-10 p-16 px-16 pt-8 pb-6 gap-y-6 border-b border-[#2D2D2D] items-center">
-                    <span className="inline-block text-center w-1/6 my-10 font-mono font-bold text-2xl">02</span>
-                    <div className="flex flex-col w-5/6 gap-y-10 my-10">
+                <Link data-aos-delay="60" data-aos="zoom-in-down" href="/projects" className="w-full h-56 flex gap-x-10 p-16 px-16 pt-8 pb-6 gap-y-6 border-b border-[#2D2D2D] justify-center items-center">
+                    <span className="inline-block w-20 text-center my-10 font-mono font-bold text-2xl">02</span>
+                    <div className="inline-flex flex-col w-[500px] gap-y-10 my-10">
                         <p className="text-2xl font-bold">
                             - Providing a Multipurpose learning platform
                         </p>
                     </div>
                 </Link>
 
-                <Link data-aos-delay="70" data-aos="zoom-in-down" href="/projects" className="w-full h-56 flex gap-x-10 p-16 px-16 pt-8 pb-6 gap-y-6 border-b border-[#2D2D2D] items-center">
-                    <span className="inline-block text-center w-1/6 my-10 font-mono font-bold text-2xl">03</span>
-                    <div className="flex flex-col w-5/6 gap-y-10 my-10">
+                <Link data-aos-delay="70" data-aos="zoom-in-down" href="/projects" className="w-full h-56 flex gap-x-10 p-16 px-16 pt-8 pb-6 gap-y-6 border-b border-[#2D2D2D] items-center justify-center">
+                    <span className="inline-block w-20 text-center my-10 font-mono font-bold text-2xl">03</span>
+                    <div className="flex flex-col w-[500px] gap-y-10 my-10">
                         <p className="text-2xl font-bold">
                             - Providing a Marketplace Platform
                         </p>
