@@ -84,7 +84,7 @@ function Footer() {
           </div>
         </div>
         <div className="flex flex-col lg:flex-row lg:justify-between mt-10 text-zinc-400">
-          <ul className="text-white grid grid-cols-2 gap-y-3 lg:flex lg:gap-x-8 mb-4 lg:mb-0">
+          <ul className="text-[#8C8C8C] grid grid-cols-2 gap-y-3 lg:flex lg:gap-x-8 mb-4 lg:mb-0">
             <li className="w-full lg:w-auto">
               <Link href="/services">
                 Services
@@ -119,7 +119,7 @@ function Footer() {
               Privacy policy
             </li>
           </ul>
-          <span className="w-full lg:w-auto text-right text-sm">© 2023, All Rights Reserved Wsa Team | Design By <a className="font-bold text-white" href="http://www.rivdesign.se/">Riv Design</a> </span>
+          <span className="w-full lg:w-auto text-right text-xs">© 2023, All Rights Reserved Wsa Team | Designed By <a className="font-bold text-white" href="http://www.rivdesign.se/">Riv Design</a> </span>
         </div>
       </section>
     </footer>
