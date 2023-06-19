@@ -39,16 +39,16 @@ function page() {
                         <StampTwo />
                     </div>
                     <div className="flex flex-col gap-y-10 text-white">
-                        <h4 className="">
+                        <h4 className="text-2xl mb-10">
                             Welcome to
                             <a className="inline-block mx-2 -mt-2 font-mono border-b border-white/30">
                                 White Snail America
                             </a>
                             company
                         </h4>
-                        <p className="text-white max-w-lg">
+                        <p className="text-white max-w-lg text-lg">
                             We are a group that creates and manages innovative ideas with the help of industry experts. We also support ideas that preserve the biological balance of nature.                        </p>
-                        <p className="text-zinc-300 max-w-4xl">
+                        <p className="text-zinc-300 max-w-4xl text-lg">
                             Contribute to new ideas and production, helping small and personal businesses and rebuilding them if needed and supporting to increase their sales, gives us a pleasant feeling. Our colleagues and specialists pursue common goals to increase the knowledge and health of people, and environment.                        </p>
                     </div>
                 </div>
