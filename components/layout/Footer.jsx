@@ -3,8 +3,8 @@ import Link from "next/link"
 function Footer() {
   return (
     <footer className="mt-10 py-10 bg-contain bg-bottom bg-no-repeat" style={{ backgroundImage: `url('/images/footer/footer-bg.png')` }}>
-      <section className="container flex flex-col lg:flex-row lg:justify-between items-center gap-y-6 my-36">
-        <h2 className={`font-mono flex flex-col gap-y-3 lg:gap-y-6 items-start text-lg lg:text-4xl text-white font-bold lg:font-bold`}>
+      <section className="container flex flex-col lg:flex-row lg:justify-between items-center gap-y-6 my-20 lg:my-36">
+        <h2 className={`font-mono flex flex-col gap-y-3 lg:gap-y-6 items-start text-xl lg:text-4xl text-white font-bold lg:font-bold`}>
           <div className="flex gap-x-2 items-center">
             Large project
             <span className="inline-block bg-white lg:w-44 w-24 h-10 lg:h-14 rounded-full px-2 bg-cover bg-center ml-2 lg:ml-4" style={{ backgroundImage: `url('/images/footer/footer-badge.png')` }}>
@@ -24,7 +24,7 @@ function Footer() {
         </div>
       </section>
       <section className={`container`}>
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-y-5 lg:gap-x-5 my-4">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-y-5 lg:gap-x-5 mt-4 mb-16">
           <div className="flex gap-x-3 items-center">
             <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M25.5 30.75H10.5C6 30.75 3 28.5 3 23.25V12.75C3 7.5 6 5.25 10.5 5.25H25.5C30 5.25 33 7.5 33 12.75V23.25C33 28.5 30 30.75 25.5 30.75Z" stroke="#8C8C8C" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
@@ -118,7 +118,7 @@ function Footer() {
               Privacy policy
             </li>
           </ul>
-          <span className="w-full lg:w-auto text-right text-xs">© 2023, All Rights Reserved Wsa Team | Designed By <a className="font-bold text-white" href="http://www.rivdesign.se/">Riv Design</a> </span>
+          <span className="w-full lg:w-auto text-right text-xs mt-10 lg:mt-0">© 2023, All Rights Reserved Wsa Team | Designed By <a className="font-bold text-white" href="http://www.rivdesign.se/">Riv Design</a> </span>
         </div>
       </section>
     </footer>
