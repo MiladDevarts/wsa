@@ -60,8 +60,35 @@ function page() {
           </a>
         </Link>
       </section>
-      <section className="blog-container">
 
+      <section className="w-full h-96 bg-white mb-32 bg-cover" style={{ backgroundImage: `url('/images/blog/slider-bg.png')` }}>
+        <Link href={"/blog/performance-management"} className="block container py-20">
+          <h4 className="text-2xl font-bold font-sans my-6 text-white">
+            Performance Management
+          </h4>
+          <p className="text-[#E1E1E1] text-lg my-4 max-w-lg mb-8">
+            For a concert, we think of everything, stage, sound, location, video, security, advertising, high quality, total package.
+          </p>
+          <span className="font-light text-white">
+            14 June, 2023
+          </span>
+          <div className="flex items-center gap-x-2 my-6 text-white">
+            <img src="/images/logos/circle-logo.svg" className="w-6" alt="" />
+            <span className="text-sm font-semibold">
+              WSA Board
+            </span>
+          </div>
+        </Link>
+      </section>
+
+      <section className="container flex justify-center mb-16">
+        <div className="w-full lg:max-w-xl flex gap-x-4">
+          <input type="text" className="w-[65%] h-[80px] p-4 rounded-xl focus:bordr-none focus:shadow-none focus:outline-none focus:bg-[#141414] bg-[#0C0C0C] text-[#363636]" placeholder="Search here" />
+          <input type="submit" className="w-[35%] h-[80px] p-4 rounded-xl bg-white text-black"/>
+        </div>
+      </section>
+
+      <section className="blog-container">
         <BlogCard
           image={""}
           title={"Educational Platforms"}
@@ -81,7 +108,6 @@ function page() {
           date={"14 June, 2023"}
           url="/blog/advertising-platforms"
         />
-
         <BlogCard
           image={"/images/blog/post-5-cover.webp"}
           title={"Brand Development and Investment in Ideas"}
@@ -91,7 +117,6 @@ function page() {
           date={"14 June, 2023"}
           url="/blog/brand-development"
         />
-
         <BlogCard
           image={""}
           title={"Company Communication & Scheduling Platform"}
@@ -101,7 +126,6 @@ function page() {
           date={"14 June, 2023"}
           url="/blog/company-communication"
         />
-
         <BlogCard
           image={""}
           title={"Performance Management"}
@@ -111,7 +135,6 @@ function page() {
           date={"14 June, 2023"}
           url="/blog/performance-management"
         />
-
       </section>
     </>
   )
