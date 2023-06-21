@@ -33,7 +33,7 @@ function page() {
           <h1 data-aos-delay="400" data-aos="zoom-in-right" data-aos-duration="1000" className='text-4xl lg:text-8xl font-mono font-semibold text-white'>
             Contact Us
           </h1>
-          <p className="text-lg lg:text-2xl font-medium text-[#B5B5B5] ">
+          <p className="text-lg lg:text-xl font-medium text-[#B5B5B5] ">
             Thank you for your interest in our website . We are committed to providing our users with the best experience possible, and we welcome your questions, comments, and feedback.
           </p>
         </div>
@@ -63,9 +63,28 @@ function page() {
           <a className="font-bold text-white cursor-pointer mx-2">feedback@whitesnail.com</a>
         </p>
       </div>
-      <section className="w-full h-[800px] bg-[center_top_100px] bg-contain bg-no-repeat" style={{ backgroundImage: `url('/images/contact/earth.png')` }}>
+      <section className="hidden lg:block w-full h-[800px] bg-[center_top_100px] bg-contain bg-no-repeat" style={{ backgroundImage: `url('/images/contact/earth.png')` }}>
         <div className="container">
           <h2 className="flex flex-col gap-y-1 lg:gap-y-4 items-center mb-8  lg:text-4xl text-white font-mono font-extrabold lg:font-semibold">
+            <div>
+              Thank you for
+              <span className="inline-block mx-1 font-thin">choosing</span>
+              our
+            </div>
+            <div className="flex gap-x-4">
+              platform. We look f orward
+            </div>
+            <div className="flex gap-x-2">
+              to
+              <span className="inline-block mx-1 font-thin">hearing</span>
+              from you!
+            </div>
+          </h2>
+        </div>
+      </section>
+      <section className="block lg:hidden w-full h-[800px] bg-[center_top_0px] bg-cover bg-no-repeat" style={{ backgroundImage: `url('/images/contact/earth-mb.png')` }}>
+        <div className="container">
+          <h2 className="flex flex-col gap-y-1 items-center mb-8  text-white font-mono font-extrabold lg:font-semibold">
             <div>
               Thank you for
               <span className="inline-block mx-1 font-thin">choosing</span>

@@ -83,7 +83,7 @@ function page() {
                 </span>
                 Educational Platform
               </p>
-              <p className="font-light">
+              <p className="font-light max-w-xl leading-8">
                 We believe that education is the foundation for a better future. This platform is designed to provide high-quality educational resources for learners of all ages and backgrounds. All educators, artists, and field experts can sell their education courses on this platform or share their courses with other teachers for free.
               </p>
               <Button content="Full project" link="/projects/1" />
