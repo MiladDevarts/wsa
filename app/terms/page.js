@@ -36,7 +36,7 @@ function page() {
           <h1 data-aos-delay="400" data-aos="zoom-in-right" data-aos-duration="1000" className='text-4xl lg:text-8xl font-mono font-semibold text-white'>
             Terms
           </h1>
-          <p className="text-[#B5B5B5]">
+          <p className="text-[#B5B5B5] my-10">
             Last Updated May, 2023
           </p>
         </div>
