@@ -131,10 +131,10 @@ function page() {
                 </span>
                 learning platform
               </p>
-              <p className="font-light">
+              <p className="font-light max-w-xl leading-8">
                 At WSA, we contribute to new ideas and production - helping small businesses and professionals. We can assist new businesses launch, rebuild existing brands, and help increase sales. In addition, our partners and specialists pursue the common goal of increasing the natural health of people and the environment.
               </p>
-              <div className="hidden lg:flex flex-col gap-y-3 mt-20">
+              <div className="hidden lg:flex flex-col gap-y-3 mt-56">
                 <div className="flex justify-between ">
                   <div className="flex gap-x-3">
                     <svg className="cursor-pointer" onClick={() => { handlePrevProject() }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 20L13.425 18.6L7.825 13H20V11H7.825L13.425 5.4L12 4L4 12L12 20Z" fill="white" /> </svg>
@@ -177,10 +177,10 @@ function page() {
                 </span>
                 Platform
               </p>
-              <p className="font-light">
+              <p className="font-light max-w-xl leading-8">
                 We understand that starting an online business can be daunting, so we strive to provide a user-friendly platform with all the tools and resources you need to succeed. Whether you're a seasoned entrepreneur or just starting out, our platform makes it easy to list and sell your products, manage orders, and connect with customers.
               </p>
-              <div className="hidden lg:flex flex-col gap-y-3 mt-20">
+              <div className="hidden lg:flex flex-col gap-y-3 mt-56">
                 <div className="flex justify-between ">
                   <div className="flex gap-x-3">
                     <svg className="cursor-pointer" onClick={() => { handlePrevProject() }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 20L13.425 18.6L7.825 13H20V11H7.825L13.425 5.4L12 4L4 12L12 20Z" fill="white" /> </svg>
