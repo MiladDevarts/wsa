@@ -52,12 +52,12 @@ function page() {
 
       <section className='container my-5 flex flex-col lg:flex-row gap-y-10 lg:gap-x-28 h-screen' >
 
-        <div className="lg:w-2/3 w-full text-white">
+        <div className="lg:w-7/12 w-full text-white">
 
           {/* Project 1 (Content) */}
           {
             projectindicator === 1 &&
-            <div data-aos-delay="100" data-aos="fade-right" data-aos-duration="1000" className="w-full  flex flex-col gap-y-14 text-white">
+            <div data-aos-delay="100" data-aos="fade-right" data-aos-duration="1000" className="w-full flex flex-col gap-y-14 text-white">
               <h1 className="flex items-center gap-x-4 font-mono text-5xl lg:text-6xl font-bold mt-10">
                 Projects
                 <span className="text-[#2D2D2D] text-3xl">
@@ -198,17 +198,17 @@ function page() {
 
         {
           projectindicator === 1 &&
-          <div data-aos-delay="100" data-aos="fade-down" data-aos-duration="1000" className="lg:w-1/3 w-full bg-white h-full bg-cover rounded-3xl" style={{ backgroundImage: `url('/images/projects/preview-1.png')` }}></div>
+          <div data-aos-delay="100" data-aos="fade-down" data-aos-duration="1000" className="lg:w-5/12 w-full bg-white h-full bg-cover rounded-3xl" style={{ backgroundImage: `url('/images/projects/preview-1.png')` }}></div>
         }
 
         {
           projectindicator === 2 &&
-          <div data-aos-delay="100" data-aos="fade-up" data-aos-duration="1000" className="lg:w-1/3 w-full bg-white h-full bg-cover rounded-3xl" style={{ backgroundImage: `url('/images/projects/preview-2.png')` }}></div>
+          <div data-aos-delay="100" data-aos="fade-up" data-aos-duration="1000" className="lg:w-5/12 w-full bg-white h-full bg-cover rounded-3xl" style={{ backgroundImage: `url('/images/projects/preview-2.png')` }}></div>
         }
 
         {
           projectindicator === 3 &&
-          <div data-aos-delay="100" data-aos="fade-down" data-aos-duration="1000" className="lg:w-1/3 w-full bg-white h-full bg-cover rounded-3xl" style={{ backgroundImage: `url('/images/projects/preview-3.png')` }}></div>
+          <div data-aos-delay="100" data-aos="fade-down" data-aos-duration="1000" className="lg:5/12  w-full bg-white h-full bg-cover rounded-3xl" style={{ backgroundImage: `url('/images/projects/preview-3.png')` }}></div>
         }
 
       </section>
