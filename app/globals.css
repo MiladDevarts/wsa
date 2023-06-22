@@ -77,3 +77,16 @@ body {
 /* .overlay-item:hover svg{
     display: block;
 } */
+
+
+/* Change the white to any color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #121212 inset !important;
+}
+
+input:-webkit-autofill{
+  -webkit-text-fill-color: #484848 !important;
+}
