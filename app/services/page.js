@@ -92,7 +92,7 @@ function page() {
                     </a>
                   </li>
                 </ul>
-                <details class="lg:hidden dropdown mb-2 w-full bg-[#0C0C0C]">
+                <details class="lg:hidden dropdown mb-2 w-full bg-[#1b1b1b] z-50">
                   <summary class="m-1 btn w-full">Build platforms</summary>
                   <ul class="p-4 shadow menu dropdown-content bg-base-100 rounded-box w-full">
                     <li><a href="#serviceBox" onClick={() => setOpenTab(1)}>Platform Building</a></li>
