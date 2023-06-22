@@ -58,7 +58,7 @@ function Projects() {
                     </p>
                 </div>
 
-                <div className="keen-slider__slide w-full h-[550px] flex lg:hidden  flex-col justify-center bg-center bg-no-repeat  bg-contain px-16 p-10 gap-y-6" style={{ backgroundImage: `url('/images/projects/project-card-bg-2.png')` }}>
+                <div className="keen-slider__slide w-full h-[550px] flex lg:hidden  flex-col justify-center bg-center bg-no-repeat  bg-contain px-16 p-10 gap-y-6" style={{ backgroundImage: `url('/images/projects/project-card-bg.png')` }}>
                     <span className="font-mono font-bold text-xl">02</span>
                     <p className="text-xl font-bold">
                         Providing a Multipurpose learning platform
