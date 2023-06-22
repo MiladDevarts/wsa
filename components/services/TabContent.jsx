@@ -3,7 +3,7 @@
 function TabContent({id, title, content, openTab,image}) {
 
     return (
-        <div data-aos-delay="1" data-aos="fade-left"  className={openTab === id ? `flex flex-col gap-y-2 lg:gap-x-4  lg:flex-row w-full  justify-between` : `hidden`}>
+        <div data-aos="fade-left"  className={openTab === id ? `flex flex-col gap-y-2 lg:gap-x-4  lg:flex-row w-full  justify-between` : `hidden` }>
             <div className="flex flex-col p-4 lg:p-16 rounded-3xl gap-y-4 w-full lg:w-2/3 bg-[#0C0C0C] transition-all duration-200">
                 <h3 className="text-2xl mt-2 mb-4">
                     {title}

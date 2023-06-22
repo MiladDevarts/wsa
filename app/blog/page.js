@@ -4,7 +4,7 @@ import BlogCard from "@/components/home/BlogCard"
 import Overlay from "@/components/layout/Overlay"
 
 import { MenuContext } from "@/context/MenuProvider"
-import { useContext, useEffect } from "react"
+import { useContext, useEffect, useState } from "react"
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -14,6 +14,64 @@ import Link from "next/link"
 function page() {
 
   let menuVisibility = useContext(MenuContext)
+
+  let [blogCards, setBlogCards] = useState([
+    {
+      image: "",
+      title: "Educational Platforms",
+      summery: "Online learning has exploded since COVID leading consumers to become more and more familiar with online learning tools. ",
+      author: "WSA Board",
+      authorAvatar: "/images/logos/circle-logo.svg",
+      date: "14 June, 2023",
+      url: "/blog/educational-platforms",
+    },
+    {
+      image: "/images/blog/post-1-cover.webp",
+      title: "Advertising Platforms",
+      summery: "Unique audiences and communities have to ask themselves if the mainstream advertising giants have adequately met their particular needs while still respecting their privacy. ",
+      author: "WSA Board",
+      authorAvatar: "/images/logos/circle-logo.svg",
+      date: "14 June, 2023",
+      url: "/blog/advertising-platforms",
+    },
+    {
+      image: "/images/blog/post-5-cover.webp",
+      title: "Brand Development and Investment in Ideas",
+      summery: "Unique audiences and communities have to ask themselves if the mainstream advertising giants have adequately met their particular needs while still respecting their privacy. ",
+      author: "WSA Board",
+      authorAvatar: "/images/logos/circle-logo.svg",
+      date: "14 June, 2023",
+      url: "/blog/brand-development",
+    },
+    {
+      image: "",
+      title: "Company Communication & Scheduling Platform",
+      summery: "Business apps are the leading way for employers to efficiently interact with their employees. ",
+      author: "WSA Board",
+      authorAvatar: "/images/logos/circle-logo.svg",
+      date: "14 June, 2023",
+      url: "/blog/company-communication",
+    },
+  ])
+
+  let [searchVal, setSearchVal] = useState("")
+
+  function handleSearchClick() {
+    if (searchVal === "") { setBlogCards(blogCards); return; }
+    const filterBySearch = blogCards.filter((item) => {
+      if (item.title.toLowerCase()
+        .includes(searchVal.toLowerCase())) { return item; }
+    })
+    setBlogCards(filterBySearch);
+  }
+
+  function handleChabge(e) {
+    
+    setSearchVal(e.target.value)
+    if (searchVal == "") {
+      e.target.value = ""
+    }
+  }
 
   useEffect(() => {
     Aos.init({
@@ -83,58 +141,29 @@ function page() {
 
       <section className="container flex justify-center mb-16">
         <div className="w-full lg:max-w-xl flex gap-x-4">
-          <input type="text" className="w-[65%] h-[80px] p-4 rounded-xl focus:bordr-none focus:shadow-none focus:outline-none focus:bg-[#141414] bg-[#0C0C0C] text-[#363636]" placeholder="Search here" />
-          <input type="submit" className="w-[35%] h-[80px] p-4 rounded-xl bg-white text-black"/>
+          <input onChange={handleChabge} type="text" className="w-[65%] h-[80px] p-4 text-white rounded-xl focus:bordr-none focus:shadow-none focus:outline-none focus:bg-[#141414] bg-[#0C0C0C] text-[#363636]" placeholder="Search here" />
+          <input onClick={handleSearchClick} type="submit" className="cursor-pointer w-[35%] h-[80px] p-4 rounded-xl bg-white text-black" />
         </div>
       </section>
 
       <section className="blog-container">
-        <BlogCard
-          image={""}
-          title={"Educational Platforms"}
-          summery={"Online learning has exploded since COVID leading consumers to become more and more familiar with online learning tools. "}
-          author={"WSA Board"}
-          authorAvatar={"/images/logos/circle-logo.svg"}
-          date={"14 June, 2023"}
-          url="/blog/educational-platforms"
-        />
 
-        <BlogCard
-          image={"/images/blog/post-1-cover.webp"}
-          title={"Advertising Platforms "}
-          summery={"Unique audiences and communities have to ask themselves if the mainstream advertising giants have adequately met their particular needs while still respecting their privacy. "}
-          author={"WSA Board"}
-          authorAvatar={"/images/logos/circle-logo.svg"}
-          date={"14 June, 2023"}
-          url="/blog/advertising-platforms"
-        />
-        <BlogCard
-          image={"/images/blog/post-5-cover.webp"}
-          title={"Brand Development and Investment in Ideas"}
-          summery={"Brand development starts with a quality product but needs much more to succeed in the competitive market. "}
-          author={"WSA Board"}
-          authorAvatar={"/images/logos/circle-logo.svg"}
-          date={"14 June, 2023"}
-          url="/blog/brand-development"
-        />
-        <BlogCard
-          image={""}
-          title={"Company Communication & Scheduling Platform"}
-          summery={"Business apps are the leading way for employers to efficiently interact with their employees. "}
-          author={"WSA Board"}
-          authorAvatar={"/images/logos/circle-logo.svg"}
-          date={"14 June, 2023"}
-          url="/blog/company-communication"
-        />
-        <BlogCard
-          image={""}
-          title={"Performance Management"}
-          summery={"For a concert, we think of everything, stage, sound, location, video, security, advertising, high quality, total package."}
-          author={"WSA Board"}
-          authorAvatar={"/images/logos/circle-logo.svg"}
-          date={"14 June, 2023"}
-          url="/blog/performance-management"
-        />
+        {
+          blogCards.map((item) => {
+            return (
+              <BlogCard
+                image={item.image}
+                title={item.title}
+                summery={item.summery}
+                author={item.author}
+                authorAvatar={item.authorAvatar}
+                date={item.date}
+                url={item.url}
+              />
+            )
+          })
+        }
+
       </section>
     </>
   )
