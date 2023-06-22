@@ -134,7 +134,7 @@ function Overlay() {
                                 <span className="text-sm lg:text-xl mb-2 text-white">
                                     Any question left ?  we are ready to help
                                 </span>
-                                <Button content={"About us"} outline={true} link={"/about"} />
+                                <Button content={"Contact us"} outline={true} link={"/contact"} />
                             </div>
                         </div>
                     </div>
