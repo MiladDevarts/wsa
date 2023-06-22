@@ -208,7 +208,7 @@ function page() {
 
         {
           projectindicator === 3 &&
-          <div data-aos-delay="100" data-aos="fade-down" data-aos-duration="1000" className="lg:5/12  w-full bg-white h-full bg-cover rounded-3xl" style={{ backgroundImage: `url('/images/projects/preview-3.png')` }}></div>
+          <div data-aos-delay="100" data-aos="fade-down" data-aos-duration="1000" className="lg:w-5/12  w-full bg-white h-full bg-cover rounded-3xl" style={{ backgroundImage: `url('/images/projects/preview-3.png')` }}></div>
         }
 
       </section>
