@@ -89,7 +89,7 @@ function Overlay() {
                                     </Link>
                                 </li>
                                 <li className="text-xl font-medium cursor-pointer text-[#7E7E7E]">
-                                    <Link data-aos-delay="800" data-aos="fade-up" data-aos-duration="1000" href="/team-login" onClick={() => { menuVisibilty.setMenu(false) }}>
+                                    <Link data-aos-delay="800" data-aos="fade-up" data-aos-duration="1000" href="/team-gate" onClick={() => { menuVisibilty.setMenu(false) }}>
                                         Team Log in
                                     </Link>
                                 </li>

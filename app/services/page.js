@@ -20,7 +20,7 @@ function page() {
   useEffect(() => {
     Aos.init({
       easing: "ease-out-cubic",
-      offset: 0,
+      offset: -100,
     });
   }, []);
 
