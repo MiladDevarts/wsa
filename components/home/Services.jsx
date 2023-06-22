@@ -14,7 +14,7 @@ function Services() {
         {
             breakpoints: {
                 "(min-width: 160px)": {
-                    slides: { perView: 1.5, spacing: 20 },
+                    slides: { perView: 1.2, spacing: 20 },
                 },
                 "(min-width: 768px)": {
                     slides: { perView: 0, spacing: 20 },
