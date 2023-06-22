@@ -94,12 +94,12 @@ function page() {
                 </ul>
                 <details class="lg:hidden dropdown mb-2 w-full bg-[#1b1b1b] z-50">
                   <summary class="m-1 btn w-full">Build platforms</summary>
-                  <ul class="p-4 shadow menu dropdown-content bg-base-100 rounded-box w-full">
-                    <li><a href="#serviceBox" onClick={() => setOpenTab(1)}>Platform Building</a></li>
-                    <li><a onClick={() => setOpenTab(2)}>Brand Development</a></li>
-                    <li><a onClick={() => setOpenTab(3)}>Multipurpose Educational Platform</a></li>
-                    <li><a onClick={() => setOpenTab(4)}>Performance management</a></li>
-                    <li><a onClick={() => setOpenTab(5)}>Art Management</a></li>
+                  <ul class="flex flex-col gap-y-4 p-6 shadow menu dropdown-content bg-base-100 rounded-box w-full">
+                    <li className="bg-[#1C1C1C] text-[#B5B5B5] rounded-lg text-center p-5 flex justify-center"><a className="text-lg text-center flex justify-center" href="#serviceBox" onClick={() => setOpenTab(1)}>Platform Building</a></li>
+                    <li className="bg-[#1C1C1C] text-[#B5B5B5] rounded-lg text-center p-5 flex justify-center"><a className="text-lg text-center flex justify-center" onClick={() => setOpenTab(2)}>Brand Development</a></li>
+                    <li className="bg-[#1C1C1C] text-[#B5B5B5] rounded-lg text-center p-5 flex justify-center"><a className="text-lg text-center flex justify-center" onClick={() => setOpenTab(3)}>Multipurpose Educational Platform</a></li>
+                    <li className="bg-[#1C1C1C] text-[#B5B5B5] rounded-lg text-center p-5 flex justify-center"><a className="text-lg text-center flex justify-center" onClick={() => setOpenTab(4)}>Performance management</a></li>
+                    <li className="bg-[#1C1C1C] text-[#B5B5B5] rounded-lg text-center p-5 flex justify-center"><a className="text-lg text-center flex justify-center" onClick={() => setOpenTab(5)}>Art Management</a></li>
                   </ul>
                 </details>
                 <div id="serviceBox" className="w-full p-3 mt-6">
