@@ -39,7 +39,7 @@ function page() {
         </div>
       </section>
       <div className="mt-24 mb-56">
-        <div className="w-full py-4 border-l-4 border-white">
+        <div className="w-full  lg:py-4 border-l-4 border-white">
           <h3 className="container text-xl lg:text-2xl text-white font-bold mb-10">
             Our other contact emails
           </h3>
@@ -84,7 +84,7 @@ function page() {
       </section>
       <section className="block lg:hidden w-full h-[800px] bg-[center_top_0px] bg-cover bg-no-repeat" style={{ backgroundImage: `url('/images/contact/earth-mb.png')` }}>
         <div className="container">
-          <h2 className="flex flex-col gap-y-1 items-center mb-8  text-white font-mono font-extrabold lg:font-semibold">
+          <h2 className="flex flex-col gap-y-1 items-center mb-8c text-sm  text-white font-mono font-extrabold lg:font-semibold">
             <div>
               Thank you for
               <span className="inline-block mx-1 font-thin">choosing</span>

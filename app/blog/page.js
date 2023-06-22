@@ -119,12 +119,12 @@ function page() {
         </Link>
       </section>
 
-      <section className="w-full h-96 bg-white mb-32 bg-cover" style={{ backgroundImage: `url('/images/blog/slider-bg.png')` }}>
+      <section className="w-full h-[500px] mb-32 bg-cover" style={{ backgroundImage: `url('/images/blog/slider-bg.png')` }}>
         <Link href={"/blog/performance-management"} className="block container py-20">
-          <h4 className="text-2xl font-bold font-sans my-6 text-white">
+          <h4 className="text-3xl font-bold font-sans mt-[110px] mb-8 text-white">
             Performance Management
           </h4>
-          <p className="text-[#E1E1E1] text-lg my-4 max-w-lg mb-8">
+          <p className="text-[#E1E1E1] text-xl my-4 max-w-lg mb-8">
             For a concert, we think of everything, stage, sound, location, video, security, advertising, high quality, total package.
           </p>
           <span className="font-light text-white">
