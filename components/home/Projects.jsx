@@ -7,7 +7,27 @@ import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
+import { useKeenSlider } from "keen-slider/react"
+import "keen-slider/keen-slider.min.css"
+
 function Projects() {
+
+    const [sliderRef] = useKeenSlider({
+        breakpoints: {
+            "(min-width: 160px)": {
+                slides: { perView: 1.2, spacing: 20 },
+            },
+            "(min-width: 768px)": {
+                slides: { perView: 0, spacing: 20 },
+            },
+        },
+        loop: false,
+        slides: { origin: "center", perView: 3, spacing: 10 },
+        range: {
+            min: -5,
+            max: 5,
+        }
+    })
 
     useEffect(() => {
         Aos.init({
@@ -26,9 +46,9 @@ function Projects() {
 
             <TitleSection title="Projects" link="/projects" />
 
-            <section className="container mt-4 mb-0 lg:mb-6 flex lg:hidden flex-col gap-y-10 text-white">
+            <section ref={sliderRef} className="keen-slider container mt-4 mb-0 lg:mb-6 flex lg:hidden  text-white">
 
-                <div className="text-white w-full h-[550px] flex flex-col justify-center  bg-center bg-no-repeat  bg-contain p-16 gap-y-10" style={{ backgroundImage: `url('/images/projects/project-card-bg.png')` }}>
+                <div className="keen-slider__slide text-white w-full h-[550px] flex lg:hidden flex-col justify-center  bg-center bg-no-repeat  bg-contain p-16 gap-y-10" style={{ backgroundImage: `url('/images/projects/project-card-bg.png')` }}>
                     <span className="font-mono font-bold text-2xl">01</span>
                     <p className="text-2xl font-bold">
                         Providing a Multipurpose Educational Platform
@@ -38,7 +58,7 @@ function Projects() {
                     </p>
                 </div>
 
-                <div className="w-full h-[550px] flex flex-col justify-center bg-center bg-no-repeat  bg-contain px-16 py-6 gap-y-6" style={{ backgroundImage: `url('/images/projects/project-card-bg-2.png')` }}>
+                <div className="keen-slider__slide w-full h-[550px] flex lg:hidden  flex-col justify-center bg-center bg-no-repeat  bg-contain px-16 py-6 gap-y-6" style={{ backgroundImage: `url('/images/projects/project-card-bg-2.png')` }}>
                     <span className="font-mono font-bold text-2xl">02</span>
                     <p className="text-2xl font-bold">
                         Providing a Multipurpose learning platform
@@ -48,7 +68,7 @@ function Projects() {
                     </p>
                 </div>
 
-                <div className="w-full h-[550px] flex flex-col justify-center bg-center bg-no-repeat  bg-contain px-16 py-14 gap-y-6" style={{ backgroundImage: `url('/images/projects/project-card-bg.png')` }}>
+                <div className="keen-slider__slide w-full h-[550px] flex lg:hidden  flex-col justify-center bg-center bg-no-repeat  bg-contain px-16 py-14 gap-y-6" style={{ backgroundImage: `url('/images/projects/project-card-bg.png')` }}>
                     <span className="font-mono font-bold text-2xl">03</span>
                     <p className="text-2xl font-bold">
                         Providing a Marketplace Platform
