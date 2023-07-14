@@ -24,7 +24,7 @@ function Contact() {
             <div data-aos-delay="200" data-aos="fade-up" data-aos-duration="1000" className="container">
                 <h2 className="flex flex-col gap-y-3 items-center text-2xl lg:text-5xl text-white font-mono font-extrabold lg:font-semibold">
                     <div>
-                        LETS DISCUSS
+                        LET'S DISCUSS
                     </div>
                     <div className="flex gap-x-2">
                         HOW we can be
