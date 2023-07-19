@@ -11,16 +11,17 @@ function BrandSolgan() {
             <div className="container">
                 <h2 className="flex flex-col gap-y-3 lg:gap-y-8 items-center text-2xl lg:text-6xl text-white font-mono font-extrabold lg:font-semibold">
                     <div data-aos-delay="200" data-aos="fade-in" data-aos-duration="1000">
-                        Snails
-                        <span className="inline-block mx-1 font-thin">slow</span>
-                        and
+                        Snail’s
+                        <span className="inline-block mx-1 font-thin">every</span>
+                        
                     </div>
                     <div className="flex gap-x-2" data-aos-delay="300" data-aos="fade-in" data-aos-duration="1000">
-                        <span className="inline-block mx-1 font-thin">steady</span>
-                        wins
+                    step
+                        <span className="inline-block mx-1 font-thin">leads </span>
+                        to
                     </div>
                     <div className="flex gap-x-4" data-aos-delay="400" data-aos="fade-in" data-aos-duration="1000">
-                        the race.
+                        renewal.
                     </div>
                 </h2>
             </div>
