@@ -43,7 +43,8 @@ function page() {
                             Welcome to
                             <a className="inline-block mx-2 -mt-2 font-mono border-b border-white/30">
                                 White Snail America
-                            </a>                        </h4>
+                            </a>
+                        </h4>
                         <p className="text-white max-w-lg text-lg">
                             We are a group that creates and manages innovative ideas with the help of industry experts. We also support ideas that preserve the biological balance of nature.                        </p>
                         <p className="text-zinc-300 max-w-4xl text-lg">

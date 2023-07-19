@@ -39,7 +39,7 @@ function About() {
             to White Snail
             <br />
             <span className="flex gap-x-2 items-center">
-              America company.
+              America.
               <svg width="15" height="21" viewBox="0 0 31 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="25" width="6" height="24" transform="rotate(24.8486 25 0)" fill="white" />
                 <rect x="11" width="6" height="24" transform="rotate(24.8486 11 0)" fill="#5F5F5F" />
