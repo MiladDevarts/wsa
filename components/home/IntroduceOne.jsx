@@ -31,10 +31,10 @@ function IntroduceOne() {
                         </div>
                         <div className="flex gap-x-2">
                             revitalize
-                            <span className="font-extrabold text-shadow">nature with</span>
+                            <span className="font-extrabold text-shadow">with</span>
                         </div>
                         <div className="flex items-center gap-x-4">
-                             every measured step
+                            every step
                             <svg className="lg:w-20" width="24" height="24" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M5.60962 51.1017L0.119141 45.6112L37.7682 7.9622H4.04091V0.118652H51.1022V47.1799H43.2586V13.4527L5.60962 51.1017Z" fill="white" />
                             </svg>
@@ -49,7 +49,7 @@ function IntroduceOne() {
                             Like the snail, we
                         </div>
                         <div className="flex gap-x-2">
-                           revitalize
+                            revitalize
                             <span className="font-extrabold text-shadow">nature</span>
                         </div>
                         <div className="flex items-center gap-x-4">
@@ -59,7 +59,7 @@ function IntroduceOne() {
                             </svg>
                         </div>
                         <div>
-                        measured step
+                            measured step
                         </div>
                     </h2>
                 </div>
