@@ -25,7 +25,7 @@ function IntroduceOne() {
         <>
             <section className="hidden lg:block py-32 lg:py-48 bg-no-repeat bg-center bg-contain" style={{ backgroundImage: `url('/images/header/introduce-bg.png')` }}>
                 <div className="container flex justify-center">
-                    <h2 data-aos="zoom-out-left" className="max-w-4xl flex flex-col gap-y-7 items-right text-3xl lg:text-5xl text-white font-mono font-extrabold lg:font-semibold mb-20">
+                    <h2 data-aos="zoom-out-left" className="max-w-4xl flex flex-col gap-y-7 items-right text-3xl lg:text-6xl text-white font-mono font-extrabold lg:font-semibold mb-20">
                         <div>
                             Like the snail, we
                         </div>
