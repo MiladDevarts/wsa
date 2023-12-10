@@ -9,6 +9,7 @@ import { MenuContext } from "@/context/MenuProvider";
 import { useContext } from "react";
 
 import Overlay from "@/components/layout/Overlay";
+import Link from "next/link";
 
 function page() {
   let menuVisibility = useContext(MenuContext);
@@ -43,33 +44,35 @@ function page() {
       </section>
       <div className="">
         <p className="container text-[#B5B5B5] text-lg lg:text-xl mb-8">
-          1. White Snail America LLC 
+          1. White Snail America LLC
           <span className="mx-2 text-white">(“WSA”)</span>
-           does not collect any “personal
-          data” from any user that visits our website, www.wsa.team, and does
-          not track your usage in any way.
+          does not collect any “personal data” from any user that visits our
+          website,{" "}
+          <Link href="https://wsa.team" className="mx-2 text-white">
+            www.wsa.team
+          </Link>
+          , and does not track your usage in any way.
         </p>
         <p className="container text-[#B5B5B5] text-lg lg:text-xl mb-8">
-        2. WSA does not partner with any third party to collect user “personal
+          2. WSA does not partner with any third party to collect user “personal
           data” or track user usage in any way.
         </p>
         <p className="container text-[#B5B5B5] text-lg lg:text-xl mb-8">
-        3. We only use cookies that are essential to run this website.
-
+          3. We only use cookies that are essential to run this website.
         </p>
         <p className="container text-[#B5B5B5] text-lg lg:text-xl mb-8">
-        4. Volunteered information such as an email address used for
+          4. Volunteered information such as an email address used for
           communication will be stored only for communication purposes. Email
           information is not required.
         </p>
         <p className="container text-[#B5B5B5] text-lg lg:text-xl mb-8">
-        5. We may request your email address to communicate with you
+          5. We may request your email address to communicate with you
         </p>
         <p className="container text-[#B5B5B5] text-lg lg:text-xl mb-8">
-        6. A request to remove your email from our possession will be responded to within 30 days.
+          6. A request to remove your email from our possession will be
+          responded to within 30 days.
         </p>
       </div>
-
     </>
   );
 }
