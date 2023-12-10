@@ -22,7 +22,6 @@ function Projects() {
             },
         },
         loop: false,
-        freeMode: false,
         slides: { origin: "center", perView: 3, spacing: 10 },
         range: {
             min: -5,
@@ -47,39 +46,41 @@ function Projects() {
 
             <TitleSection title="Projects" link="/projects" />
 
-            <section ref={sliderRef} className="keen-slider container mt-4 mb-0 lg:mb-6 flex lg:hidden  text-white">
+            <div className="">
+                <section ref={sliderRef} className="keen-slider container mt-4 mb-0 lg:mb-6 flex lg:hidden  text-white">
 
-                <div className="keen-slider__slide text-white w-full h-[550px] flex lg:hidden flex-col justify-center  bg-center bg-no-repeat  bg-contain p-10 gap-y-6" style={{ backgroundImage: `url('/images/projects/project-card-bg.png')` }}>
-                    <span className="font-mono font-bold text-xl">01</span>
-                    <p className="text-xl font-bold">
-                        Providing a Multipurpose Educational Platform
-                    </p>
-                    <p className="leading-8 text-xl font-medium">
-                        We believe that education is the foundation for a better future...
-                    </p>
-                </div>
+                    <div className="keen-slider__slide text-white w-full h-[550px] flex lg:hidden flex-col justify-center  bg-center bg-no-repeat  bg-contain p-10 gap-y-6" style={{ backgroundImage: `url('/images/projects/project-card-bg.png')` }}>
+                        <span className="font-mono font-bold text-xl">01</span>
+                        <p className="text-xl font-bold">
+                            Providing a Multipurpose Educational Platform
+                        </p>
+                        <p className="leading-8 text-xl font-medium">
+                            We believe that education is the foundation for a better future...
+                        </p>
+                    </div>
 
-                <div className="keen-slider__slide w-full h-[550px] flex lg:hidden  flex-col justify-center bg-center bg-no-repeat  bg-contain px-16 p-10 gap-y-6" style={{ backgroundImage: `url('/images/projects/project-card-bg.png')` }}>
-                    <span className="font-mono font-bold text-xl">02</span>
-                    <p className="text-xl font-bold">
-                        Providing a Multipurpose learning platform
-                    </p>
-                    <p className="leading-8 text-lg">
-                        At WSA, we contribute to new ideas and production...
-                    </p>
-                </div>
+                    <div className="keen-slider__slide w-full h-[550px] flex lg:hidden  flex-col justify-center bg-center bg-no-repeat  bg-contain px-16 p-10 gap-y-6" style={{ backgroundImage: `url('/images/projects/project-card-bg.png')` }}>
+                        <span className="font-mono font-bold text-xl">02</span>
+                        <p className="text-xl font-bold">
+                            Providing a Multipurpose learning platform
+                        </p>
+                        <p className="leading-8 text-lg">
+                            At WSA, we contribute to new ideas and production...
+                        </p>
+                    </div>
 
-                <div className="keen-slider__slide w-full h-[550px] flex lg:hidden  flex-col justify-center bg-center bg-no-repeat  bg-contain px-16 p-10 gap-y-6" style={{ backgroundImage: `url('/images/projects/project-card-bg.png')` }}>
-                    <span className="font-mono font-bold text-xl">03</span>
-                    <p className="text-xl font-bold">
-                        Providing a Marketplace Platform
-                    </p>
-                    <p className="leading-8 text-lg">
-                        We understand that starting an online business can be daunting...
-                    </p>
-                </div>
+                    <div className="keen-slider__slide w-full h-[550px] flex lg:hidden  flex-col justify-center bg-center bg-no-repeat  bg-contain px-16 p-10 gap-y-6" style={{ backgroundImage: `url('/images/projects/project-card-bg.png')` }}>
+                        <span className="font-mono font-bold text-xl">03</span>
+                        <p className="text-xl font-bold">
+                            Providing a Marketplace Platform
+                        </p>
+                        <p className="leading-8 text-lg">
+                            We understand that starting an online business can be daunting...
+                        </p>
+                    </div>
 
-            </section>
+                </section>
+            </div>
 
             <section className="container mt-4 mb-20 lg:flex hidden flex-col gap-y-10 text-white">
                 <Link data-aos-delay="50" data-aos="zoom-in-down" href="/projects/1" className="w-full h-96 flex gap-x-10 bg-center bg-no-repeat  bg-contain p-16 gap-y-10" style={{ backgroundImage: `url('/images/projects/project-card-bg-lg.png')` }}>

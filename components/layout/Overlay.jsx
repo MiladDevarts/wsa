@@ -103,8 +103,8 @@ function Overlay() {
                                         FAQ 
                                     </Link>
                                     &
-                                    <Link className="ml-1" data-aos-delay="90" data-aos="fade-up" data-aos-duration="1000" href="/terms" onClick={() => { menuVisibilty.setMenu(false) }}>
-                                        Terms 
+                                    <Link className="ml-1" data-aos-delay="90" data-aos="fade-up" data-aos-duration="1000" href="/privacy-policy" onClick={() => { menuVisibilty.setMenu(false) }}>
+                                        Privacy Policy 
                                     </Link>
                                 </li>
                             </div>
