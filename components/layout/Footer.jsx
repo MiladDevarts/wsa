@@ -78,7 +78,7 @@ function Footer() {
               </span>
               <span className="text-white">
                 support@wsa.team
-              </span>
+              </span> 
             </Link>
           </div>
         </div>
