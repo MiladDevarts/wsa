@@ -114,9 +114,6 @@ function Footer() {
                 Privacy Policy
               </Link>
             </li>
-            <li className="w-full lg:w-auto">
-              Privacy policy
-            </li>
           </ul>
           <span className="w-full lg:w-auto text-right text-xs mt-10 lg:mt-0">© 2023, All Rights Reserved Wsa Team | Designed By <a className="font-bold text-white" href="http://www.rivdesign.se/">Riv Design</a> </span>
         </div>
