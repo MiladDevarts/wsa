@@ -63,7 +63,7 @@ function Footer() {
                 Education Mail
               </span>
               <span className="text-white">
-                education@whitesnail.com
+                education@wsa.team
               </span>
             </Link>
           </div>
@@ -110,8 +110,8 @@ function Footer() {
               </Link>
             </li>
             <li className="w-full lg:w-auto">
-              <Link href="/terms">
-                Terms
+              <Link href="/privacy-policy">
+                Privacy Policy
               </Link>
             </li>
             <li className="w-full lg:w-auto">
